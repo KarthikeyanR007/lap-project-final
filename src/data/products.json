@@ -1,0 +1,1329 @@
+{
+  "brands": [
+    {
+      "id": "rs-equipments",
+      "name": "R.S Equipments",
+      "logo": "/images/brands/rs-equipments.jpg",
+      "description": "Leading manufacturer of temperature-controlled laboratory equipment, specializing in freezers, refrigerators, and sterilization equipment for research and clinical laboratories.",
+      "categories": [
+        {
+          "id": "freezers",
+          "name": "Freezers",
+          "products": [
+            {
+              "id": "low-freezer-20c",
+              "name": "Low Freezer -20°C",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop",
+              "voucher": "/vouchers/low-freezer-20c.pdf",
+              "shortDescription": "Reliable -20°C freezer for safe laboratory storage of biological samples and reagents.",
+              "fullDescription": "The Low Freezer -20°C is designed for safe storage of biological samples, reagents, and other temperature-sensitive materials. Features include precise temperature control, energy-efficient operation, and user-friendly digital display. The unit is constructed with high-quality materials ensuring durability and consistent performance for years.",
+              "specifications": {
+                "Temperature Range": "-20°C ± 2°C",
+                "Capacity": "200-500 Litres",
+                "Power Supply": "230V, 50Hz",
+                "Display": "Digital LED",
+                "Compressor": "Hermetic, CFC-free",
+                "Insulation": "High-density polyurethane foam"
+              },
+              "featured": true
+            },
+            {
+              "id": "deep-freezer-40c",
+              "name": "Deep Freezer -40°C",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=1",
+              "voucher": "/vouchers/deep-freezer-40c.pdf",
+              "shortDescription": "Reliable -40°C deep freezer for long-term storage of biological specimens.",
+              "fullDescription": "The Deep Freezer -40°C offers dependable performance for preserving biological specimens, reagents, and other sensitive materials. With advanced cooling technology and precise temperature control, this unit ensures sample integrity for extended periods. The robust construction and energy-efficient design make it ideal for research and clinical laboratories.",
+              "specifications": {
+                "Temperature Range": "-40°C ± 2°C",
+                "Capacity": "200-600 Litres",
+                "Power Supply": "230V, 50Hz",
+                "Display": "Digital LED",
+                "Compressor": "Hermetic, CFC-free",
+                "Insulation": "High-density polyurethane foam"
+              },
+              "featured": false
+            },
+            {
+              "id": "ultra-low-freezer-86c",
+              "name": "Ultra Low Freezer -86°C",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=2",
+              "voucher": "/vouchers/ultra-low-freezer-86c.pdf",
+              "shortDescription": "High-performance -86°C ultra-low temperature freezer for cryogenic storage.",
+              "fullDescription": "The Ultra Low Freezer -86°C provides reliable cryogenic storage for valuable biological samples, vaccines, and research materials. Featuring advanced cascade refrigeration system, this unit maintains stable temperatures even in demanding environments. The intelligent control system with data logging capability ensures sample safety and regulatory compliance.",
+              "specifications": {
+                "Temperature Range": "-86°C ± 2°C",
+                "Capacity": "300-800 Litres",
+                "Power Supply": "230V, 50Hz",
+                "Display": "Digital LED with data logging",
+                "Compressor": "Cascade system, CFC-free",
+                "Insulation": "High-density polyurethane foam"
+              },
+              "featured": true
+            },
+            {
+              "id": "laboratory-refrigerator-4c",
+              "name": "Laboratory Refrigerator +4°C",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=3",
+              "voucher": "/vouchers/laboratory-refrigerator-4c.pdf",
+              "shortDescription": "Precise +4°C laboratory refrigerator for safe vaccine and reagent storage.",
+              "fullDescription": "The Laboratory Refrigerator +4°C is designed for safe storage of vaccines, reagents, biological samples, and other temperature-sensitive materials. The unit features precise temperature control, uniform cooling throughout the cabinet, and user-friendly digital display. The robust construction and energy-efficient design ensure reliable performance for years.",
+              "specifications": {
+                "Temperature Range": "+4°C ± 1°C",
+                "Capacity": "200-600 Litres",
+                "Power Supply": "230V, 50Hz",
+                "Display": "Digital LED",
+                "Compressor": "Hermetic, CFC-free",
+                "Insulation": "High-density polyurethane foam"
+              },
+              "featured": false
+            },
+            {
+              "id": "walk-in-cold-room",
+              "name": "Walk-in Cold Room",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=4",
+              "voucher": "/vouchers/walk-in-cold-room.pdf",
+              "shortDescription": "Large-scale walk-in cold room for bulk storage of temperature-sensitive materials.",
+              "fullDescription": "The Walk-in Cold Room provides spacious cold storage solutions for pharmaceutical, research, and industrial facilities. Designed for bulk storage of vaccines, biological samples, and other temperature-sensitive materials, this unit features robust construction, precise temperature control, and efficient insulation. Customizable configurations available to meet specific requirements.",
+              "specifications": {
+                "Temperature Range": "+4°C to +8°C",
+                "Capacity": "Customizable",
+                "Power Supply": "380V, 50Hz",
+                "Display": "Digital Controller",
+                "Compressor": "Industrial-grade, CFC-free",
+                "Insulation": "High-density polyurethane foam panels"
+              },
+              "featured": false
+            },
+            {
+              "id": "walk-in-freezer-room",
+              "name": "Walk-in Freezer Room",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=5",
+              "voucher": "/vouchers/walk-in-freezer-room.pdf",
+              "shortDescription": "Large-scale walk-in freezer room for bulk frozen storage.",
+              "fullDescription": "The Walk-in Freezer Room provides spacious frozen storage solutions for pharmaceutical, research, and industrial facilities. Designed for bulk storage of frozen biological samples, reagents, and other temperature-sensitive materials, this unit features robust construction, precise temperature control, and efficient insulation. Customizable configurations available.",
+              "specifications": {
+                "Temperature Range": "-20°C to -25°C",
+                "Capacity": "Customizable",
+                "Power Supply": "380V, 50Hz",
+                "Display": "Digital Controller",
+                "Compressor": "Industrial-grade, CFC-free",
+                "Insulation": "High-density polyurethane foam panels"
+              },
+              "featured": false
+            },
+            {
+              "id": "re-circulating-chiller",
+              "name": "Re-circulating Chiller",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=6",
+              "voucher": "/vouchers/re-circulating-chiller.pdf",
+              "shortDescription": "Efficient re-circulating chiller for precise laboratory cooling applications.",
+              "fullDescription": "The Re-circulating Chiller provides precise temperature control for laboratory equipment and processes. Designed for cooling rotary evaporators, condensers, and other laboratory instruments, this unit features efficient cooling performance, user-friendly controls, and reliable operation. The compact design and quiet operation make it suitable for various laboratory settings.",
+              "specifications": {
+                "Temperature Range": "-10°C to +40°C",
+                "Capacity": "1-20 kW",
+                "Power Supply": "230V, 50Hz",
+                "Display": "Digital Controller",
+                "Compressor": "Hermetic, CFC-free",
+                "Features": "Auto-refill, Over-temperature protection"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "ovens-furnaces",
+          "name": "Ovens & Furnaces",
+          "products": [
+            {
+              "id": "hot-air-oven",
+              "name": "Hot Air Oven",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=7",
+              "voucher": "/vouchers/hot-air-oven.pdf",
+              "shortDescription": "High-precision hot air oven for sterilization, drying, and heating applications.",
+              "fullDescription": "The Hot Air Oven provides reliable heating, drying, and sterilization for laboratory applications. Features include precise temperature control, uniform heat distribution, and user-friendly digital PID controller. The unit is constructed with high-quality materials ensuring durability and consistent performance for years.",
+              "specifications": {
+                "Temperature Range": "Ambient to 250°C",
+                "Capacity": "50-500 Litres",
+                "Power Supply": "230V, 50Hz",
+                "Display": "Digital PID Controller",
+                "Heating Elements": "Stainless steel, tubular",
+                "Insulation": "Ceramic fiber"
+              },
+              "featured": false
+            },
+            {
+              "id": "muffle-furnace",
+              "name": "Muffle Furnace",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=8",
+              "voucher": "/vouchers/muffle-furnace.pdf",
+              "shortDescription": "High-temperature muffle furnace for ashing, sintering, and heat treatment.",
+              "fullDescription": "The Muffle Furnace is designed for high-temperature applications including ashing, sintering, heat treatment, and material testing. Features include precise temperature control, uniform heat distribution, and user-friendly digital PID controller. The unit is constructed with high-quality refractory materials ensuring durability and consistent performance.",
+              "specifications": {
+                "Temperature Range": "Ambient to 1200°C",
+                "Capacity": "3-30 Litres",
+                "Power Supply": "230V, 50Hz",
+                "Display": "Digital PID Controller",
+                "Heating Elements": "Kanthal wire, SiC",
+                "Insulation": "High-density ceramic fiber"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "sterilization",
+          "name": "Sterilization",
+          "products": [
+            {
+              "id": "autoclave-vertical",
+              "name": "Autoclave (Vertical)",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=9",
+              "voucher": "/vouchers/autoclave-vertical.pdf",
+              "shortDescription": "Vertical autoclave for reliable sterilization of laboratory equipment and media.",
+              "fullDescription": "The Vertical Autoclave is designed for reliable sterilization of laboratory equipment, media, and waste. Features include precise temperature control, uniform steam distribution, and user-friendly digital controller. The unit is constructed with high-quality stainless steel ensuring durability and consistent performance for years.",
+              "specifications": {
+                "Temperature Range": "121°C to 134°C",
+                "Capacity": "50-150 Litres",
+                "Power Supply": "230V, 50Hz",
+                "Display": "Digital Controller",
+                "Material": "Stainless Steel 316L",
+                "Features": "Auto-lock, Safety valve, Data logging"
+              },
+              "featured": true
+            }
+          ]
+        },
+        {
+          "id": "dryers",
+          "name": "Dryers",
+          "products": [
+            {
+              "id": "tray-dryer",
+              "name": "Tray Dryer",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=10",
+              "voucher": "/vouchers/tray-dryer.pdf",
+              "shortDescription": "Efficient tray dryer for laboratory and pilot-scale drying applications.",
+              "fullDescription": "The Tray Dryer is designed for efficient drying of various materials in laboratory and pilot-scale applications. Features include precise temperature control, uniform air distribution, and user-friendly digital controller. The unit is constructed with high-quality materials ensuring durability and consistent performance.",
+              "specifications": {
+                "Temperature Range": "Ambient to 250°C",
+                "Capacity": "12-96 Trays",
+                "Power Supply": "230V, 50Hz",
+                "Display": "Digital Controller",
+                "Material": "Stainless Steel",
+                "Features": "Air circulation, Timer"
+              },
+              "featured": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accumax",
+      "name": "Accumax",
+      "logo": "/images/brands/accumax.jpg",
+      "description": "Premier manufacturer of high-quality laboratory plastic consumables, offering a comprehensive range of pipetting products, tubes, plates, and filtration solutions.",
+      "categories": [
+        {
+          "id": "pipetting",
+          "name": "Pipetting",
+          "products": [
+            {
+              "id": "micropipettes",
+              "name": "Micropipettes",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=11",
+              "voucher": "/vouchers/micropipettes.pdf",
+              "shortDescription": "High-precision micropipettes for accurate and reliable liquid handling.",
+              "fullDescription": "Accumax micropipettes offer exceptional accuracy and precision for laboratory liquid handling applications. Designed for comfort and ease of use, these pipettes feature adjustable volume settings, ergonomic grip, and reliable calibration. Available in various volume ranges to meet diverse laboratory requirements.",
+              "specifications": {
+                "Volume Range": "0.1µl - 10ml",
+                "Accuracy": "±0.6% to ±0.8%",
+                "Precision": "±0.15% to ±0.2%",
+                "Material": "High-grade polypropylene",
+                "Features": "Autoclavable, Adjustable, Ergonomic"
+              },
+              "featured": true
+            },
+            {
+              "id": "bottle-top-dispenser",
+              "name": "Bottle Top Dispenser",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=12",
+              "voucher": "/vouchers/bottle-top-dispenser.pdf",
+              "shortDescription": "Precision bottle-top dispenser for safe and accurate reagent dispensing.",
+              "fullDescription": "The Bottle Top Dispenser offers safe and accurate dispensing of various liquids directly from reagent bottles. Features include adjustable volume settings, easy calibration, and compatibility with a wide range of chemicals. The design ensures contamination-free dispensing and user safety.",
+              "specifications": {
+                "Volume Range": "0.5-50ml",
+                "Accuracy": "±0.5%",
+                "Material": "PTFE, PP, Borosilicate Glass",
+                "Compatibility": "Wide range of chemicals",
+                "Features": "Easy calibration, Self-priming"
+              },
+              "featured": false
+            },
+            {
+              "id": "pipette-controller",
+              "name": "Pipette Controller",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=13",
+              "voucher": "/vouchers/pipette-controller.pdf",
+              "shortDescription": "Ergonomic pipette controller for comfortable and precise liquid handling.",
+              "fullDescription": "The Pipette Controller provides comfortable and precise control for serological pipetting. Features include adjustable speed settings, easy operation, and reliable performance. The ergonomic design reduces hand fatigue during extended use, making it ideal for high-throughput laboratories.",
+              "specifications": {
+                "Type": "Electronic",
+                "Pipette Range": "0.5-100ml",
+                "Battery": "Rechargeable Li-ion",
+                "Display": "LCD",
+                "Features": "Adjustable speed, Pipette compatibility"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "consumables",
+          "name": "Consumables",
+          "products": [
+            {
+              "id": "pcr-consumables",
+              "name": "PCR Consumables",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=14",
+              "voucher": "/vouchers/pcr-consumables.pdf",
+              "shortDescription": "High-quality PCR consumables for reliable amplification and detection.",
+              "fullDescription": "Accumax PCR consumables are designed for optimal performance in PCR applications. Manufactured from medical-grade polypropylene, these products ensure consistent results with minimal background noise. Available in various formats including tubes, plates, and strips to meet diverse PCR requirements.",
+              "specifications": {
+                "Type": "PCR Tubes, Plates, Strips",
+                "Material": "Medical-grade Polypropylene",
+                "DNase/RNase": "Free",
+                "Temperature Range": "-20°C to +95°C",
+                "Features": "Thin-walled for efficient thermal transfer"
+              },
+              "featured": true
+            },
+            {
+              "id": "tips",
+              "name": "Tips",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=15",
+              "voucher": "/vouchers/tips.pdf",
+              "shortDescription": "High-quality pipette tips for accurate and precise liquid handling.",
+              "fullDescription": "Accumax tips are manufactured to the highest standards for reliable pipetting performance. Available in various volume ranges and packaging options, these tips ensure consistent results with minimal sample carryover. Features include universal fit, sterile options, and low retention surfaces.",
+              "specifications": {
+                "Volume Range": "10µl - 10ml",
+                "Material": "Medical-grade Polypropylene",
+                "Filter Types": "Standard, Filter, Low Retention",
+                "Packaging": "Rack, Bulk, Refill",
+                "Features": "DNase/RNase free, Non-pyrogenic"
+              },
+              "featured": true
+            },
+            {
+              "id": "tubes",
+              "name": "Tubes",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=16",
+              "voucher": "/vouchers/tubes.pdf",
+              "shortDescription": "Premium centrifuge and microcentrifuge tubes for reliable sample storage.",
+              "fullDescription": "Accumax offers a comprehensive range of tubes for sample storage and centrifugation. Manufactured from medical-grade polypropylene, these tubes ensure sample integrity and reliable performance. Available in various sizes and configurations to meet diverse laboratory requirements.",
+              "specifications": {
+                "Volume Range": "0.5ml - 50ml",
+                "Material": "Medical-grade Polypropylene",
+                "Types": "Centrifuge, Cryovials, Microcentrifuge",
+                "Temperature Range": "-80°C to +120°C",
+                "Features": "Autoclavable, Graduated"
+              },
+              "featured": false
+            },
+            {
+              "id": "filtration",
+              "name": "Filtration",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=17",
+              "voucher": "/vouchers/filtration.pdf",
+              "shortDescription": "Efficient filtration products for sample preparation and purification.",
+              "fullDescription": "Accumax filtration products are designed for efficient sample preparation and purification. Available in various formats including spin columns and filter plates, these products ensure reliable results with minimal sample loss. Features include various pore sizes and membrane options to meet diverse application requirements.",
+              "specifications": {
+                "Types": "Spin Columns, Filter Plates",
+                "Material": "Medical-grade Polypropylene",
+                "Pore Sizes": "0.2µm - 5µm",
+                "Application": "Protein, DNA, Sample Prep",
+                "Features": "Low binding, Fast flow rates"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "plates-bottles",
+          "name": "Plates & Bottles",
+          "products": [
+            {
+              "id": "petri-plates",
+              "name": "Petri Plates",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=18",
+              "voucher": "/vouchers/petri-plates.pdf",
+              "shortDescription": "Sterile Petri plates for microbiological applications and culture work.",
+              "fullDescription": "Accumax Petri plates are manufactured to the highest standards for microbiological applications. Available in various sizes and packaging options, these plates ensure reliable results with minimal contamination risk. Features include clarity, flat surface, and consistent quality.",
+              "specifications": {
+                "Diameter": "35mm, 60mm, 90mm, 150mm",
+                "Material": "Medical-grade Polystyrene",
+                "Sterility": "Sterile, Non-sterile",
+                "Packaging": "Blister, Sleeve",
+                "Features": "Clarity, Flat surface"
+              },
+              "featured": true
+            },
+            {
+              "id": "media-bottles",
+              "name": "Media Bottles",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=19",
+              "voucher": "/vouchers/media-bottles.pdf",
+              "shortDescription": "High-quality media bottles for safe storage and handling of laboratory media.",
+              "fullDescription": "Accumax media bottles are designed for safe storage of various laboratory media and solutions. Available in various sizes and materials, these bottles ensure sample integrity and reliable performance. Features include secure closures, excellent clarity, and consistent quality.",
+              "specifications": {
+                "Volume Range": "100ml - 5L",
+                "Material": "PETG, Glass",
+                "Sterility": "Sterile, Non-sterile",
+                "Closure": "Screw Cap, Flip-Top",
+                "Features": "Clarity, Chemical resistance"
+              },
+              "featured": false
+            },
+            {
+              "id": "reagent-bottles",
+              "name": "Reagent Bottles",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=20",
+              "voucher": "/vouchers/reagent-bottles.pdf",
+              "shortDescription": "Durable reagent bottles for safe storage of laboratory chemicals.",
+              "fullDescription": "Accumax reagent bottles are designed for safe storage of various laboratory reagents and chemicals. Available in various sizes and materials, these bottles ensure chemical compatibility and reliable performance. Features include secure closures, excellent chemical resistance, and consistent quality.",
+              "specifications": {
+                "Volume Range": "50ml - 5L",
+                "Material": "HDPE, LDPE, Glass",
+                "Closure": "Screw Cap",
+                "Color Options": "Amber, Clear",
+                "Features": "Chemical resistance, Leak-proof"
+              },
+              "featured": false
+            },
+            {
+              "id": "deepwell-plates",
+              "name": "Deepwell Plates",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=21",
+              "voucher": "/vouchers/deepwell-plates.pdf",
+              "shortDescription": "Deepwell plates for high-volume sample storage and processing.",
+              "fullDescription": "Accumax deepwell plates are designed for high-volume sample storage and processing. Available in 96-well and 384-well formats, these plates ensure reliable performance with minimal sample loss. Features include low binding surfaces, excellent clarity, and consistent quality.",
+              "specifications": {
+                "Volume Range": "1ml - 2.2ml per well",
+                "Well Format": "96-well, 384-well",
+                "Material": "Medical-grade Polypropylene",
+                "Application": "Sample Storage, PCR, Sequencing",
+                "Features": "Low binding, Autoclavable"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "other-plastics",
+          "name": "Other Plastics",
+          "products": [
+            {
+              "id": "petg-diagnostic-vial",
+              "name": "PETG Diagnostic Vial",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=22",
+              "voucher": "/vouchers/petg-diagnostic-vial.pdf",
+              "shortDescription": "PETG diagnostic vials for reliable sample collection and storage.",
+              "fullDescription": "Accumax PETG diagnostic vials are designed for reliable sample collection and storage in clinical applications. Features include excellent clarity, chemical resistance, and secure closure. The vials are manufactured to the highest standards to ensure sample integrity and reliable results.",
+              "specifications": {
+                "Volume Range": "5ml - 30ml",
+                "Material": "PETG",
+                "Sterility": "Sterile",
+                "Application": "Diagnostics, Clinical Testing",
+                "Features": "Clarity, Chemical resistance"
+              },
+              "featured": false
+            },
+            {
+              "id": "erlenmeyer-flask",
+              "name": "Erlenmeyer Flask",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=23",
+              "voucher": "/vouchers/erlenmeyer-flask.pdf",
+              "shortDescription": "Erlenmeyer flasks for laboratory mixing and cell culture applications.",
+              "fullDescription": "Accumax Erlenmeyer flasks are designed for various laboratory applications including cell culture, mixing, and storage. Available in various sizes and materials, these flasks ensure reliable performance with minimal contamination risk. Features include clarity, smooth surfaces, and consistent quality.",
+              "specifications": {
+                "Volume Range": "125ml - 5L",
+                "Material": "PETG, Polycarbonate",
+                "Sterility": "Sterile, Non-sterile",
+                "Application": "Cell Culture, Mixing",
+                "Features": "Clarity, Graduated"
+              },
+              "featured": false
+            },
+            {
+              "id": "carboys-jerricans",
+              "name": "Carboys & Jerricans",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=24",
+              "voucher": "/vouchers/carboys-jerricans.pdf",
+              "shortDescription": "Durable carboys and jerricans for safe bulk liquid storage.",
+              "fullDescription": "Accumax carboys and jerricans are designed for safe bulk storage of various laboratory liquids. Available in various sizes and materials, these containers ensure chemical compatibility and reliable performance. Features include secure closures, excellent chemical resistance, and consistent quality.",
+              "specifications": {
+                "Volume Range": "5L - 50L",
+                "Material": "HDPE, PETG",
+                "Closure": "Screw Cap, Pour Spout",
+                "Application": "Media Storage, Chemical Storage",
+                "Features": "Chemical resistance, Stackable"
+              },
+              "featured": false
+            },
+            {
+              "id": "roller-bottle",
+              "name": "Roller Bottle",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=25",
+              "voucher": "/vouchers/roller-bottle.pdf",
+              "shortDescription": "Roller bottles for large-scale cell culture applications.",
+              "fullDescription": "Accumax roller bottles are designed for large-scale cell culture applications including vaccine production and protein expression. Available in various sizes, these bottles ensure optimal cell growth with minimal contamination risk. Features include smooth surfaces, excellent clarity, and consistent quality.",
+              "specifications": {
+                "Surface Area": "850cm², 1700cm²",
+                "Material": "PETG, Polystyrene",
+                "Sterility": "Sterile",
+                "Application": "Cell Culture, Vaccine Production",
+                "Features": "Smooth surface, Tissue-culture treated"
+              },
+              "featured": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neuation",
+      "name": "Neuation",
+      "logo": "/images/brands/neuation.jpg",
+      "description": "Innovative manufacturer of laboratory instruments and equipment, specializing in centrifuges, mixers, shakers, and thermal equipment for research and clinical laboratories.",
+      "categories": [
+        {
+          "id": "centrifuges",
+          "name": "Centrifuges",
+          "products": [
+            {
+              "id": "micro-centrifuges",
+              "name": "Micro Centrifuges",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=26",
+              "voucher": "/vouchers/micro-centrifuges.pdf",
+              "shortDescription": "High-speed micro centrifuges for molecular biology and research applications.",
+              "fullDescription": "Neuation micro centrifuges offer high-speed separation for molecular biology and research applications. Features include precise speed control, quiet operation, and user-friendly digital display. Available in various configurations to meet diverse laboratory requirements.",
+              "specifications": {
+                "Max Speed": "13,000-16,000 RPM",
+                "Max RCF": "16,000-25,000 x g",
+                "Capacity": "12-24 x 1.5/2.0ml",
+                "Features": "Digital display, Timer, Safety lock",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": true
+            },
+            {
+              "id": "doctor-centrifuges",
+              "name": "Doctor Centrifuges",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=27",
+              "voucher": "/vouchers/doctor-centrifuges.pdf",
+              "shortDescription": "Clinical centrifuges for diagnostic and medical laboratory applications.",
+              "fullDescription": "Neuation doctor centrifuges are designed for clinical and diagnostic laboratory applications. Features include precise speed control, quiet operation, and user-friendly digital display. The compact design makes them ideal for clinical settings with limited space.",
+              "specifications": {
+                "Max Speed": "4,000-6,000 RPM",
+                "Max RCF": "2,500-4,000 x g",
+                "Capacity": "6-24 tubes",
+                "Features": "Digital display, Timer, Safety lock",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            },
+            {
+              "id": "clinical-centrifuges",
+              "name": "Clinical Centrifuges",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=28",
+              "voucher": "/vouchers/clinical-centrifuges.pdf",
+              "shortDescription": "Professional clinical centrifuges for medical and diagnostic laboratories.",
+              "fullDescription": "Neuation clinical centrifuges offer reliable performance for medical and diagnostic laboratories. Features include precise speed control, quiet operation, and user-friendly digital display. Available in various configurations to meet diverse clinical requirements.",
+              "specifications": {
+                "Max Speed": "5,000-6,500 RPM",
+                "Max RCF": "3,000-5,000 x g",
+                "Capacity": "8-24 tubes",
+                "Features": "Digital display, Timer, Safety lock",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            },
+            {
+              "id": "lab-centrifuges",
+              "name": "Lab Centrifuges",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=29",
+              "voucher": "/vouchers/lab-centrifuges.pdf",
+              "shortDescription": "Versatile laboratory centrifuges for various research applications.",
+              "fullDescription": "Neuation lab centrifuges offer versatile separation solutions for various laboratory applications. Features include precise speed control, quiet operation, and user-friendly digital display. Available with multiple rotor options to meet diverse research requirements.",
+              "specifications": {
+                "Max Speed": "5,000-12,000 RPM",
+                "Max RCF": "4,000-15,000 x g",
+                "Capacity": "Various rotors available",
+                "Features": "Digital display, Timer, Safety lock",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            },
+            {
+              "id": "universal-centrifuges",
+              "name": "Universal Centrifuges",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=30",
+              "voucher": "/vouchers/universal-centrifuges.pdf",
+              "shortDescription": "Universal centrifuges for multi-application use in research laboratories.",
+              "fullDescription": "Neuation universal centrifuges offer maximum versatility for various laboratory applications. Features include precise speed control, quiet operation, and user-friendly digital display. Available with multiple rotor options and programmable settings for diverse requirements.",
+              "specifications": {
+                "Max Speed": "4,000-14,000 RPM",
+                "Max RCF": "3,000-20,000 x g",
+                "Capacity": "Multiple rotor options",
+                "Features": "Digital display, Timer, Safety lock",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            },
+            {
+              "id": "refrigerated-centrifuges",
+              "name": "Refrigerated Centrifuges",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=31",
+              "voucher": "/vouchers/refrigerated-centrifuges.pdf",
+              "shortDescription": "Temperature-controlled refrigerated centrifuges for sensitive samples.",
+              "fullDescription": "Neuation refrigerated centrifuges offer temperature-controlled separation for sensitive samples. Features include precise temperature and speed control, quiet operation, and user-friendly digital display. Available in various configurations to meet diverse research requirements.",
+              "specifications": {
+                "Max Speed": "6,000-15,000 RPM",
+                "Max RCF": "5,000-25,000 x g",
+                "Temperature Range": "-20°C to +40°C",
+                "Features": "Digital display, Timer, Safety lock",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": true
+            }
+          ]
+        },
+        {
+          "id": "mixers-shakers",
+          "name": "Mixers & Shakers",
+          "products": [
+            {
+              "id": "vortex-mixers",
+              "name": "Vortex Mixers",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=32",
+              "voucher": "/vouchers/vortex-mixers.pdf",
+              "shortDescription": "Powerful vortex mixers for effective sample mixing and preparation.",
+              "fullDescription": "Neuation vortex mixers provide efficient and reliable mixing for various laboratory applications. Features include adjustable speed control, quiet operation, and user-friendly design. Available in various configurations to meet diverse mixing requirements.",
+              "specifications": {
+                "Speed Range": "0-3,000 RPM",
+                "Orbit": "4.5mm",
+                "Mode": "Continuous, Touch, Pulse",
+                "Application": "Vortexing, Sample Preparation",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": true
+            },
+            {
+              "id": "shakers",
+              "name": "Shakers",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=33",
+              "voucher": "/vouchers/shakers.pdf",
+              "shortDescription": "Versatile shakers for orbital and rocking applications in laboratories.",
+              "fullDescription": "Neuation shakers offer versatile shaking solutions for various laboratory applications including cell culture, sample preparation, and incubation. Features include adjustable speed control, quiet operation, and user-friendly design. Available with various platform options for diverse requirements.",
+              "specifications": {
+                "Speed Range": "50-250 RPM",
+                "Orbit": "20mm",
+                "Capacity": "Up to 2kg",
+                "Features": "Digital display, Timer",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "rotators-stirrers",
+          "name": "Rotators & Stirrers",
+          "products": [
+            {
+              "id": "rollers",
+              "name": "Rollers",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=34",
+              "voucher": "/vouchers/rollers.pdf",
+              "shortDescription": "Roller mixers for gentle and thorough mixing of laboratory samples.",
+              "fullDescription": "Neuation rollers provide gentle yet thorough mixing for various laboratory applications. Features include adjustable speed control, quiet operation, and user-friendly design. Available in various configurations to meet diverse mixing requirements.",
+              "specifications": {
+                "Speed Range": "5-80 RPM",
+                "Capacity": "6-12 tubes",
+                "Mode": "Continuous, Pulse",
+                "Application": "Mixing, Blood Collection",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            },
+            {
+              "id": "stirrers",
+              "name": "Stirrers",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=35",
+              "voucher": "/vouchers/stirrers.pdf",
+              "shortDescription": "High-performance stirrers for laboratory mixing and heating applications.",
+              "fullDescription": "Neuation stirrers offer efficient mixing solutions for various laboratory applications. Features include adjustable speed control, quiet operation, and user-friendly design. Available with heating options for temperature-controlled mixing.",
+              "specifications": {
+                "Speed Range": "50-2000 RPM",
+                "Capacity": "Up to 20L",
+                "Features": "Digital display, Timer, Hot plate option",
+                "Application": "Stirring, Heating, Mixing",
+                "Material": "High-quality steel, Ceramic"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "thermal-equipment",
+          "name": "Thermal Equipment",
+          "products": [
+            {
+              "id": "dry-baths",
+              "name": "Dry Baths",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=36",
+              "voucher": "/vouchers/dry-baths.pdf",
+              "shortDescription": "Precise dry baths for temperature-controlled laboratory applications.",
+              "fullDescription": "Neuation dry baths offer precise temperature control for various laboratory applications including incubation, enzymatic reactions, and sample preparation. Features include accurate temperature control, user-friendly digital display, and multiple block options.",
+              "specifications": {
+                "Temperature Range": "Ambient +5°C to 120°C",
+                "Capacity": "1-4 blocks",
+                "Features": "Digital display, Timer",
+                "Application": "Incubation, Enzymatic Reactions",
+                "Material": "High-quality aluminum, ABS"
+              },
+              "featured": false
+            },
+            {
+              "id": "incubators",
+              "name": "Incubators",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=37",
+              "voucher": "/vouchers/incubators.pdf",
+              "shortDescription": "Reliable incubators for microbiological and cell culture applications.",
+              "fullDescription": "Neuation incubators offer reliable temperature control for microbiological and cell culture applications. Features include precise temperature control, uniform heat distribution, and user-friendly digital display. Available in various capacities to meet diverse requirements.",
+              "specifications": {
+                "Temperature Range": "Ambient +5°C to 100°C",
+                "Capacity": "50-500 Litres",
+                "Features": "Digital display, Timer, Shaker option",
+                "Application": "Microbiology, Cell Culture",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": true
+            },
+            {
+              "id": "water-baths",
+              "name": "Water Baths",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=38",
+              "voucher": "/vouchers/water-baths.pdf",
+              "shortDescription": "Precision water baths for temperature-controlled laboratory applications.",
+              "fullDescription": "Neuation water baths offer precise temperature control for various laboratory applications including incubation, thawing, and heating. Features include accurate temperature control, uniform heat distribution, and user-friendly digital display. Available in various capacities to meet diverse requirements.",
+              "specifications": {
+                "Temperature Range": "Ambient +5°C to 100°C",
+                "Capacity": "4-25 Litres",
+                "Features": "Digital display, Timer",
+                "Application": "Incubation, Thawing, Heating",
+                "Material": "High-quality stainless steel"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "homogenizers",
+          "name": "Homogenizers",
+          "products": [
+            {
+              "id": "homogenizers",
+              "name": "Homogenizers",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=39",
+              "voucher": "/vouchers/homogenizers.pdf",
+              "shortDescription": "Efficient homogenizers for sample preparation and cell disruption.",
+              "fullDescription": "Neuation homogenizers offer efficient sample preparation for various laboratory applications including cell disruption, emulsification, and particle size reduction. Features include adjustable speed control, quiet operation, and user-friendly design. Available in various configurations to meet diverse requirements.",
+              "specifications": {
+                "Speed Range": "5,000-35,000 RPM",
+                "Capacity": "0.5-50ml",
+                "Application": "Cell Disruption, Emulsification",
+                "Features": "Digital display, Timer",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dlab",
+      "name": "DLAB",
+      "logo": "/images/brands/dlab.jpg",
+      "description": "Global leader in laboratory instruments and liquid handling solutions, offering a comprehensive range of pipetting systems, centrifuges, thermal cyclers, and mixing equipment.",
+      "categories": [
+        {
+          "id": "liquid-handling",
+          "name": "Liquid Handling",
+          "products": [
+            {
+              "id": "mechanical-pipettes",
+              "name": "Mechanical Pipettes",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=40",
+              "voucher": "/vouchers/mechanical-pipettes.pdf",
+              "shortDescription": "High-precision mechanical pipettes for accurate liquid handling.",
+              "fullDescription": "DLAB mechanical pipettes offer exceptional accuracy and precision for laboratory liquid handling. Designed for comfort and ease of use, these pipettes feature adjustable volume settings, ergonomic grip, and reliable calibration. Available in various volume ranges to meet diverse laboratory requirements.",
+              "specifications": {
+                "Volume Range": "0.1µl - 10ml",
+                "Accuracy": "±0.6% to ±0.8%",
+                "Precision": "±0.15% to ±0.2%",
+                "Features": "Calibration, Comfortable grip",
+                "Material": "High-grade polypropylene"
+              },
+              "featured": true
+            },
+            {
+              "id": "electronic-pipette",
+              "name": "Electronic Pipette",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=41",
+              "voucher": "/vouchers/electronic-pipette.pdf",
+              "shortDescription": "Advanced electronic pipette for precise and programmable liquid handling.",
+              "fullDescription": "DLAB electronic pipettes offer advanced features for precise and convenient liquid handling. Features include programmable settings, multiple operating modes, and user-friendly LCD display. The electronic design ensures consistent and reproducible results in high-throughput applications.",
+              "specifications": {
+                "Volume Range": "1µl - 10ml",
+                "Features": "Programmable, Multiple modes",
+                "Display": "LCD",
+                "Battery": "Rechargeable",
+                "Material": "High-grade polypropylene"
+              },
+              "featured": false
+            },
+            {
+              "id": "stepper",
+              "name": "Stepper",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=42",
+              "voucher": "/vouchers/stepper.pdf",
+              "shortDescription": "Multi-channel stepper pipette for high-throughput applications.",
+              "fullDescription": "DLAB stepper pipettes offer multi-channel dispensing for high-throughput applications. Features include adjustable volume settings, multiple operating modes, and user-friendly design. Available in 8-channel and 12-channel configurations to meet diverse laboratory requirements.",
+              "specifications": {
+                "Volume Range": "0.5µl - 50µl",
+                "Channels": "8, 12",
+                "Features": "Electronic, Adjustable",
+                "Application": "Microplate, PCR",
+                "Material": "High-grade polypropylene"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "thermal-control",
+          "name": "Thermal Control",
+          "products": [
+            {
+              "id": "dry-bath",
+              "name": "Dry Bath",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=43",
+              "voucher": "/vouchers/dry-bath-dlab.pdf",
+              "shortDescription": "Precise dry bath for temperature-controlled laboratory applications.",
+              "fullDescription": "DLAB dry baths offer precise temperature control for various laboratory applications including incubation, enzymatic reactions, and sample preparation. Features include accurate temperature control, user-friendly digital display, and multiple block options for versatile use.",
+              "specifications": {
+                "Temperature Range": "Ambient +5°C to 120°C",
+                "Capacity": "1-4 blocks",
+                "Features": "Digital display, Timer",
+                "Application": "Incubation, Enzymatic Reactions",
+                "Material": "High-quality aluminum, ABS"
+              },
+              "featured": false
+            },
+            {
+              "id": "mini-dry-bath",
+              "name": "Mini Dry Bath",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=44",
+              "voucher": "/vouchers/mini-dry-bath.pdf",
+              "shortDescription": "Compact dry bath for limited space applications.",
+              "fullDescription": "DLAB mini dry baths offer precise temperature control in a compact footprint. Features include accurate temperature control, user-friendly digital display, and versatile block options. The compact design makes it ideal for laboratories with limited bench space.",
+              "specifications": {
+                "Temperature Range": "Ambient +5°C to 100°C",
+                "Capacity": "1 block",
+                "Features": "Digital display, Timer",
+                "Application": "Small-scale incubation",
+                "Material": "High-quality aluminum, ABS"
+              },
+              "featured": false
+            },
+            {
+              "id": "thermo-mix",
+              "name": "Thermo Mix",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=45",
+              "voucher": "/vouchers/thermo-mix.pdf",
+              "shortDescription": "Combined heating and mixing for versatile laboratory applications.",
+              "fullDescription": "DLAB Thermo Mix combines precise temperature control with efficient mixing for various applications including incubation, enzymatic reactions, and sample preparation. Features include accurate temperature and speed control, user-friendly digital display, and versatile block options.",
+              "specifications": {
+                "Temperature Range": "Ambient +5°C to 100°C",
+                "Speed Range": "300-1500 RPM",
+                "Features": "Digital display, Timer",
+                "Application": "Incubation, Mixing",
+                "Material": "High-quality aluminum, ABS"
+              },
+              "featured": true
+            }
+          ]
+        },
+        {
+          "id": "stirring-heating",
+          "name": "Stirring & Heating",
+          "products": [
+            {
+              "id": "magnetic-stirrers",
+              "name": "Magnetic Stirrers",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=46",
+              "voucher": "/vouchers/magnetic-stirrers.pdf",
+              "shortDescription": "Efficient magnetic stirrers for laboratory mixing applications.",
+              "fullDescription": "DLAB magnetic stirrers offer efficient mixing for various laboratory applications. Features include adjustable speed control, quiet operation, and user-friendly design. Available in various configurations to meet diverse mixing requirements.",
+              "specifications": {
+                "Speed Range": "100-1500 RPM",
+                "Capacity": "Up to 5L",
+                "Features": "Digital display, Timer",
+                "Application": "Mixing, Dissolving",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "magnetic-hotplate-stirrer",
+              "name": "Magnetic Hotplate Stirrer",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=47",
+              "voucher": "/vouchers/magnetic-hotplate-stirrer.pdf",
+              "shortDescription": "Combined heating and magnetic stirring for laboratory applications.",
+              "fullDescription": "DLAB magnetic hotplate stirrers combine precise heating with efficient magnetic stirring. Features include adjustable temperature and speed control, user-friendly digital display, and robust construction. Available in various configurations to meet diverse requirements.",
+              "specifications": {
+                "Temperature Range": "Ambient to 350°C",
+                "Speed Range": "100-1500 RPM",
+                "Capacity": "Up to 5L",
+                "Features": "Digital display, Timer",
+                "Material": "High-quality steel, Ceramic"
+              },
+              "featured": false
+            },
+            {
+              "id": "overhead-stirrer",
+              "name": "Overhead Stirrer",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=48",
+              "voucher": "/vouchers/overhead-stirrer.pdf",
+              "shortDescription": "Powerful overhead stirrer for high-viscosity applications.",
+              "fullDescription": "DLAB overhead stirrers offer powerful mixing for high-viscosity applications including viscous solutions and suspensions. Features include adjustable speed control, high torque output, and user-friendly digital display. Available with various stirring shaft options.",
+              "specifications": {
+                "Speed Range": "50-2000 RPM",
+                "Max Torque": "Up to 400 Ncm",
+                "Capacity": "Up to 50L",
+                "Features": "Digital display, Timer",
+                "Material": "High-quality steel"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "centrifuges-dlab",
+          "name": "Centrifuges",
+          "products": [
+            {
+              "id": "palm-micro-centrifuges",
+              "name": "Palm Micro Centrifuges",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=49",
+              "voucher": "/vouchers/palm-micro-centrifuges.pdf",
+              "shortDescription": "Compact palm micro centrifuges for quick spin applications.",
+              "fullDescription": "DLAB palm micro centrifuges offer quick and reliable separation for various applications. The compact design makes them ideal for quick spins and small-scale separations. Features include user-friendly operation and safety lock.",
+              "specifications": {
+                "Max Speed": "6,000-10,000 RPM",
+                "Max RCF": "2,000-5,000 x g",
+                "Capacity": "6-8 x 1.5/2.0ml",
+                "Features": "Compact design, Easy operation",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            },
+            {
+              "id": "high-speed-micro-centrifuges",
+              "name": "High Speed Micro-Centrifuges",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=50",
+              "voucher": "/vouchers/high-speed-micro-centrifuges.pdf",
+              "shortDescription": "High-speed micro centrifuges for molecular biology applications.",
+              "fullDescription": "DLAB high-speed micro centrifuges offer superior performance for molecular biology applications including DNA/RNA isolation and protein purification. Features include precise speed control, quiet operation, and user-friendly digital display.",
+              "specifications": {
+                "Max Speed": "14,000-18,000 RPM",
+                "Max RCF": "16,000-25,000 x g",
+                "Capacity": "12-24 x 1.5/2.0ml",
+                "Features": "Digital display, Timer, Safety lock",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": true
+            },
+            {
+              "id": "low-speed-centrifuges",
+              "name": "Low-speed Centrifuges",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=51",
+              "voucher": "/vouchers/low-speed-centrifuges.pdf",
+              "shortDescription": "Reliable low-speed centrifuges for routine laboratory applications.",
+              "fullDescription": "DLAB low-speed centrifuges offer reliable separation for routine laboratory applications. Features include precise speed control, quiet operation, and user-friendly digital display. Available with multiple rotor options to meet diverse requirements.",
+              "specifications": {
+                "Max Speed": "4,000-6,000 RPM",
+                "Max RCF": "2,500-4,000 x g",
+                "Capacity": "Various rotors available",
+                "Features": "Digital display, Timer, Safety lock",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "shaker-mixing",
+          "name": "Shaker & Mixing",
+          "products": [
+            {
+              "id": "vortex-mixers-dlab",
+              "name": "Vortex Mixers",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=52",
+              "voucher": "/vouchers/vortex-mixers-dlab.pdf",
+              "shortDescription": "Powerful vortex mixers for effective sample mixing and preparation.",
+              "fullDescription": "DLAB vortex mixers provide efficient and reliable mixing for various laboratory applications. Features include adjustable speed control, quiet operation, and user-friendly design. Available in various configurations to meet diverse mixing requirements.",
+              "specifications": {
+                "Speed Range": "0-3,000 RPM",
+                "Orbit": "4mm",
+                "Mode": "Continuous, Touch, Pulse",
+                "Application": "Vortexing, Sample Preparation",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": true
+            },
+            {
+              "id": "microplate-mixers",
+              "name": "Microplate Mixers",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=53",
+              "voucher": "/vouchers/microplate-mixers.pdf",
+              "shortDescription": "Specialized mixers for microplate-based assays and applications.",
+              "fullDescription": "DLAB microplate mixers offer efficient mixing for microplate-based assays including ELISA, PCR, and cell culture applications. Features include adjustable speed control, quiet operation, and user-friendly design. The compact design makes them ideal for use with standard microplates.",
+              "specifications": {
+                "Speed Range": "200-2500 RPM",
+                "Orbit": "2mm",
+                "Plate Capacity": "1-4 microplates",
+                "Application": "ELISA, PCR, Cell Culture",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            },
+            {
+              "id": "tube-rollers-rotators",
+              "name": "Tube Rollers / Rotators / Rocking Rotators",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=54",
+              "voucher": "/vouchers/tube-rollers-rotators.pdf",
+              "shortDescription": "Versatile roller and rotator systems for laboratory mixing.",
+              "fullDescription": "DLAB tube rollers and rotators offer versatile mixing solutions for various applications including blood collection, sample preparation, and gentle mixing. Features include adjustable speed control, quiet operation, and user-friendly design. Available in various configurations to meet diverse requirements.",
+              "specifications": {
+                "Speed Range": "5-80 RPM",
+                "Capacity": "Various tube sizes",
+                "Mode": "Continuous, Pulse",
+                "Application": "Mixing, Blood Collection",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            },
+            {
+              "id": "shakers-dlab",
+              "name": "Shakers",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=55",
+              "voucher": "/vouchers/shakers-dlab.pdf",
+              "shortDescription": "Versatile shakers for orbital and rocking applications.",
+              "fullDescription": "DLAB shakers offer versatile shaking solutions for various laboratory applications including cell culture, sample preparation, and incubation. Features include adjustable speed control, quiet operation, and user-friendly design. Available with various platform options for diverse requirements.",
+              "specifications": {
+                "Speed Range": "50-250 RPM",
+                "Orbit": "20mm",
+                "Capacity": "Up to 2kg",
+                "Features": "Digital display, Timer",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "pcr",
+          "name": "PCR",
+          "products": [
+            {
+              "id": "thermal-cycler",
+              "name": "Thermal Cycler",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=56",
+              "voucher": "/vouchers/thermal-cycler.pdf",
+              "shortDescription": "High-performance thermal cycler for reliable PCR applications.",
+              "fullDescription": "DLAB thermal cyclers offer reliable and precise temperature control for PCR applications. Features include accurate temperature control, fast ramp rates, and user-friendly touchscreen interface. Available with gradient option and multiple block configurations to meet diverse PCR requirements.",
+              "specifications": {
+                "Temperature Range": "4°C to 105°C",
+                "Max Temperature Rate": "5°C/second",
+                "Sample Capacity": "96-well, 384-well",
+                "Features": "Touchscreen, Gradient option",
+                "Material": "High-quality aluminum, ABS"
+              },
+              "featured": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr-lab-instruments",
+      "name": "SR LAB Instruments",
+      "logo": "/images/brands/sr-lab-instruments.jpg",
+      "description": "Specialized manufacturer of environmental and test chambers, offering comprehensive solutions for plant growth, stability testing, environmental simulation, and material testing.",
+      "categories": [
+        {
+          "id": "plant-growth-chambers",
+          "name": "Plant Growth Chambers",
+          "products": [
+            {
+              "id": "plant-growth-chamber",
+              "name": "Plant Growth Chamber",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=57",
+              "voucher": "/vouchers/plant-growth-chamber.pdf",
+              "shortDescription": "Controlled environment chamber for precise plant growth studies.",
+              "fullDescription": "SR LAB Plant Growth Chambers provide precise environmental control for plant research and cultivation. Features include accurate temperature, humidity, and light control, user-friendly digital controller, and programmable settings. Available in various sizes to meet diverse research requirements.",
+              "specifications": {
+                "Temperature Range": "5°C to 50°C",
+                "Humidity Range": "50-95% RH",
+                "Light Intensity": "0-50,000 Lux",
+                "Features": "Digital controller, Programmable",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": true
+            },
+            {
+              "id": "walk-in-plant-growth-chamber",
+              "name": "Walk In Plant Growth Chamber",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=58",
+              "voucher": "/vouchers/walk-in-plant-growth-chamber.pdf",
+              "shortDescription": "Large-scale walk-in chamber for large-scale plant growth studies.",
+              "fullDescription": "SR LAB Walk-In Plant Growth Chambers provide spacious controlled environments for large-scale plant research. Features include precise temperature, humidity, and light control, customizable configurations, and user-friendly digital controller. The walk-in design allows easy access and large capacity.",
+              "specifications": {
+                "Temperature Range": "5°C to 50°C",
+                "Humidity Range": "50-95% RH",
+                "Light Intensity": "0-50,000 Lux",
+                "Features": "Customizable, Walk-in access",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "seed-germinator",
+              "name": "Seed Germinator",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=59",
+              "voucher": "/vouchers/seed-germinator.pdf",
+              "shortDescription": "Specialized chamber for optimal seed germination studies.",
+              "fullDescription": "SR LAB Seed Germinators provide optimal conditions for seed germination and early plant development. Features include precise temperature, humidity, and light control, user-friendly digital controller, and programmable settings. Available in various sizes to meet diverse research requirements.",
+              "specifications": {
+                "Temperature Range": "10°C to 45°C",
+                "Humidity Range": "50-95% RH",
+                "Light Intensity": "0-10,000 Lux",
+                "Features": "Digital controller, Programmable",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "walk-in-seed-germinator",
+              "name": "Walk In Seed Germinator",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=60",
+              "voucher": "/vouchers/walk-in-seed-germinator.pdf",
+              "shortDescription": "Large-scale walk-in seed germinator for bulk germination studies.",
+              "fullDescription": "SR LAB Walk-In Seed Germinators provide spacious controlled environments for large-scale seed germination studies. Features include precise temperature, humidity, and light control, customizable configurations, and user-friendly digital controller. The walk-in design allows easy access and large capacity.",
+              "specifications": {
+                "Temperature Range": "10°C to 45°C",
+                "Humidity Range": "50-95% RH",
+                "Light Intensity": "0-10,000 Lux",
+                "Features": "Customizable, Walk-in access",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "insect-growth-chamber",
+              "name": "Insect Growth Chamber",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=61",
+              "voucher": "/vouchers/insect-growth-chamber.pdf",
+              "shortDescription": "Controlled environment for insect rearing and behavioral studies.",
+              "fullDescription": "SR LAB Insect Growth Chambers provide controlled environments for insect rearing and research. Features include precise temperature, humidity, and light cycle control, user-friendly digital controller, and programmable settings. Available in various sizes to meet diverse research requirements.",
+              "specifications": {
+                "Temperature Range": "10°C to 45°C",
+                "Humidity Range": "50-95% RH",
+                "Light Cycle": "Programmable",
+                "Features": "Digital controller, Programmable",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "stability-chambers",
+          "name": "Stability Chambers",
+          "products": [
+            {
+              "id": "stability-chamber",
+              "name": "Stability Chamber",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=62",
+              "voucher": "/vouchers/stability-chamber.pdf",
+              "shortDescription": "Temperature and humidity controlled stability chamber for product testing.",
+              "fullDescription": "SR LAB Stability Chambers provide precise temperature and humidity control for stability testing of pharmaceutical, food, and other products. Features include accurate control, data logging capability, and user-friendly digital controller. Available in various sizes to meet diverse testing requirements.",
+              "specifications": {
+                "Temperature Range": "5°C to 60°C",
+                "Humidity Range": "20-95% RH",
+                "Features": "Digital controller, Data logging",
+                "Application": "ICH Stability Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": true
+            },
+            {
+              "id": "walk-in-stability-chamber",
+              "name": "Walk In Stability Chamber",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=63",
+              "voucher": "/vouchers/walk-in-stability-chamber.pdf",
+              "shortDescription": "Large-scale walk-in stability chamber for bulk product testing.",
+              "fullDescription": "SR LAB Walk-In Stability Chambers provide spacious controlled environments for large-scale stability testing. Features include precise temperature and humidity control, customizable configurations, and user-friendly digital controller. The walk-in design allows easy access and large capacity.",
+              "specifications": {
+                "Temperature Range": "5°C to 60°C",
+                "Humidity Range": "20-95% RH",
+                "Features": "Customizable, Walk-in access",
+                "Application": "ICH Stability Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "photo-stability-chamber",
+              "name": "Photo Stability Chamber",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=64",
+              "voucher": "/vouchers/photo-stability-chamber.pdf",
+              "shortDescription": "Stability chamber with controlled light exposure for photo-stability testing.",
+              "fullDescription": "SR LAB Photo Stability Chambers provide controlled temperature, humidity, and light exposure for photo-stability testing of pharmaceutical and other products. Features include precise control, user-friendly digital controller, and data logging capability.",
+              "specifications": {
+                "Temperature Range": "5°C to 60°C",
+                "Humidity Range": "20-95% RH",
+                "Light Intensity": "Controlled",
+                "Application": "ICH Photo-stability Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "environmental-test-chambers",
+          "name": "Environmental Test Chambers",
+          "products": [
+            {
+              "id": "environmental-test-chamber",
+              "name": "Environmental Test Chamber",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=65",
+              "voucher": "/vouchers/environmental-test-chamber.pdf",
+              "shortDescription": "Versatile environmental test chamber for various testing applications.",
+              "fullDescription": "SR LAB Environmental Test Chambers provide controlled temperature and humidity for various testing applications including material testing, product validation, and quality control. Features include precise control, user-friendly digital controller, and programmable settings.",
+              "specifications": {
+                "Temperature Range": "-40°C to 150°C",
+                "Humidity Range": "20-98% RH",
+                "Features": "Digital controller, Programmable",
+                "Application": "Environmental Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": true
+            },
+            {
+              "id": "accelerated-ageing-chamber",
+              "name": "Accelerated Ageing Chamber",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=66",
+              "voucher": "/vouchers/accelerated-ageing-chamber.pdf",
+              "shortDescription": "Chamber for accelerated ageing studies of materials and products.",
+              "fullDescription": "SR LAB Accelerated Ageing Chambers provide controlled conditions for accelerated ageing studies of materials and products. Features include precise temperature and humidity control, user-friendly digital controller, and programmable settings. Available in various sizes to meet diverse testing requirements.",
+              "specifications": {
+                "Temperature Range": "20°C to 80°C",
+                "Humidity Range": "20-95% RH",
+                "Features": "Digital controller, Programmable",
+                "Application": "Material Ageing Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "thermal-shock-chamber",
+              "name": "Thermal Shock Chamber",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=67",
+              "voucher": "/vouchers/thermal-shock-chamber.pdf",
+              "shortDescription": "Chamber for rapid temperature change testing of materials and products.",
+              "fullDescription": "SR LAB Thermal Shock Chambers provide rapid temperature change testing for material and product evaluation. Features include precise temperature control, fast transfer times, and user-friendly digital controller. Available in various configurations to meet diverse testing requirements.",
+              "specifications": {
+                "Temperature Range": "-70°C to 200°C",
+                "Transfer Time": "<10 seconds",
+                "Features": "Digital controller, Programmable",
+                "Application": "Thermal Shock Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": true
+            },
+            {
+              "id": "salt-spray-chamber",
+              "name": "Salt Spray Chamber",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=68",
+              "voucher": "/vouchers/salt-spray-chamber.pdf",
+              "shortDescription": "Chamber for salt spray corrosion testing of materials and coatings.",
+              "fullDescription": "SR LAB Salt Spray Chambers provide controlled salt spray conditions for corrosion testing of materials and coatings. Features include precise temperature control, user-friendly digital controller, and programmable settings. Available in various sizes to meet diverse testing requirements.",
+              "specifications": {
+                "Temperature Range": "Ambient to 50°C",
+                "Salt Solution": "5% NaCl",
+                "Features": "Digital controller, Timer",
+                "Application": "Corrosion Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "laboratory-equipment-sr",
+          "name": "Laboratory Equipment",
+          "products": [
+            {
+              "id": "dehumidifier",
+              "name": "Dehumidifier",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=69",
+              "voucher": "/vouchers/dehumidifier.pdf",
+              "shortDescription": "Laboratory dehumidifier for precise moisture control.",
+              "fullDescription": "SR LAB Dehumidifiers provide efficient moisture control for laboratory and controlled environments. Features include precise humidity control, user-friendly digital display, and auto-defrost function. Available in various capacities to meet diverse requirements.",
+              "specifications": {
+                "Dehumidification Capacity": "10-100 L/day",
+                "Air Flow": "200-1000 m³/h",
+                "Features": "Digital controller, Auto-defrost",
+                "Application": "Humidity Control",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            },
+            {
+              "id": "terg-o-tometer",
+              "name": "Terg-O-Tometer",
+              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=70",
+              "voucher": "/vouchers/terg-o-tometer.pdf",
+              "shortDescription": "Multi-purpose laboratory tester for textile and detergent testing.",
+              "fullDescription": "SR LAB Terg-O-Tometer provides versatile testing capabilities for textile and detergent testing applications. Features include multiple test stations, adjustable speed control, and user-friendly digital controller. Designed for reliable and reproducible test results.",
+              "specifications": {
+                "Test Stations": "4-6 stations",
+                "Speed Range": "0-100 RPM",
+                "Features": "Digital controller, Timer",
+                "Application": "Textile Testing, Detergent Testing",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

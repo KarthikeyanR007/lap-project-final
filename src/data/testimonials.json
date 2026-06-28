@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Dr. Rajesh Kumar",
+    "designation": "Head of QC",
+    "company": "Sun Pharma",
+    "testimonial": "Excellent quality instruments with outstanding after-sales support. We have been using their products for over 5 years and the reliability is unmatched. Their stability chambers and freezers have been instrumental in our QC processes."
+  },
+  {
+    "name": "Prof. Meera Sundar",
+    "designation": "Research Director",
+    "company": "IIT Madras",
+    "testimonial": "The precision and reliability of their laboratory equipment has significantly improved our research outcomes. The plant growth chambers and centrifuges are top-notch. Highly recommended for any research institution."
+  },
+  {
+    "name": "Dr. Ananth Krishnan",
+    "designation": "Lab Manager",
+    "company": "Tata Chemicals",
+    "testimonial": "Their comprehensive product range and excellent customer service make them our preferred partner for laboratory equipment. The environmental chambers and liquid handling systems have been crucial for our testing needs."
+  }
+]

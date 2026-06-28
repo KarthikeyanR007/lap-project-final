@@ -1,0 +1,35 @@
+[
+  {
+    "id": "evt-001",
+    "title": "LabTech Expo 2025",
+    "date": "2025-09-15",
+    "location": "Chennai Trade Centre, Chennai",
+    "type": "Exhibition",
+    "status": "upcoming",
+    "description": "Join us at the largest lab equipment expo showcasing our full range of products including freezers, centrifuges, and environmental chambers.",
+    "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=77",
+    "registrationLink": "#"
+  },
+  {
+    "id": "evt-002",
+    "title": "Pharma QC Workshop 2025",
+    "date": "2025-10-20",
+    "location": "Hyderabad Convention Centre, Hyderabad",
+    "type": "Workshop",
+    "status": "upcoming",
+    "description": "Hands-on workshop on quality control best practices for pharmaceutical laboratories featuring our stability chambers and testing equipment.",
+    "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=78",
+    "registrationLink": "#"
+  },
+  {
+    "id": "evt-003",
+    "title": "Biotech Innovations Summit 2024",
+    "date": "2024-11-05",
+    "location": "Bangalore International Exhibition Centre",
+    "type": "Conference",
+    "status": "past",
+    "description": "Annual biotech innovations summit featuring industry leaders and cutting-edge research in life sciences.",
+    "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=79",
+    "registrationLink": "#"
+  }
+]

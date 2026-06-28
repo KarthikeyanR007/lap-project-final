@@ -1,0 +1,29 @@
+[
+  {
+    "id": "job-001",
+    "title": "Sales Executive – Lab Instruments",
+    "department": "Sales",
+    "location": "Hyderabad / Chennai",
+    "experience": "2–4 years",
+    "description": "We are looking for a motivated sales executive to join our team and drive growth in the laboratory equipment sector. Responsibilities include client acquisition, product demonstration, and sales target achievement.",
+    "applyEmail": "careers@yourcompany.com"
+  },
+  {
+    "id": "job-002",
+    "title": "Application Specialist - Life Sciences",
+    "department": "Technical Support",
+    "location": "Chennai",
+    "experience": "3–5 years",
+    "description": "Seeking an experienced application specialist to provide technical support and training for life science products. Responsibilities include customer training, application development, and technical troubleshooting.",
+    "applyEmail": "careers@yourcompany.com"
+  },
+  {
+    "id": "job-003",
+    "title": "Quality Control Engineer",
+    "department": "Quality Assurance",
+    "location": "Coimbatore",
+    "experience": "2–3 years",
+    "description": "Join our QA team to ensure the highest quality standards for our laboratory equipment. Responsibilities include product testing, quality documentation, and compliance with industry standards.",
+    "applyEmail": "careers@yourcompany.com"
+  }
+]
