@@ -1,10 +1,22 @@
 import React, { useState, useEffect } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import { useForm } from 'react-hook-form';
-import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock, FaFacebook, FaTwitter, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import { 
+  FaMapMarkerAlt, 
+  FaPhone, 
+  FaEnvelope, 
+  FaClock, 
+  FaFacebook, 
+  FaTwitter, 
+  FaLinkedin, 
+  FaYoutube,
+  FaCheckCircle,
+  FaArrowRight
+} from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
+import PageBanner from '../components/PageBanner';
 
 import productsData from '../data/products.json';
 
@@ -84,6 +96,29 @@ const Contact = () => {
     { icon: <FaYoutube />, url: '#', label: 'YouTube' },
   ];
 
+  const contactInfo = [
+    { 
+      icon: <FaMapMarkerAlt />, 
+      title: 'Address', 
+      details: ['123, Lab Equipment City,', 'Chennai - 600001, India'] 
+    },
+    { 
+      icon: <FaPhone />, 
+      title: 'Phone', 
+      details: ['+91 12345 67890', '+91 98765 43210'] 
+    },
+    { 
+      icon: <FaEnvelope />, 
+      title: 'Email', 
+      details: ['info@labequip.com', 'sales@labequip.com'] 
+    },
+    { 
+      icon: <FaClock />, 
+      title: 'Working Hours', 
+      details: ['Mon - Fri: 9:00 AM - 6:00 PM', 'Sat: 9:00 AM - 2:00 PM', 'Sun: Closed'] 
+    },
+  ];
+
   return (
     <>
       <Helmet>
@@ -91,80 +126,113 @@ const Contact = () => {
         <meta name="description" content="Get in touch with our team for inquiries, quotes, or support. We're here to help with all your laboratory equipment needs." />
       </Helmet>
 
-      {/* Page Hero */}
-      <section className="bg-gradient-to-r from-primary to-primary/90 pt-32 pb-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-white">
-            <p className="text-sm text-accent font-semibold uppercase tracking-wider">Contact</p>
-            <h1 className="text-3xl font-bold mt-2">Get in Touch</h1>
-            <p className="text-gray-300 mt-2 max-w-2xl">
-              Have questions about our products or need assistance? Our team is here to help.
-            </p>
-          </div>
-        </div>
-      </section>
+      {/* Page Banner with Local Image */}
+      <PageBanner
+        tagline="INQUIRY"
+        title="Get in Touch"
+        subtitle="Have questions about our products or need assistance? Our team is here to help"
+        breadcrumb={
+          <>
+            <Link to="/" className="hover:text-white transition-colors">Home</Link>
+            <span>/</span>
+            <span className="text-white">Contact</span>
+          </>
+        }
+        backgroundImage="/images/banners/banner-contact.jpg"
+      />
 
-      {/* Contact Section */}
+      {/* Main Content */}
       <section className="py-12 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Contact Form */}
+          {/* Section Header */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <span className="text-accent font-semibold text-sm uppercase tracking-wider">Contact Us</span>
+            <h2 className="text-3xl font-bold text-primary mt-2">We'd Love to Hear From You</h2>
+            <p className="text-gray-500 mt-3 max-w-2xl mx-auto">
+              Whether you have a question about our products, need technical support, or want to request a quote, our team is ready to assist you.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
+            {/* Contact Form - 3 columns */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               animate={{ opacity: 1, x: 0 }}
-              className="bg-white rounded-xl shadow-md p-8"
+              className="lg:col-span-3 bg-white rounded-xl shadow-md p-8"
             >
-              <h2 className="text-2xl font-bold text-primary mb-6">Send Us a Message</h2>
+              <div className="flex items-center space-x-3 mb-6">
+                <div className="w-1 h-8 bg-accent rounded-full"></div>
+                <h2 className="text-2xl font-bold text-primary">Send Us a Message</h2>
+              </div>
 
               {submitSuccess && (
-                <div className="bg-green-50 border border-green-200 text-green-700 px-4 py-3 rounded-lg mb-6">
-                  Thank you for your message! We'll get back to you shortly.
-                </div>
+                <motion.div 
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="bg-green-50 border border-green-200 rounded-lg p-4 mb-6 flex items-start space-x-3"
+                >
+                  <FaCheckCircle className="text-green-500 text-xl flex-shrink-0 mt-0.5" />
+                  <div>
+                    <p className="text-green-700 font-medium">Thank you for your message!</p>
+                    <p className="text-green-600 text-sm">We'll get back to you shortly.</p>
+                  </div>
+                </motion.div>
               )}
 
               {submitError && (
-                <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg mb-6">
-                  {submitError}
-                </div>
+                <motion.div 
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="bg-red-50 border border-red-200 rounded-lg p-4 mb-6"
+                >
+                  <p className="text-red-700 text-sm">{submitError}</p>
+                </motion.div>
               )}
 
               <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">
-                    Full Name *
-                  </label>
-                  <input
-                    {...register('name', { required: 'Name is required' })}
-                    className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:border-accent transition-colors ${
-                      errors.name ? 'border-red-500' : 'border-gray-300'
-                    }`}
-                    placeholder="Your full name"
-                  />
-                  {errors.name && (
-                    <p className="text-red-500 text-sm mt-1">{errors.name.message}</p>
-                  )}
-                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
+                      Full Name *
+                    </label>
+                    <input
+                      {...register('name', { required: 'Name is required' })}
+                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-all ${
+                        errors.name ? 'border-red-500' : 'border-gray-300'
+                      }`}
+                      placeholder="Your full name"
+                    />
+                    {errors.name && (
+                      <p className="text-red-500 text-sm mt-1">{errors.name.message}</p>
+                    )}
+                  </div>
 
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">
-                    Email Address *
-                  </label>
-                  <input
-                    {...register('email', {
-                      required: 'Email is required',
-                      pattern: {
-                        value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                        message: 'Invalid email address'
-                      }
-                    })}
-                    className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:border-accent transition-colors ${
-                      errors.email ? 'border-red-500' : 'border-gray-300'
-                    }`}
-                    placeholder="your@email.com"
-                  />
-                  {errors.email && (
-                    <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>
-                  )}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
+                      Email Address *
+                    </label>
+                    <input
+                      {...register('email', {
+                        required: 'Email is required',
+                        pattern: {
+                          value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                          message: 'Invalid email address'
+                        }
+                      })}
+                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-all ${
+                        errors.email ? 'border-red-500' : 'border-gray-300'
+                      }`}
+                      placeholder="your@email.com"
+                    />
+                    {errors.email && (
+                      <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>
+                    )}
+                  </div>
                 </div>
 
                 <div>
@@ -179,7 +247,7 @@ const Contact = () => {
                         message: 'Invalid phone number'
                       }
                     })}
-                    className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:border-accent transition-colors ${
+                    className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-all ${
                       errors.phone ? 'border-red-500' : 'border-gray-300'
                     }`}
                     placeholder="+91 12345 67890"
@@ -189,14 +257,14 @@ const Contact = () => {
                   )}
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
                       Company Name
                     </label>
                     <input
                       {...register('company')}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-accent transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-all"
                       placeholder="Your company"
                     />
                   </div>
@@ -206,7 +274,7 @@ const Contact = () => {
                     </label>
                     <input
                       {...register('city')}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-accent transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-all"
                       placeholder="Your location"
                     />
                   </div>
@@ -218,7 +286,7 @@ const Contact = () => {
                   </label>
                   <select
                     {...register('product')}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-accent transition-colors"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-all"
                   >
                     <option value="">Select a product (optional)</option>
                     {allProducts.map((product) => (
@@ -236,7 +304,7 @@ const Contact = () => {
                   <textarea
                     {...register('message', { required: 'Message is required' })}
                     rows="5"
-                    className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:border-accent transition-colors ${
+                    className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-all ${
                       errors.message ? 'border-red-500' : 'border-gray-300'
                     }`}
                     placeholder="Tell us about your requirements..."
@@ -249,80 +317,62 @@ const Contact = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-accent text-white py-3.5 rounded-lg font-semibold hover:bg-accent/90 transition-all shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full bg-accent text-white py-3.5 rounded-lg font-semibold hover:bg-accent/90 transition-all shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
                 >
                   {isSubmitting ? (
-                    <span className="flex items-center justify-center space-x-2">
+                    <>
                       <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                         <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                         <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                       </svg>
                       <span>Sending...</span>
-                    </span>
+                    </>
                   ) : (
-                    'Send Message'
+                    <>
+                      <span>Send Message</span>
+                      <FaArrowRight />
+                    </>
                   )}
                 </button>
               </form>
             </motion.div>
 
-            {/* Contact Details */}
+            {/* Contact Details - 2 columns */}
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               animate={{ opacity: 1, x: 0 }}
-              className="space-y-8"
+              className="lg:col-span-2 space-y-6"
             >
               {/* Info Cards */}
-              <div className="bg-white rounded-xl shadow-md p-8">
-                <h3 className="text-xl font-bold text-primary mb-6">Contact Information</h3>
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-primary mb-6 flex items-center space-x-2">
+                  <span className="w-1 h-6 bg-accent rounded-full"></span>
+                  <span>Contact Information</span>
+                </h3>
                 <div className="space-y-4">
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center text-accent text-xl flex-shrink-0">
-                      <FaMapMarkerAlt />
+                  {contactInfo.map((item, index) => (
+                    <div key={index} className="flex items-start space-x-4 p-3 rounded-lg hover:bg-accent/5 transition-colors">
+                      <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center text-accent text-xl flex-shrink-0">
+                        {item.icon}
+                      </div>
+                      <div>
+                        <p className="font-medium text-primary text-sm">{item.title}</p>
+                        {item.details.map((detail, i) => (
+                          <p key={i} className="text-gray-500 text-sm">{detail}</p>
+                        ))}
+                      </div>
                     </div>
-                    <div>
-                      <p className="font-medium text-primary">Address</p>
-                      <p className="text-gray-500 text-sm">123, Lab Equipment City,<br />Chennai - 600001, India</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center text-accent text-xl flex-shrink-0">
-                      <FaPhone />
-                    </div>
-                    <div>
-                      <p className="font-medium text-primary">Phone</p>
-                      <p className="text-gray-500 text-sm">+91 12345 67890</p>
-                      <p className="text-gray-500 text-sm">+91 98765 43210</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center text-accent text-xl flex-shrink-0">
-                      <FaEnvelope />
-                    </div>
-                    <div>
-                      <p className="font-medium text-primary">Email</p>
-                      <p className="text-gray-500 text-sm">info@labequip.com</p>
-                      <p className="text-gray-500 text-sm">sales@labequip.com</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center text-accent text-xl flex-shrink-0">
-                      <FaClock />
-                    </div>
-                    <div>
-                      <p className="font-medium text-primary">Working Hours</p>
-                      <p className="text-gray-500 text-sm">Mon - Fri: 9:00 AM - 6:00 PM</p>
-                      <p className="text-gray-500 text-sm">Sat: 9:00 AM - 2:00 PM</p>
-                      <p className="text-gray-500 text-sm">Sun: Closed</p>
-                    </div>
-                  </div>
+                  ))}
                 </div>
               </div>
 
               {/* Social Links */}
-              <div className="bg-white rounded-xl shadow-md p-8">
-                <h3 className="text-xl font-bold text-primary mb-4">Connect With Us</h3>
-                <div className="flex space-x-4">
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-primary mb-4 flex items-center space-x-2">
+                  <span className="w-1 h-6 bg-accent rounded-full"></span>
+                  <span>Connect With Us</span>
+                </h3>
+                <div className="flex flex-wrap gap-3">
                   {socialLinks.map((social, index) => (
                     <motion.a
                       key={index}
@@ -330,8 +380,8 @@ const Contact = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={social.label}
-                      whileHover={{ scale: 1.1, y: -2 }}
-                      className="w-12 h-12 bg-background rounded-full flex items-center justify-center text-gray-600 hover:bg-accent hover:text-white transition-colors"
+                      whileHover={{ scale: 1.1, y: -3 }}
+                      className="w-12 h-12 bg-background rounded-full flex items-center justify-center text-gray-600 hover:bg-accent hover:text-white transition-all duration-300 shadow-sm hover:shadow-lg"
                     >
                       {social.icon}
                     </motion.a>
@@ -341,16 +391,19 @@ const Contact = () => {
 
               {/* Map */}
               <div className="bg-white rounded-xl shadow-md overflow-hidden">
+                <div className="p-4 border-b border-gray-100">
+                  <h3 className="text-sm font-semibold text-primary">Find Us</h3>
+                </div>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31104.779820726807!2d80.210077!3d13.08269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265f9f4e5d5a5%3A0x5c8b5c8b5c8b5c8b!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1234567890"
                   width="100%"
-                  height="250"
+                  height="200"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   title="Google Map"
-                  className="rounded-lg"
+                  className="w-full"
                 />
               </div>
             </motion.div>

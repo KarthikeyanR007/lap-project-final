@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import { 
-  FaFlask, 
   FaMicroscope, 
   FaUserMd, 
   FaChartLine,
@@ -75,72 +74,94 @@ const Home = () => {
         <meta name="description" content="Leading provider of precision laboratory equipment, consumables, and environmental chambers for research, clinical, and industrial applications." />
       </Helmet>
 
-      {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center bg-gradient-to-r from-primary via-primary/95 to-primary/90 overflow-hidden">
-        {/* Background Image */}
-        <div 
-          className="absolute inset-0 z-0"
-          style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=1920&q=80)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            opacity: 0.2
-          }}
-        />
-        
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-            >
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                Precision Instruments for
-                <span className="text-accent block mt-2">Scientific Excellence</span>
-              </h1>
-              <p className="text-gray-300 text-lg mt-6 max-w-lg">
-                Empowering Research, Innovation & Quality Control with world-class laboratory equipment and consumables.
-              </p>
-              <div className="flex flex-wrap gap-4 mt-8">
-                <Link
-                  to="/products"
-                  className="bg-accent text-white px-8 py-3.5 rounded-full font-semibold hover:bg-accent/90 transition-all shadow-lg hover:shadow-xl inline-flex items-center space-x-2"
-                >
-                  <span>Explore Products</span>
-                  <FaArrowRight />
-                </Link>
-                <Link
-                  to="/contact"
-                  className="bg-white/10 backdrop-blur-sm text-white px-8 py-3.5 rounded-full font-semibold hover:bg-white/20 transition-all border border-white/20"
-                >
-                  Contact Us
-                </Link>
-              </div>
-            </motion.div>
+      {/* Hero Section - ACCURACY AT MAXIMUM Style with Visible Background */}
+      {/* Hero Section - Using local image */}
+<section className="relative min-h-[600px] flex items-center overflow-hidden">
+  {/* Background Image - Local */}
+  <div 
+    className="absolute inset-0 z-0"
+    style={{
+      backgroundImage: 'url(/images/banners/banner-home.png)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+    }}
+  />
+  
+  {/* Lighter Overlay */}
+  <div 
+    className="absolute inset-0 z-1"
+    style={{
+      background: 'linear-gradient(135deg, rgba(10, 37, 64, 0.70) 0%, rgba(10, 37, 64, 0.55) 50%, rgba(10, 37, 64, 0.40) 100%)'
+    }}
+  />
 
-            {/* Hero Stats */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              className="grid grid-cols-2 gap-4"
-            >
-              {stats.map((stat, index) => (
-                <motion.div
-                  key={index}
-                  whileHover={{ scale: 1.05 }}
-                  className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center border border-white/10"
-                >
-                  <div className="text-accent text-3xl mb-2">{stat.icon}</div>
-                  <div className="text-2xl font-bold text-white">{stat.value}</div>
-                  <div className="text-gray-300 text-sm">{stat.label}</div>
-                </motion.div>
-              ))}
-            </motion.div>
-          </div>
+  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <motion.div
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.8 }}
+      >
+        <span className="inline-block bg-accent/30 backdrop-blur-sm text-accent font-bold text-sm uppercase tracking-wider px-5 py-2 rounded-full mb-4 border border-accent/40">
+          ACCURACY AT MAXIMUM
+        </span>
+        
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
+          Precision Instruments for
+          <span className="text-accent block mt-2">Scientific Excellence</span>
+        </h1>
+        
+        <p className="text-gray-200 text-lg mt-6 max-w-lg">
+          Empowering Research, Innovation & Quality Control with world-class laboratory equipment and consumables.
+        </p>
+        
+        <div className="flex flex-wrap gap-4 mt-8">
+          <Link
+            to="/products"
+            className="bg-accent text-white px-8 py-3.5 rounded-full font-semibold hover:bg-accent/90 transition-all shadow-lg hover:shadow-xl inline-flex items-center space-x-2"
+          >
+            <span>Explore Products</span>
+            <FaArrowRight />
+          </Link>
+          <Link
+            to="/contact"
+            className="bg-white/20 backdrop-blur-sm text-white px-8 py-3.5 rounded-full font-semibold hover:bg-white/30 transition-all border border-white/30"
+          >
+            Contact Us
+          </Link>
         </div>
-      </section>
+        
+        <motion.div
+          initial={{ width: 0 }}
+          animate={{ width: 80 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className="h-1 bg-accent rounded-full mt-8"
+        />
+      </motion.div>
+
+      {/* Stats Cards */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.8, delay: 0.3 }}
+        className="grid grid-cols-2 gap-4"
+      >
+        {stats.map((stat, index) => (
+          <motion.div
+            key={index}
+            whileHover={{ scale: 1.05 }}
+            className="bg-white/15 backdrop-blur-sm rounded-xl p-6 text-center border border-white/15"
+          >
+            <div className="text-accent text-3xl mb-2">{stat.icon}</div>
+            <div className="text-2xl font-bold text-white">{stat.value}</div>
+            <div className="text-gray-200 text-sm">{stat.label}</div>
+          </motion.div>
+        ))}
+      </motion.div>
+    </div>
+  </div>
+</section>
 
       {/* Stats Bar - Animated */}
       <section className="bg-primary/5 py-12 border-y border-gray-200">
@@ -212,53 +233,52 @@ const Home = () => {
         </div>
       </section>
 
-{/* Brand Categories */}
-<section className="py-16 bg-background">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      className="text-center mb-12"
-    >
-      <span className="text-accent font-semibold text-sm uppercase tracking-wider">Our Brands</span>
-      <h2 className="text-3xl font-bold text-primary mt-2">World-Class Laboratory Solutions</h2>
-      <p className="text-gray-500 mt-3 max-w-2xl mx-auto">
-        Partnering with the industry's most trusted brands to deliver excellence in laboratory equipment and consumables.
-      </p>
-    </motion.div>
-
-    <motion.div
-      variants={staggerContainer}
-      initial="initial"
-      whileInView="animate"
-      viewport={{ once: true }}
-      className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6"
-    >
-      {productsData.brands.map((brand) => {
-        let productCount = 0;
-        brand.categories.forEach(cat => productCount += cat.products.length);
-        return (
+      {/* Brand Categories */}
+      <section className="py-16 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            key={brand.id}
-            variants={fadeInUp}
-            whileHover={{ y: -8 }}
-            className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all p-6 text-center"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
           >
-            <Link to={`/products?brand=${brand.id}`}>
-              <div className="w-20 h-20 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-3xl text-accent font-bold">{brand.name.charAt(0)}</span>
-              </div>
-              <h3 className="font-bold text-primary text-sm">{brand.name}</h3>
-              <p className="text-gray-400 text-xs mt-1">{productCount} Products</p>
-            </Link>
+            <span className="text-accent font-semibold text-sm uppercase tracking-wider">Our Brands</span>
+            <h2 className="text-3xl font-bold text-primary mt-2">World-Class Laboratory Solutions</h2>
+            <p className="text-gray-500 mt-3 max-w-2xl mx-auto">
+              Partnering with the industry's most trusted brands to deliver excellence in laboratory equipment and consumables.
+            </p>
           </motion.div>
-        );
-      })}
-    </motion.div>
-  </div>
-</section>
-    
+
+          <motion.div
+            variants={staggerContainer}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6"
+          >
+            {productsData.brands.map((brand) => {
+              let productCount = 0;
+              brand.categories.forEach(cat => productCount += cat.products.length);
+              return (
+                <motion.div
+                  key={brand.id}
+                  variants={fadeInUp}
+                  whileHover={{ y: -8 }}
+                  className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all p-6 text-center"
+                >
+                  <Link to={`/products?brand=${brand.id}`}>
+                    <div className="w-20 h-20 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span className="text-3xl text-accent font-bold">{brand.name.charAt(0)}</span>
+                    </div>
+                    <h3 className="font-bold text-primary text-sm">{brand.name}</h3>
+                    <p className="text-gray-400 text-xs mt-1">{productCount} Products</p>
+                  </Link>
+                </motion.div>
+              );
+            })}
+          </motion.div>
+        </div>
+      </section>
 
       {/* Why Choose Us */}
       <section className="py-16 bg-white">
