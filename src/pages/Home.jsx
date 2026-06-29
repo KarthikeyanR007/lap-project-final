@@ -185,7 +185,7 @@ const Home = () => {
       </section>
 
       {/* About Snippet */}
-      <section className="py-16 bg-white">
+      {/* <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -226,6 +226,56 @@ const Home = () => {
               <img
                 src="https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=81"
                 alt="Lab Equipment"
+                className="rounded-xl shadow-lg h-64 object-cover mt-8"
+              />
+            </motion.div>
+          </div>
+        </div>
+      </section> */}
+
+      {/* About Snippet Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <span className="text-accent font-semibold text-sm uppercase tracking-wider">About Us</span>
+              <h2 className="text-3xl font-bold text-primary mt-2">Your Trusted Partner in Laboratory Excellence</h2>
+              <p className="text-gray-600 mt-4 leading-relaxed">
+                For over two decades, LabEquip has been at the forefront of providing cutting-edge laboratory 
+                equipment and consumables to research institutions, pharmaceutical companies, and industrial 
+                laboratories across India and beyond.
+              </p>
+              <p className="text-gray-600 mt-3 leading-relaxed">
+                Our commitment to quality, precision, and customer satisfaction has made us the preferred choice 
+                for scientists, researchers, and laboratory professionals who demand nothing but the best.
+              </p>
+              <Link
+                to="/about"
+                className="inline-flex items-center space-x-2 mt-6 text-accent font-medium hover:text-accent/80 transition-colors"
+              >
+                <span>Know More</span>
+                <FaArrowRight />
+              </Link>
+            </motion.div>
+            
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              className="grid grid-cols-2 gap-4"
+            >
+              <img
+                src="/images/home/home-content-1.jpg"
+                alt="Laboratory Equipment"
+                className="rounded-xl shadow-lg h-64 object-cover"
+              />
+              <img
+                src="/images/home/home-content-2.jpg"
+                alt="Lab Instruments"
                 className="rounded-xl shadow-lg h-64 object-cover mt-8"
               />
             </motion.div>

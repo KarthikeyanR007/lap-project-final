@@ -12,9 +12,11 @@ import {
   FaBolt,
   FaThermometerHalf,
   FaFlask,
-  FaCheckCircle
+  FaCheckCircle,
+  FaShoppingCart
 } from 'react-icons/fa';
 import { HiOutlineArrowRight } from 'react-icons/hi';
+import PageBanner from '../components/PageBanner';
 
 import productsData from '../data/products.json';
 import ProductCard from '../components/ProductCard';
@@ -105,20 +107,24 @@ const ProductDetail = () => {
         <meta name="description" content={product.shortDescription} />
       </Helmet>
 
-      {/* Breadcrumb */}
-      <section className="bg-background pt-32 pb-4 border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center space-x-2 text-sm text-gray-500">
-            <Link to="/" className="hover:text-accent transition-colors">Home</Link>
+      {/* Page Banner with Local Image */}
+      <PageBanner
+        tagline="PRODUCT DETAIL"
+        title={product.name}
+        subtitle={`${brand.name} | ${product.category.name}`}
+        breadcrumb={
+          <>
+            <Link to="/" className="hover:text-white transition-colors">Home</Link>
             <span>/</span>
-            <Link to="/products" className="hover:text-accent transition-colors">Products</Link>
+            <Link to="/products" className="hover:text-white transition-colors">Products</Link>
             <span>/</span>
-            <Link to={`/products?brand=${brand.id}`} className="hover:text-accent transition-colors">{brand.name}</Link>
+            <Link to={`/products?brand=${brand.id}`} className="hover:text-white transition-colors">{brand.name}</Link>
             <span>/</span>
-            <span className="text-accent font-medium">{product.name}</span>
-          </div>
-        </div>
-      </section>
+            <span className="text-white">{product.name}</span>
+          </>
+        }
+        backgroundImage="/images/banners/banner-products.jpg"
+      />
 
       {/* Product Detail */}
       <section className="py-8 bg-background">
@@ -134,6 +140,9 @@ const ProductDetail = () => {
                 src={product.image}
                 alt={product.name}
                 className="w-full h-[500px] object-cover"
+                onError={(e) => {
+                  e.target.src = 'https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=600&h=500&fit=crop';
+                }}
               />
               {product.featured && (
                 <div className="p-4 bg-highlight/10 border-t border-highlight/20">
@@ -152,17 +161,24 @@ const ProductDetail = () => {
               className="space-y-6"
             >
               <div>
-                <div className="flex items-center space-x-3 mb-2">
+                <div className="flex items-center space-x-3 mb-2 flex-wrap gap-2">
                   <span className="text-xs font-semibold text-accent bg-accent/10 px-3 py-1 rounded-full">
                     {brand.name}
                   </span>
-                  <span className="text-xs text-gray-400">{product.category.name}</span>
+                  <span className="text-xs text-gray-400 bg-gray-100 px-3 py-1 rounded-full">
+                    {product.category.name}
+                  </span>
+                  {product.featured && (
+                    <span className="text-xs font-semibold text-highlight bg-highlight/10 px-3 py-1 rounded-full">
+                      Featured
+                    </span>
+                  )}
                 </div>
                 <h1 className="text-3xl font-bold text-primary">{product.name}</h1>
-                <p className="text-gray-500 mt-2">{product.shortDescription}</p>
+                <p className="text-gray-500 mt-2 text-lg">{product.shortDescription}</p>
               </div>
 
-              <div className="bg-background rounded-xl p-4">
+              <div className="bg-background rounded-xl p-4 border border-gray-100">
                 <p className="text-gray-700 leading-relaxed">{product.fullDescription}</p>
               </div>
 
@@ -172,8 +188,8 @@ const ProductDetail = () => {
                   onClick={handleQuoteClick}
                   className="bg-highlight text-white px-8 py-3 rounded-full font-semibold hover:bg-yellow-600 transition-all shadow-lg hover:shadow-xl flex items-center space-x-2"
                 >
+                  <FaShoppingCart />
                   <span>Request a Quote</span>
-                  <HiOutlineArrowRight />
                 </button>
                 <Link
                   to="/products"
@@ -183,6 +199,12 @@ const ProductDetail = () => {
                   <span>Back to Products</span>
                 </Link>
               </div>
+
+              {/* Product Code */}
+              <div className="text-sm text-gray-400 border-t border-gray-200 pt-4">
+                <span>Product ID: </span>
+                <span className="font-mono text-gray-600">{product.id}</span>
+              </div>
             </motion.div>
           </div>
 
@@ -190,10 +212,10 @@ const ProductDetail = () => {
           <div className="mt-12">
             <div className="bg-white rounded-xl shadow-md overflow-hidden">
               <div className="border-b border-gray-200">
-                <div className="flex space-x-4 px-6">
+                <div className="flex overflow-x-auto px-6">
                   <button
                     onClick={() => setActiveTab('description')}
-                    className={`py-4 text-sm font-medium border-b-2 transition-colors ${
+                    className={`py-4 px-4 text-sm font-medium border-b-2 transition-colors whitespace-nowrap ${
                       activeTab === 'description'
                         ? 'border-accent text-accent'
                         : 'border-transparent text-gray-500 hover:text-gray-700'
@@ -203,7 +225,7 @@ const ProductDetail = () => {
                   </button>
                   <button
                     onClick={() => setActiveTab('specifications')}
-                    className={`py-4 text-sm font-medium border-b-2 transition-colors ${
+                    className={`py-4 px-4 text-sm font-medium border-b-2 transition-colors whitespace-nowrap ${
                       activeTab === 'specifications'
                         ? 'border-accent text-accent'
                         : 'border-transparent text-gray-500 hover:text-gray-700'
@@ -213,12 +235,13 @@ const ProductDetail = () => {
                   </button>
                   <button
                     onClick={() => setActiveTab('voucher')}
-                    className={`py-4 text-sm font-medium border-b-2 transition-colors ${
+                    className={`py-4 px-4 text-sm font-medium border-b-2 transition-colors whitespace-nowrap ${
                       activeTab === 'voucher'
                         ? 'border-accent text-accent'
                         : 'border-transparent text-gray-500 hover:text-gray-700'
                     }`}
                   >
+                    <FaFilePdf className="inline mr-2" />
                     Voucher
                   </button>
                 </div>
@@ -233,6 +256,19 @@ const ProductDetail = () => {
                   >
                     <h3 className="text-lg font-semibold text-primary mb-3">Product Overview</h3>
                     <p className="text-gray-600 leading-relaxed">{product.fullDescription}</p>
+                    
+                    {/* Key Features */}
+                    <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-3">
+                      {Object.entries(product.specifications).slice(0, 4).map(([key, value]) => (
+                        <div key={key} className="flex items-start space-x-2 bg-background rounded-lg p-3">
+                          <FaCheckCircle className="text-accent text-sm mt-0.5 flex-shrink-0" />
+                          <div>
+                            <span className="text-xs text-gray-400">{key}</span>
+                            <p className="text-sm font-medium text-primary">{value}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </motion.div>
                 )}
 
@@ -246,7 +282,7 @@ const ProductDetail = () => {
                       {Object.entries(product.specifications).map(([key, value]) => (
                         <div
                           key={key}
-                          className="bg-background rounded-lg p-4 flex items-start space-x-3"
+                          className="bg-background rounded-lg p-4 flex items-start space-x-3 hover:shadow-md transition-shadow"
                         >
                           <div className="text-accent text-lg mt-0.5">
                             {getSpecIcon(key)}
@@ -279,7 +315,13 @@ const ProductDetail = () => {
           {/* Related Products */}
           {relatedProducts.length > 0 && (
             <div className="mt-12">
-              <h3 className="text-xl font-bold text-primary mb-6">Related Products</h3>
+              <div className="flex items-center justify-between mb-6">
+                <div className="flex items-center space-x-3">
+                  <div className="w-1 h-8 bg-accent rounded-full"></div>
+                  <h3 className="text-xl font-bold text-primary">Related Products</h3>
+                </div>
+                <span className="text-sm text-gray-400">{relatedProducts.length} products</span>
+              </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {relatedProducts.map((product) => (
                   <ProductCard key={product.id} product={product} brand={brand} />
@@ -287,6 +329,26 @@ const ProductDetail = () => {
               </div>
             </div>
           )}
+
+          {/* CTA Section */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mt-12 bg-gradient-to-r from-primary to-primary/90 rounded-2xl p-8 text-center text-white"
+          >
+            <h3 className="text-2xl font-bold mb-3">Need Help Choosing?</h3>
+            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
+              Our team of experts can help you find the perfect solution for your laboratory needs.
+            </p>
+            <button
+              onClick={handleQuoteClick}
+              className="inline-flex items-center space-x-2 bg-accent text-white px-8 py-3 rounded-full font-semibold hover:bg-accent/90 transition-all shadow-lg hover:shadow-xl"
+            >
+              <span>Request a Quote</span>
+              <HiOutlineArrowRight />
+            </button>
+          </motion.div>
         </div>
       </section>
     </>
