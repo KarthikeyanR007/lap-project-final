@@ -225,268 +225,715 @@
       "logo": "/images/brands/accumax.jpg",
       "description": "Premier manufacturer of high-quality laboratory plastic consumables, offering a comprehensive range of pipetting products, tubes, plates, and filtration solutions.",
       "categories": [
+         {
+          "id": "micropipettes",
+          "name": "Micropipettes",
+          "products": [
+                  {
+                    "id": "AccumaxSmart",
+                    "name": "Accumax - Smart",
+                    "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Smart.png",
+                    "url": "https://www.accumaxlab.com/smart-mechanical-pipette/",
+                    "voucher": "/vouchers/micropipettes.pdf",
+                    "shortDescription": "Mechanical micropipette designed for precise, reliable, and comfortable liquid handling.",
+                    "fullDescription": "Accumax Smart is a high-quality mechanical micropipette designed for accurate and consistent liquid handling in laboratory applications. It offers smooth operation, ergonomic design for reduced hand fatigue, and adjustable volume settings. Built for durability and precision, it is suitable for routine lab workflows and research applications requiring dependable performance.",
+                    "specifications": {
+                      "Type": "Mechanical Micropipette",
+                      "Volume Range": "Varies by model",
+                      "Accuracy": "High precision (manufacturer specified)",
+                      "Precision": "Consistent repeatability",
+                      "Material": "High-grade laboratory polymer & metal components",
+                      "Features": "Ergonomic, Autoclavable, Adjustable volume, Lightweight"
+                    },
+                    "featured": true
+                  },
+                  {
+                    "id": "AccumaxASeries",
+                    "name": "Accumax A Series",
+                    "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/A-Series.png",
+                    "url": "https://www.accumaxlab.com/a-series-pipette/",
+                    "voucher": "/vouchers/micropipettes.pdf",
+                    "shortDescription": "Reliable and durable micropipettes designed for everyday lab applications.",
+                    "fullDescription": "Accumax A Series micropipettes are designed for routine laboratory work requiring accuracy and durability. They provide smooth plunger movement, consistent performance, and easy calibration, making them ideal for general lab use.",
+                    "specifications": {
+                      "Type": "Mechanical Micropipette",
+                      "Volume Range": "Varies by model",
+                      "Accuracy": "High precision",
+                      "Precision": "Reliable repeatability",
+                      "Material": "High-grade polymer",
+                      "Features": "Autoclavable, Adjustable, Ergonomic design"
+                    }
+                  },
+                  {
+                    "id": "AccumaxPRO",
+                    "name": "Accumax PRO",
+                    "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/accumax-pro.png",
+                    "url": "https://www.accumaxlab.com/pro-pipette/",
+                    "voucher": "/vouchers/micropipettes.pdf",
+                    "shortDescription": "Advanced micropipette series built for precision and professional lab use.",
+                    "fullDescription": "Accumax PRO micropipettes are engineered for advanced laboratory workflows requiring superior accuracy and comfort. They feature enhanced ergonomics, smooth operation, and high durability for long-term usage.",
+                    "specifications": {
+                      "Type": "Mechanical Micropipette",
+                      "Volume Range": "Varies by model",
+                      "Accuracy": "High precision professional grade",
+                      "Precision": "Very high repeatability",
+                      "Material": "Premium laboratory-grade materials",
+                      "Features": "Ergonomic grip, Autoclavable, Adjustable volume, High durability"
+                    }
+                  },
+                  {
+                    "id": "AccumaxVAFA",
+                    "name": "Accumax VA-FA",
+                    "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/VA-FA.png",
+                    "url": "https://www.accumaxlab.com/va-fa-pipette/",
+                    "voucher": "/vouchers/micropipettes.pdf",
+                    "shortDescription": "Versatile micropipette series designed for flexible lab applications.",
+                    "fullDescription": "Accumax VA-FA micropipettes offer versatility and precision for a wide range of laboratory tasks. They are designed for accuracy, ease of use, and reliable performance in both routine and specialized applications.",
+                    "specifications": {
+                      "Type": "Mechanical Micropipette",
+                      "Volume Range": "Varies by model",
+                      "Accuracy": "High precision",
+                      "Precision": "Stable repeatability",
+                      "Material": "Durable polymer construction",
+                      "Features": "Adjustable, Autoclavable, Ergonomic"
+                    }
+                  },
+                  {
+                    "id": "ElectronicPipette",
+                    "name": "Electronic Pipette",
+                    "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Electronic-Pipette.png",
+                    "url": "https://www.accumaxlab.com/electronic-pipette/",
+                    "voucher": "/vouchers/micropipettes.pdf",
+                    "shortDescription": "Digital pipette for automated and high-precision liquid handling.",
+                    "fullDescription": "Electronic pipettes provide automated liquid handling with enhanced precision and reduced user fatigue. Ideal for repetitive pipetting tasks in advanced laboratory environments.",
+                    "specifications": {
+                      "Type": "Electronic Pipette",
+                      "Volume Range": "Programmable",
+                      "Accuracy": "Very high precision",
+                      "Precision": "Automated repeatability",
+                      "Material": "Electronic-grade polymer & components",
+                      "Features": "Digital control, Rechargeable, Programmable modes"
+                    }
+                  },
+                  {
+                    "id": "FABLFPipettes",
+                    "name": "FAB LF Pipettes",
+                    "image": "https://www.accumaxlab.com/wp-content/uploads/2023/09/FabLF.png",
+                    "url": "https://www.accumaxlab.com/fab-low-force-pipette/",
+                    "voucher": "/vouchers/micropipettes.pdf",
+                    "shortDescription": "Low-force pipettes designed for effortless and ergonomic handling.",
+                    "fullDescription": "FAB LF pipettes are designed to reduce hand strain while maintaining high accuracy. They are ideal for long laboratory sessions requiring repetitive pipetting tasks.",
+                    "specifications": {
+                      "Type": "Mechanical Micropipette",
+                      "Volume Range": "Varies",
+                      "Accuracy": "High precision",
+                      "Precision": "Consistent repeatability",
+                      "Material": "Lightweight polymer",
+                      "Features": "Low force operation, Ergonomic, Autoclavable"
+                    }
+                  },
+                  {
+                    "id": "FabMicropipette",
+                    "name": "Fab Micropipette",
+                    "image": "https://www.accumaxlab.com/wp-content/uploads/2023/03/Fab.png",
+                    "url": "https://www.accumaxlab.com/micropipette-fab/",
+                    "voucher": "/vouchers/micropipettes.pdf",
+                    "shortDescription": "Standard micropipette series for general laboratory applications.",
+                    "fullDescription": "Fab micropipettes offer reliable and accurate liquid handling for routine laboratory tasks. They are built for durability, precision, and ease of use.",
+                    "specifications": {
+                      "Type": "Mechanical Micropipette",
+                      "Volume Range": "Varies",
+                      "Accuracy": "Standard high precision",
+                      "Precision": "Stable repeatability",
+                      "Material": "Laboratory-grade polymer",
+                      "Features": "Autoclavable, Adjustable, Ergonomic"
+                    }
+                  },
+                  {
+                    "id": "FabFLEX",
+                    "name": "FabFLEX ®",
+                    "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2026/05/AI-Background-Image-for-Web-Page.webp.bv.webp?bv_host=www.accumaxlab.com",
+                    "url": "https://www.accumaxlab.com/product/adjustable-tip-spacing-pipette-fabflex/",
+                    "voucher": "/vouchers/micropipettes.pdf",
+                    "shortDescription": "Advanced adjustable tip-spacing pipette for flexible workflows.",
+                    "fullDescription": "FabFLEX is an innovative pipetting solution designed with adjustable tip spacing technology, enabling flexible multi-sample handling and improved workflow efficiency.",
+                    "specifications": {
+                      "Type": "Advanced Pipette System",
+                      "Volume Range": "Variable",
+                      "Accuracy": "High precision",
+                      "Precision": "High repeatability",
+                      "Material": "Advanced polymer & composite materials",
+                      "Features": "Adjustable tip spacing, High flexibility, Ergonomic"
+                    }
+                  },
+                  {
+                    "id": "JuniorPipette",
+                    "name": "Junior Pipette",
+                    "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Junior-Pipette.png",
+                    "url": "https://www.accumaxlab.com/junior-pipette/",
+                    "voucher": "/vouchers/micropipettes.pdf",
+                    "shortDescription": "Entry-level pipette designed for educational and basic lab use.",
+                    "fullDescription": "Junior pipettes are designed for training, educational labs, and basic liquid handling tasks. They are simple, durable, and easy to use.",
+                    "specifications": {
+                      "Type": "Educational Pipette",
+                      "Volume Range": "Basic range",
+                      "Accuracy": "Moderate precision",
+                      "Precision": "Standard repeatability",
+                      "Material": "Durable polymer",
+                      "Features": "Easy handling, Lightweight, Cost-effective"
+                    }
+                  },
+                  {
+                    "id": "TransferPipette",
+                    "name": "Transfer Pipette",
+                    "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/08-Transfer-Pipette-.png",
+                    "url": "https://www.accumaxlab.com/transfer-pipette/",
+                    "voucher": "/vouchers/micropipettes.pdf",
+                    "shortDescription": "Simple pipette for transferring small liquid volumes.",
+                    "fullDescription": "Transfer pipettes are designed for quick and easy liquid transfer tasks in laboratory environments. They are disposable and convenient for routine usage.",
+                    "specifications": {
+                      "Type": "Transfer Pipette",
+                      "Volume Range": "Small volumes",
+                      "Accuracy": "Basic precision",
+                      "Precision": "General use",
+                      "Material": "Disposable plastic",
+                      "Features": "Single-use, Lightweight, Cost-effective"
+                    }
+                  }
+                ]  
+        },
         {
-          "id": "pipetting",
-          "name": "Pipetting",
+          "id": "BottleTopDispenser",
+          "name": "Bottle Top Dispenser",
           "products": [
             {
-              "id": "micropipettes",
-              "name": "Micropipettes",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=11",
-              "voucher": "/vouchers/micropipettes.pdf",
-              "shortDescription": "High-precision micropipettes for accurate and reliable liquid handling.",
-              "fullDescription": "Accumax micropipettes offer exceptional accuracy and precision for laboratory liquid handling applications. Designed for comfort and ease of use, these pipettes feature adjustable volume settings, ergonomic grip, and reliable calibration. Available in various volume ranges to meet diverse laboratory requirements.",
-              "specifications": {
-                "Volume Range": "0.1µl - 10ml",
-                "Accuracy": "±0.6% to ±0.8%",
-                "Precision": "±0.15% to ±0.2%",
-                "Material": "High-grade polypropylene",
-                "Features": "Autoclavable, Adjustable, Ergonomic"
-              },
-              "featured": true
-            },
-            {
-              "id": "bottle-top-dispenser",
+              "id": "BottleTopDispenser",
               "name": "Bottle Top Dispenser",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=12",
-              "voucher": "/vouchers/bottle-top-dispenser.pdf",
-              "shortDescription": "Precision bottle-top dispenser for safe and accurate reagent dispensing.",
-              "fullDescription": "The Bottle Top Dispenser offers safe and accurate dispensing of various liquids directly from reagent bottles. Features include adjustable volume settings, easy calibration, and compatibility with a wide range of chemicals. The design ensures contamination-free dispensing and user safety.",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Bottle-Top-Dispenser.png",
+              "url": "https://www.accumaxlab.com/bottle-top-dispenser/",
+              "voucher": "/vouchers/liquid-handling.pdf",
+              "shortDescription": "Precision bottle top dispenser designed for safe, accurate, and controlled liquid dispensing.",
+              "fullDescription": "Bottle Top Dispenser is engineered for precise and contamination-free liquid dispensing directly from reagent bottles. It ensures high accuracy, chemical resistance, and ease of use in laboratory environments. Ideal for repetitive dispensing tasks, it minimizes waste and improves workflow efficiency.",
               "specifications": {
-                "Volume Range": "0.5-50ml",
-                "Accuracy": "±0.5%",
-                "Material": "PTFE, PP, Borosilicate Glass",
-                "Compatibility": "Wide range of chemicals",
-                "Features": "Easy calibration, Self-priming"
+                "Type": "Bottle Top Dispenser",
+                "Volume Range": "Adjustable (varies by model)",
+                "Accuracy": "High precision dispensing",
+                "Precision": "Consistent repeatability",
+                "Material": "Chemical-resistant laboratory-grade polymer",
+                "Features": "Adjustable volume, Autoclavable, Leak-proof design, Easy calibration"
               },
               "featured": false
-            },
+            }
+          ]
+        },
+        {
+          "id": "PipetteController",
+          "name": "Pipette Controller",
+          "products": [
             {
-              "id": "pipette-controller",
+              "id": "PipetteController",
               "name": "Pipette Controller",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=13",
-              "voucher": "/vouchers/pipette-controller.pdf",
-              "shortDescription": "Ergonomic pipette controller for comfortable and precise liquid handling.",
-              "fullDescription": "The Pipette Controller provides comfortable and precise control for serological pipetting. Features include adjustable speed settings, easy operation, and reliable performance. The ergonomic design reduces hand fatigue during extended use, making it ideal for high-throughput laboratories.",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Pipette-Controller-1.webp",
+              "url": "https://www.accumaxlab.com/pipette-controller/",
+              "voucher": "/vouchers/liquid-handling.pdf",
+              "shortDescription": "Ergonomic pipette controller for precise and effortless liquid aspiration and dispensing.",
+              "fullDescription": "The Pipette Controller is designed for smooth, accurate, and efficient liquid handling with serological and volumetric pipettes. Its lightweight ergonomic design minimizes user fatigue while providing precise speed control for aspiration and dispensing. Suitable for routine laboratory applications, it ensures safe and reliable operation across various research, clinical, and industrial environments.",
               "specifications": {
-                "Type": "Electronic",
-                "Pipette Range": "0.5-100ml",
-                "Battery": "Rechargeable Li-ion",
-                "Display": "LCD",
-                "Features": "Adjustable speed, Pipette compatibility"
+                "Type": "Electronic Pipette Controller",
+                "Compatibility": "Serological and volumetric pipettes",
+                "Operation": "Motorized aspiration and dispensing",
+                "Material": "High-quality laboratory-grade polymer",
+                "Power": "Rechargeable battery",
+                "Features": "Ergonomic design, Variable speed control, Lightweight, Rechargeable, Easy one-hand operation"
               },
               "featured": false
             }
           ]
         },
         {
-          "id": "consumables",
-          "name": "Consumables",
+          "id": "PCRConsumables",
+          "name": "PCR Consumables",
           "products": [
             {
-              "id": "pcr-consumables",
+              "id": "PCRConsumables",
               "name": "PCR Consumables",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=14",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/PCR-Plat.png",
+              "url": "https://www.accumaxlab.com/pcr-consumables/",
               "voucher": "/vouchers/pcr-consumables.pdf",
-              "shortDescription": "High-quality PCR consumables for reliable amplification and detection.",
-              "fullDescription": "Accumax PCR consumables are designed for optimal performance in PCR applications. Manufactured from medical-grade polypropylene, these products ensure consistent results with minimal background noise. Available in various formats including tubes, plates, and strips to meet diverse PCR requirements.",
+              "shortDescription": "High-quality PCR consumables designed for reliable molecular biology and diagnostic applications.",
+              "fullDescription": "PCR Consumables are manufactured to deliver consistent performance in PCR, qPCR, and molecular biology workflows. Designed for maximum sample integrity and compatibility with standard thermal cyclers, these consumables ensure accurate amplification, minimal contamination risk, and dependable laboratory results. Suitable for research, clinical, and biotechnology laboratories.",
               "specifications": {
-                "Type": "PCR Tubes, Plates, Strips",
-                "Material": "Medical-grade Polypropylene",
-                "DNase/RNase": "Free",
-                "Temperature Range": "-20°C to +95°C",
-                "Features": "Thin-walled for efficient thermal transfer"
-              },
-              "featured": true
-            },
-            {
-              "id": "tips",
-              "name": "Tips",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=15",
-              "voucher": "/vouchers/tips.pdf",
-              "shortDescription": "High-quality pipette tips for accurate and precise liquid handling.",
-              "fullDescription": "Accumax tips are manufactured to the highest standards for reliable pipetting performance. Available in various volume ranges and packaging options, these tips ensure consistent results with minimal sample carryover. Features include universal fit, sterile options, and low retention surfaces.",
-              "specifications": {
-                "Volume Range": "10µl - 10ml",
-                "Material": "Medical-grade Polypropylene",
-                "Filter Types": "Standard, Filter, Low Retention",
-                "Packaging": "Rack, Bulk, Refill",
-                "Features": "DNase/RNase free, Non-pyrogenic"
-              },
-              "featured": true
-            },
-            {
-              "id": "tubes",
-              "name": "Tubes",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=16",
-              "voucher": "/vouchers/tubes.pdf",
-              "shortDescription": "Premium centrifuge and microcentrifuge tubes for reliable sample storage.",
-              "fullDescription": "Accumax offers a comprehensive range of tubes for sample storage and centrifugation. Manufactured from medical-grade polypropylene, these tubes ensure sample integrity and reliable performance. Available in various sizes and configurations to meet diverse laboratory requirements.",
-              "specifications": {
-                "Volume Range": "0.5ml - 50ml",
-                "Material": "Medical-grade Polypropylene",
-                "Types": "Centrifuge, Cryovials, Microcentrifuge",
-                "Temperature Range": "-80°C to +120°C",
-                "Features": "Autoclavable, Graduated"
-              },
-              "featured": false
-            },
-            {
-              "id": "filtration",
-              "name": "Filtration",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=17",
-              "voucher": "/vouchers/filtration.pdf",
-              "shortDescription": "Efficient filtration products for sample preparation and purification.",
-              "fullDescription": "Accumax filtration products are designed for efficient sample preparation and purification. Available in various formats including spin columns and filter plates, these products ensure reliable results with minimal sample loss. Features include various pore sizes and membrane options to meet diverse application requirements.",
-              "specifications": {
-                "Types": "Spin Columns, Filter Plates",
-                "Material": "Medical-grade Polypropylene",
-                "Pore Sizes": "0.2µm - 5µm",
-                "Application": "Protein, DNA, Sample Prep",
-                "Features": "Low binding, Fast flow rates"
+                "Type": "PCR Consumables",
+                "Applications": "PCR, qPCR, Molecular Biology, Diagnostics",
+                "Material": "Medical-grade virgin polypropylene",
+                "Compatibility": "Compatible with standard PCR and qPCR instruments",
+                "Sterility": "DNase/RNase free (model dependent)",
+                "Features": "High optical clarity, Low binding, Leak-proof design, Uniform heat transfer"
               },
               "featured": false
             }
           ]
         },
         {
-          "id": "plates-bottles",
-          "name": "Plates & Bottles",
+          "id": "Tubes",
+          "name": "Tubes",
           "products": [
             {
-              "id": "petri-plates",
-              "name": "Petri Plates",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=18",
-              "voucher": "/vouchers/petri-plates.pdf",
-              "shortDescription": "Sterile Petri plates for microbiological applications and culture work.",
-              "fullDescription": "Accumax Petri plates are manufactured to the highest standards for microbiological applications. Available in various sizes and packaging options, these plates ensure reliable results with minimal contamination risk. Features include clarity, flat surface, and consistent quality.",
+              "id": "CentrifugeTubes",
+              "name": "Centrifuge Tubes",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Centrifuge-Tubes.png",
+              "url": "https://www.accumaxlab.com/centrifuge-tubes/",
+              "voucher": "/vouchers/lab-consumables.pdf",
+              "shortDescription": "High-strength centrifuge tubes designed for safe and reliable sample processing.",
+              "fullDescription": "Centrifuge Tubes are manufactured from high-quality polypropylene to provide excellent mechanical strength and chemical resistance. Designed to withstand high centrifugal forces, they ensure secure sample storage, preparation, and processing for research, clinical, and industrial laboratories.",
               "specifications": {
-                "Diameter": "35mm, 60mm, 90mm, 150mm",
-                "Material": "Medical-grade Polystyrene",
-                "Sterility": "Sterile, Non-sterile",
-                "Packaging": "Blister, Sleeve",
-                "Features": "Clarity, Flat surface"
-              },
-              "featured": true
-            },
-            {
-              "id": "media-bottles",
-              "name": "Media Bottles",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=19",
-              "voucher": "/vouchers/media-bottles.pdf",
-              "shortDescription": "High-quality media bottles for safe storage and handling of laboratory media.",
-              "fullDescription": "Accumax media bottles are designed for safe storage of various laboratory media and solutions. Available in various sizes and materials, these bottles ensure sample integrity and reliable performance. Features include secure closures, excellent clarity, and consistent quality.",
-              "specifications": {
-                "Volume Range": "100ml - 5L",
-                "Material": "PETG, Glass",
-                "Sterility": "Sterile, Non-sterile",
-                "Closure": "Screw Cap, Flip-Top",
-                "Features": "Clarity, Chemical resistance"
+                "Type": "Centrifuge Tubes",
+                "Material": "Medical-grade virgin polypropylene",
+                "Capacity": "Available in multiple sizes",
+                "Sterility": "Sterile and non-sterile options available",
+                "Temperature Resistance": "Suitable for low and high temperature applications",
+                "Features": "Leak-proof cap, Graduated markings, High centrifugal resistance, DNase/RNase free (model dependent)"
               },
               "featured": false
             },
             {
-              "id": "reagent-bottles",
-              "name": "Reagent Bottles",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=20",
-              "voucher": "/vouchers/reagent-bottles.pdf",
-              "shortDescription": "Durable reagent bottles for safe storage of laboratory chemicals.",
-              "fullDescription": "Accumax reagent bottles are designed for safe storage of various laboratory reagents and chemicals. Available in various sizes and materials, these bottles ensure chemical compatibility and reliable performance. Features include secure closures, excellent chemical resistance, and consistent quality.",
+              "id": "Cryovials",
+              "name": "Cryovials",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Cryovials.png",
+              "url": "https://www.accumaxlab.com/cryovials/",
+              "voucher": "/vouchers/lab-consumables.pdf",
+              "shortDescription": "Cryogenic storage vials for secure preservation of biological samples.",
+              "fullDescription": "Cryovials are designed for the safe storage and preservation of biological samples under ultra-low temperature conditions. Manufactured from premium laboratory-grade polypropylene, they provide excellent sealing performance, durability, and sample protection for research and clinical laboratories.",
               "specifications": {
-                "Volume Range": "50ml - 5L",
-                "Material": "HDPE, LDPE, Glass",
-                "Closure": "Screw Cap",
-                "Color Options": "Amber, Clear",
-                "Features": "Chemical resistance, Leak-proof"
+                "Type": "Cryogenic Storage Vials",
+                "Material": "Medical-grade polypropylene",
+                "Capacity": "Available in multiple sizes",
+                "Temperature Range": "Suitable for ultra-low temperature storage",
+                "Sterility": "Sterile options available",
+                "Features": "Leak-proof screw cap, Frosted writing area, Graduated markings, High chemical resistance"
               },
               "featured": false
             },
             {
-              "id": "deepwell-plates",
-              "name": "Deepwell Plates",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=21",
-              "voucher": "/vouchers/deepwell-plates.pdf",
-              "shortDescription": "Deepwell plates for high-volume sample storage and processing.",
-              "fullDescription": "Accumax deepwell plates are designed for high-volume sample storage and processing. Available in 96-well and 384-well formats, these plates ensure reliable performance with minimal sample loss. Features include low binding surfaces, excellent clarity, and consistent quality.",
+              "id": "HeavyMetalFreeCentrifugeTubes",
+              "name": "Heavy Metal Free Centrifuge Tubes",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2024/02/Heavy-Metal-Free-Centrifuge-Tubes.png",
+              "url": "https://www.accumaxlab.com/product/heavy-metal-free-centrifuge-tubes/",
+              "voucher": "/vouchers/lab-consumables.pdf",
+              "shortDescription": "Certified heavy metal-free centrifuge tubes for trace element analysis.",
+              "fullDescription": "Heavy Metal Free Centrifuge Tubes are specially manufactured for laboratories performing trace metal and elemental analysis. These tubes minimize contamination risks, ensuring accurate analytical results while maintaining excellent durability and chemical resistance.",
               "specifications": {
-                "Volume Range": "1ml - 2.2ml per well",
-                "Well Format": "96-well, 384-well",
-                "Material": "Medical-grade Polypropylene",
-                "Application": "Sample Storage, PCR, Sequencing",
-                "Features": "Low binding, Autoclavable"
+                "Type": "Heavy Metal Free Centrifuge Tubes",
+                "Material": "Certified contaminant-free polypropylene",
+                "Applications": "Trace metal analysis, Environmental testing, Clinical laboratories",
+                "Sterility": "Available sterile",
+                "Quality": "Heavy metal-free manufacturing process",
+                "Features": "Low contamination, Leak-proof cap, High centrifugal strength, Laboratory certified"
+              },
+              "featured": false
+            },
+            {
+              "id": "MicrocentrifugeTubes",
+              "name": "Microcentrifuge Tubes",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/11-Microcentrifuge-tube-.png",
+              "url": "https://www.accumaxlab.com/microcentrifuge-tubes/",
+              "voucher": "/vouchers/lab-consumables.pdf",
+              "shortDescription": "Premium microcentrifuge tubes for small-volume sample handling and storage.",
+              "fullDescription": "Microcentrifuge Tubes are designed for efficient handling, storage, and centrifugation of small-volume samples. Manufactured using high-purity polypropylene, they offer excellent clarity, secure sealing, and high centrifugal resistance for molecular biology, clinical, and research laboratories.",
+              "specifications": {
+                "Type": "Microcentrifuge Tubes",
+                "Material": "Virgin polypropylene",
+                "Capacity": "Available in multiple micro-volume sizes",
+                "Sterility": "DNase/RNase free (model dependent)",
+                "Temperature Resistance": "Suitable for freezing and heating applications",
+                "Features": "Snap cap, Leak-proof seal, High clarity, Graduated markings, High centrifugal resistance"
+              },
+              "featured": false
+            }
+          ] 
+        },
+        {
+          "id": "Tips",
+          "name": "Tips",
+          "products": [
+              {
+                "id": "GreenMAXTips",
+                "name": "GreenMAX Tips",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2024/05/1000-1000.png",
+                "url": "https://www.accumaxlab.com/product-category/accumax/tips/greenmax-tips/",
+                "voucher": "/vouchers/pipette-tips.pdf",
+                "shortDescription": "Premium low-retention pipette tips designed for maximum sample recovery and precision.",
+                "fullDescription": "GreenMAX Tips are high-performance pipette tips engineered to deliver superior liquid recovery, minimal sample retention, and exceptional accuracy. Manufactured from medical-grade virgin polypropylene, they are compatible with a wide range of micropipettes and are ideal for molecular biology, diagnostics, and research laboratories.",
+                "specifications": {
+                  "Type": "Low-Retention Pipette Tips",
+                  "Material": "Medical-grade virgin polypropylene",
+                  "Compatibility": "Compatible with most standard micropipettes",
+                  "Sterility": "Sterile and non-sterile options available",
+                  "Applications": "Molecular biology, PCR, Diagnostics, Research",
+                  "Features": "Low retention, DNase/RNase free, Pyrogen free, High transparency"
+                },
+                "featured": false
+              },
+              {
+                "id": "LFTips",
+                "name": "LF Tips",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/17-LF-Tips-.png",
+                "url": "https://www.accumaxlab.com/product-category/accumax/tips/lf-tips/",
+                "voucher": "/vouchers/pipette-tips.pdf",
+                "shortDescription": "Low-force pipette tips designed for smooth fitting and effortless ejection.",
+                "fullDescription": "LF Tips are specially designed to reduce insertion and ejection force while maintaining a secure seal. They improve user comfort during repetitive pipetting tasks and provide consistent performance across laboratory applications.",
+                "specifications": {
+                  "Type": "Low-Force Pipette Tips",
+                  "Material": "Virgin polypropylene",
+                  "Compatibility": "Compatible with leading pipette brands",
+                  "Sterility": "Sterile and non-sterile options",
+                  "Applications": "Routine laboratory liquid handling",
+                  "Features": "Low insertion force, Secure sealing, DNase/RNase free, High precision molding"
+                },
+                "featured": false
+              },
+              {
+                "id": "PipetteTips",
+                "name": "Pipettes Tips",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/16-Pipette-Tips-.png",
+                "url": "https://www.accumaxlab.com/product-category/accumax/tips/pipettes-tips/",
+                "voucher": "/vouchers/pipette-tips.pdf",
+                "shortDescription": "High-quality disposable pipette tips for accurate liquid handling.",
+                "fullDescription": "Pipette Tips are manufactured using premium virgin polypropylene to ensure precision, contamination-free sample handling, and universal compatibility. They are suitable for routine laboratory work, molecular biology, clinical diagnostics, and research applications.",
+                "specifications": {
+                  "Type": "Disposable Pipette Tips",
+                  "Material": "Medical-grade virgin polypropylene",
+                  "Compatibility": "Universal fit for standard micropipettes",
+                  "Sterility": "Available sterile and non-sterile",
+                  "Applications": "Research, Clinical, Molecular Biology",
+                  "Features": "High clarity, Leak-free fit, DNase/RNase free, Autoclavable"
+                },
+                "featured": false
+              },
+              {
+                "id": "RoboticTips",
+                "name": "Robotic Tips",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/09/07-Robotic-tips-.png",
+                "url": "https://www.accumaxlab.com/product-category/accumax/tips/robotic-tips/",
+                "voucher": "/vouchers/pipette-tips.pdf",
+                "shortDescription": "Precision robotic pipette tips for automated liquid handling systems.",
+                "fullDescription": "Robotic Tips are engineered for compatibility with automated liquid handling platforms, ensuring reliable sample transfer, minimal liquid retention, and consistent performance. They are manufactured to strict quality standards for high-throughput laboratory workflows.",
+                "specifications": {
+                  "Type": "Robotic Pipette Tips",
+                  "Material": "Medical-grade virgin polypropylene",
+                  "Compatibility": "Compatible with leading automated liquid handling systems",
+                  "Sterility": "Sterile and filtered options available",
+                  "Applications": "High-throughput screening, PCR, Genomics, Diagnostics",
+                  "Features": "Low retention, High precision, Filtered options, DNase/RNase free, Pyrogen free"
+                },
+                "featured": false
+              }
+            ]
+        },
+        {
+          "id": "HPLCSafetyCap",
+          "name": "HPLC Safety Cap",
+          "products":[
+            {
+              "id": "HPLCSafetyCap",
+              "name": "HPLC Safety Cap",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/HPLC-Safety-Caps.png",
+              "url": "https://www.accumaxlab.com/hplc-safety-cap/",
+              "voucher": "/vouchers/hplc-accessories.pdf",
+              "shortDescription": "Safety cap system designed for secure solvent handling in HPLC applications.",
+              "fullDescription": "The HPLC Safety Cap is engineered to improve laboratory safety during High-Performance Liquid Chromatography (HPLC) operations. It minimizes solvent evaporation, reduces exposure to hazardous vapors, and protects mobile phases from contamination. Designed for easy installation and compatibility with standard laboratory solvent bottles, it enhances both operator safety and analytical reliability.",
+              "specifications": {
+                "Type": "HPLC Safety Cap",
+                "Application": "HPLC solvent bottle safety and fluid management",
+                "Material": "Chemically resistant laboratory-grade polymer",
+                "Compatibility": "Compatible with standard laboratory solvent bottles",
+                "Chemical Resistance": "Suitable for common HPLC solvents",
+                "Features": "Reduces solvent evaporation, Prevents contamination, Improves laboratory safety, Leak-resistant design"
               },
               "featured": false
             }
           ]
         },
         {
-          "id": "other-plastics",
-          "name": "Other Plastics",
-          "products": [
+          "id": "Filtration",
+          "name": "Filtration",
+          "products":[
             {
-              "id": "petg-diagnostic-vial",
+              "id": "FilterPlates",
+              "name": "Filter Plates",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/filterplate-03.png",
+              "url": "https://www.accumaxlab.com/filter-plates/",
+              "voucher": "/vouchers/filtration-products.pdf",
+              "shortDescription": "High-performance filter plates for efficient sample preparation and filtration workflows.",
+              "fullDescription": "Filter Plates are designed for high-throughput filtration, sample preparation, purification, and biological assays. Manufactured from premium laboratory-grade materials, they deliver consistent filtration performance, excellent chemical compatibility, and reliable results across research, pharmaceutical, and diagnostic laboratories.",
+              "specifications": {
+                "Type": "Filter Plates",
+                "Material": "Medical-grade polypropylene",
+                "Format": "Multi-well plate configuration",
+                "Applications": "Sample preparation, Filtration, Protein purification, Cell-based assays",
+                "Compatibility": "Compatible with standard laboratory automation systems",
+                "Features": "High-throughput processing, Chemical resistance, Uniform filtration, Leak-resistant design"
+              },
+              "featured": false
+            },
+            {
+              "id": "SpinColumns",
+              "name": "Spin Columns",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/01-Filtration.png",
+              "url": "https://www.accumaxlab.com/spin-columns/",
+              "voucher": "/vouchers/filtration-products.pdf",
+              "shortDescription": "Reliable spin columns for rapid purification and nucleic acid extraction workflows.",
+              "fullDescription": "Spin Columns are engineered for efficient DNA, RNA, protein, and sample purification applications. Designed to provide high recovery rates and consistent performance, they are widely used in molecular biology, genomics, diagnostics, and life science research laboratories.",
+              "specifications": {
+                "Type": "Spin Columns",
+                "Material": "Laboratory-grade polypropylene with specialized membrane",
+                "Applications": "DNA/RNA purification, Protein purification, Sample cleanup",
+                "Compatibility": "Compatible with standard laboratory centrifuges",
+                "Recovery": "High sample recovery efficiency",
+                "Features": "Fast processing, Low sample loss, High binding efficiency, Chemical resistant"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "Reservoirs",
+          "name": "Reservoirs",
+          "products":[
+              {
+                "id": "Reservoirs",
+                "name": "Reservoirs",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Reservoirnew.png",
+                "url": "https://www.accumaxlab.com/reservoirs/",
+                "voucher": "/vouchers/lab-consumables.pdf",
+                "shortDescription": "Disposable reagent reservoirs designed for efficient liquid handling and multichannel pipetting.",
+                "fullDescription": "Reservoirs are manufactured from high-quality virgin polypropylene to provide reliable reagent storage and transfer during laboratory workflows. Designed for use with single and multichannel pipettes, they minimize reagent waste while ensuring excellent chemical compatibility and contamination-free liquid handling.",
+                "specifications": {
+                  "Type": "Reagent Reservoir",
+                  "Material": "Medical-grade virgin polypropylene",
+                  "Capacity": "Available in multiple capacities",
+                  "Compatibility": "Compatible with single and multichannel pipettes",
+                  "Sterility": "Sterile and non-sterile options available",
+                  "Features": "Low dead volume, Chemical resistant, Disposable, Stackable design"
+                },
+                "featured": false
+              }
+          ]
+        },
+        {
+          "id": "DeepwellPlates",
+          "name": "Deepwell Plates",
+          "products":[
+              {
+                "id": "DeepwellPlates",
+                "name": "Deepwell Plates",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/2.0-ML-V-BOTTOM-DEEP-WELL-PLATE-STEP-FILE.2768.png",
+                "url": "https://www.accumaxlab.com/deepwell-plates/",
+                "voucher": "/vouchers/lab-consumables.pdf",
+                "shortDescription": "High-capacity deepwell plates for sample storage, preparation, and high-throughput laboratory workflows.",
+                "fullDescription": "Deepwell Plates are designed for sample storage, mixing, cell culture, and high-throughput screening applications. Manufactured from premium laboratory-grade polypropylene, they offer excellent chemical resistance, uniform well geometry, and compatibility with automated laboratory systems for reliable and reproducible results.",
+                "specifications": {
+                  "Type": "Deepwell Plate",
+                  "Material": "Medical-grade virgin polypropylene",
+                  "Well Format": "Available in multiple well configurations",
+                  "Capacity": "Available in multiple well volumes",
+                  "Compatibility": "Compatible with automated liquid handling systems",
+                  "Features": "High chemical resistance, Leak-resistant, Stackable, Suitable for storage and centrifugation"
+                },
+                "featured": false
+              }
+          ]
+        },
+        {
+          "id": "MediaBottles",
+          "name": "Media Bottles",
+          "products":[
+              {
+                "id": "MediaBottles",
+                "name": "Media Bottles",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Product-thumbnail-without-background.webp",
+                "url": "https://www.accumaxlab.com/media-bottles/",
+                "voucher": "/vouchers/lab-glassware.pdf",
+                "shortDescription": "High-quality media bottles designed for safe storage and handling of laboratory reagents and culture media.",
+                "fullDescription": "Media Bottles are designed for reliable storage, mixing, and transport of laboratory reagents and culture media. Manufactured using high-grade materials, they ensure excellent chemical resistance, leak-proof sealing, and durability for routine laboratory workflows.",
+                "specifications": {
+                  "Type": "Laboratory Media Bottle",
+                  "Material": "Chemical-resistant polymer / glass (variant dependent)",
+                  "Capacity": "Available in multiple volumes",
+                  "Sterility": "Sterile and non-sterile options",
+                  "Applications": "Media storage, reagent handling, sample preparation",
+                  "Features": "Leak-proof cap, Autoclavable, High chemical resistance, Transparent body"
+                },
+                "featured": false
+              }
+          ]
+        },
+        {
+          "id": "ReagentBottles",
+          "name": "Reagent Bottles",
+          "products":[
+              {
+                "id": "ReagentBottles",
+                "name": "Reagent Bottles",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/09/04-existing-website-Reagent-bottle-product-page-banner-.png",
+                "url": "https://www.accumaxlab.com/reagent-bottles/",
+                "voucher": "/vouchers/lab-glassware.pdf",
+                "shortDescription": "Durable reagent bottles for safe chemical storage and laboratory use.",
+                "fullDescription": "Reagent Bottles are designed for safe storage and handling of chemical reagents in laboratory environments. They offer high durability, chemical resistance, and secure sealing to prevent contamination and leakage.",
+                "specifications": {
+                  "Type": "Reagent Bottle",
+                  "Material": "High-grade glass / chemical-resistant polymer",
+                  "Capacity": "Multiple size options available",
+                  "Sterility": "Non-sterile / autoclavable variants",
+                  "Applications": "Chemical storage, reagent handling",
+                  "Features": "Leak-proof cap, High chemical resistance, Durable construction, Autoclavable"
+                },
+                "featured": false
+              }
+          ]
+        },
+        {
+          "id": "ErlenmeyerFlask",
+          "name": "Erlenmeyer Flask",
+          "products":[
+                    {
+          "id": "ErlenmeyerFlask",
+          "name": "Erlenmeyer Flask",
+          "image": "https://www.accumaxlab.com/wp-content/uploads/2023/09/14-Erlenmeyer-Flask-.png",
+          "url": "https://www.accumaxlab.com/erlenmeyer-flask/",
+          "voucher": "/vouchers/lab-glassware.pdf",
+          "shortDescription": "Conical flasks designed for mixing, heating, and culturing applications.",
+          "fullDescription": "Erlenmeyer Flasks are widely used in laboratories for mixing, heating, and culturing solutions. Their conical shape allows easy swirling without spillage, making them ideal for chemical reactions and microbiological applications.",
+          "specifications": {
+            "Type": "Erlenmeyer Flask",
+            "Material": "Borosilicate glass / polymer variants",
+            "Capacity": "Multiple volume options available",
+            "Sterility": "Autoclavable",
+            "Applications": "Mixing, culturing, heating, chemical reactions",
+            "Features": "Heat resistant, Chemical resistant, Wide neck design, Easy handling"
+          },
+          "featured": false
+        }
+          ]
+        },
+        {
+          "id": "PetriPlates",
+          "name": "Petri Plates",
+          "products":[
+        {
+          "id": "PetriPlates",
+          "name": "Petri Plates",
+          "image": "https://www.accumaxlab.com/wp-content/uploads/2023/09/Accumax_Petri-Plates.png",
+          "url": "https://www.accumaxlab.com/petri-plates/",
+          "voucher": "/vouchers/lab-glassware.pdf",
+          "shortDescription": "Sterile petri plates for microbiological culture and laboratory research.",
+          "fullDescription": "Petri Plates are designed for microbiological culture, bacterial growth studies, and laboratory research applications. Manufactured under strict quality standards, they ensure contamination-free and consistent performance.",
+          "specifications": {
+            "Type": "Petri Plate",
+            "Material": "Medical-grade polystyrene",
+            "Diameter": "Standard lab sizes available",
+            "Sterility": "Sterile, gamma irradiated",
+            "Applications": "Microbiology, cell culture, research",
+            "Features": "Optically clear, Stackable, Sterile packaging, Uniform surface"
+          },
+          "featured": false
+        }
+          ]
+        },
+        {
+          "id": "PETGDiagnosticVial",
+          "name": "PETG Diagnostic Vial",
+          "products":[
+                {
+              "id": "PETGDiagnosticVial",
               "name": "PETG Diagnostic Vial",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=22",
-              "voucher": "/vouchers/petg-diagnostic-vial.pdf",
-              "shortDescription": "PETG diagnostic vials for reliable sample collection and storage.",
-              "fullDescription": "Accumax PETG diagnostic vials are designed for reliable sample collection and storage in clinical applications. Features include excellent clarity, chemical resistance, and secure closure. The vials are manufactured to the highest standards to ensure sample integrity and reliable results.",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/11/Accumax-20ml-Diagnostic-Vial.png",
+              "url": "https://www.accumaxlab.com/petg-diagnostic-vial/",
+              "voucher": "/vouchers/diagnostic-consumables.pdf",
+              "shortDescription": "High-quality PETG diagnostic vials designed for safe sample storage and transport.",
+              "fullDescription": "PETG Diagnostic Vials are designed for secure storage and transport of biological and diagnostic samples. Manufactured using high-clarity PETG material, they offer excellent chemical resistance, durability, and leak-proof sealing for laboratory and clinical applications.",
               "specifications": {
-                "Volume Range": "5ml - 30ml",
-                "Material": "PETG",
-                "Sterility": "Sterile",
-                "Application": "Diagnostics, Clinical Testing",
-                "Features": "Clarity, Chemical resistance"
-              },
-              "featured": false
-            },
-            {
-              "id": "erlenmeyer-flask",
-              "name": "Erlenmeyer Flask",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=23",
-              "voucher": "/vouchers/erlenmeyer-flask.pdf",
-              "shortDescription": "Erlenmeyer flasks for laboratory mixing and cell culture applications.",
-              "fullDescription": "Accumax Erlenmeyer flasks are designed for various laboratory applications including cell culture, mixing, and storage. Available in various sizes and materials, these flasks ensure reliable performance with minimal contamination risk. Features include clarity, smooth surfaces, and consistent quality.",
-              "specifications": {
-                "Volume Range": "125ml - 5L",
-                "Material": "PETG, Polycarbonate",
-                "Sterility": "Sterile, Non-sterile",
-                "Application": "Cell Culture, Mixing",
-                "Features": "Clarity, Graduated"
-              },
-              "featured": false
-            },
-            {
-              "id": "carboys-jerricans",
-              "name": "Carboys & Jerricans",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=24",
-              "voucher": "/vouchers/carboys-jerricans.pdf",
-              "shortDescription": "Durable carboys and jerricans for safe bulk liquid storage.",
-              "fullDescription": "Accumax carboys and jerricans are designed for safe bulk storage of various laboratory liquids. Available in various sizes and materials, these containers ensure chemical compatibility and reliable performance. Features include secure closures, excellent chemical resistance, and consistent quality.",
-              "specifications": {
-                "Volume Range": "5L - 50L",
-                "Material": "HDPE, PETG",
-                "Closure": "Screw Cap, Pour Spout",
-                "Application": "Media Storage, Chemical Storage",
-                "Features": "Chemical resistance, Stackable"
-              },
-              "featured": false
-            },
-            {
-              "id": "roller-bottle",
-              "name": "Roller Bottle",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=25",
-              "voucher": "/vouchers/roller-bottle.pdf",
-              "shortDescription": "Roller bottles for large-scale cell culture applications.",
-              "fullDescription": "Accumax roller bottles are designed for large-scale cell culture applications including vaccine production and protein expression. Available in various sizes, these bottles ensure optimal cell growth with minimal contamination risk. Features include smooth surfaces, excellent clarity, and consistent quality.",
-              "specifications": {
-                "Surface Area": "850cm², 1700cm²",
-                "Material": "PETG, Polystyrene",
-                "Sterility": "Sterile",
-                "Application": "Cell Culture, Vaccine Production",
-                "Features": "Smooth surface, Tissue-culture treated"
+                "Type": "Diagnostic Vial",
+                "Material": "PETG (Polyethylene Terephthalate Glycol)",
+                "Capacity": "Multiple volume options available",
+                "Sterility": "Sterile and non-sterile options",
+                "Applications": "Diagnostic sample storage, clinical testing, transport",
+                "Features": "High clarity, Leak-proof design, Chemical resistant, Lightweight"
               },
               "featured": false
             }
+          ]
+        },
+        {
+          "id": "SerologicalPipette",
+          "name": "Serological Pipette",
+          "products":[
+            {
+              "id": "SerologicalPipette",
+              "name": "Serological Pipette",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2024/10/Accumax-STERIPETTE-1000x1000-1.png.bv.webp?bv_host=www.accumaxlab.com",
+              "url": "https://www.accumaxlab.com/product/serological-pipette/",
+              "voucher": "/vouchers/liquid-handling.pdf",
+              "shortDescription": "Sterile serological pipettes for accurate liquid transfer in laboratory workflows.",
+              "fullDescription": "Serological Pipettes are designed for precise measurement and transfer of liquids in cell culture, microbiology, and general laboratory applications. They ensure accuracy, sterility, and ease of use in routine lab workflows.",
+              "specifications": {
+                "Type": "Serological Pipette",
+                "Material": "Medical-grade polystyrene",
+                "Capacity": "Multiple volume ranges available",
+                "Sterility": "Gamma sterilized",
+                "Applications": "Cell culture, microbiology, liquid transfer",
+                "Features": "Graduated markings, Sterile packaging, High accuracy, Single-use"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "ScrewCapTubes",
+          "name": "Screw Cap Tubes",
+          "products":[
+              {
+                "id": "ScrewCapTubes",
+                "name": "Screw Cap Tubes",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2024/12/Mobile-banner.png",
+                "url": "https://www.accumaxlab.com/product/screw-cap-tubes/",
+                "voucher": "/vouchers/lab-consumables.pdf",
+                "shortDescription": "Secure screw cap tubes designed for safe storage and transport of laboratory samples.",
+                "fullDescription": "Screw Cap Tubes are engineered for reliable containment of biological and chemical samples. With secure sealing and high chemical resistance, they are ideal for storage, centrifugation, and transport in laboratory environments.",
+                "specifications": {
+                  "Type": "Sample Storage Tube",
+                  "Material": "High-grade polypropylene",
+                  "Capacity": "Various volume options available",
+                  "Sterility": "Sterile and non-sterile options",
+                  "Applications": "Sample storage, centrifugation, transport",
+                  "Features": "Leak-proof screw cap, Chemical resistant, Durable, Autoclavable"
+                },
+                "featured": false
+              }
+          ]
+        },
+        {
+          "id": "RollerBottle",
+          "name": "Roller Bottle",
+          "products":[
+              {
+                "id": "RollerBottle",
+                "name": "Roller Bottle",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2025/07/thumbnail-1000x1000-1.webp.bv.webp?bv_host=www.accumaxlab.com",
+                "url": "https://www.accumaxlab.com/product/roller-bottle/",
+                "voucher": "/vouchers/cell-culture-consumables.pdf",
+                "shortDescription": "High-quality roller bottle designed for efficient cell culture growth and maintenance.",
+                "fullDescription": "Roller Bottles are designed for large-scale cell culture applications, providing optimal surface area for cell attachment and growth. They ensure uniform nutrient distribution when used in roller systems, making them ideal for research, bioprocessing, and pharmaceutical applications.",
+                "specifications": {
+                  "Type": "Cell Culture Roller Bottle",
+                  "Material": "Medical-grade PET / polystyrene (variant dependent)",
+                  "Capacity": "Multiple volume options available",
+                  "Sterility": "Sterile options available",
+                  "Applications": "Cell culture, bioprocessing, vaccine production",
+                  "Features": "Uniform growth surface, High clarity, Leak-resistant cap, Compatible with roller systems"
+                },
+                "featured": false
+              }
           ]
         }
       ]
