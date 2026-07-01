@@ -945,258 +945,686 @@
       "description": "Innovative manufacturer of laboratory instruments and equipment, specializing in centrifuges, mixers, shakers, and thermal equipment for research and clinical laboratories.",
       "categories": [
         {
-          "id": "centrifuges",
+          "id": "Centrifuges",
           "name": "Centrifuges",
           "products": [
-            {
-              "id": "micro-centrifuges",
-              "name": "Micro Centrifuges",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=26",
-              "voucher": "/vouchers/micro-centrifuges.pdf",
-              "shortDescription": "High-speed micro centrifuges for molecular biology and research applications.",
-              "fullDescription": "Neuation micro centrifuges offer high-speed separation for molecular biology and research applications. Features include precise speed control, quiet operation, and user-friendly digital display. Available in various configurations to meet diverse laboratory requirements.",
-              "specifications": {
-                "Max Speed": "13,000-16,000 RPM",
-                "Max RCF": "16,000-25,000 x g",
-                "Capacity": "12-24 x 1.5/2.0ml",
-                "Features": "Digital display, Timer, Safety lock",
-                "Material": "High-quality steel, ABS"
+              {
+                "id": "Centrifuges",
+                "name": "Centrifuges",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Centrifuges.png",
+                "url": "https://www.accumaxlab.com/product-category/neuation/benchtop-centrifuge/",
+                "voucher": "/vouchers/laboratory-equipment.pdf",
+                "shortDescription": "High-performance benchtop centrifuges for reliable sample separation and laboratory workflows.",
+                "fullDescription": "Centrifuges are designed to deliver efficient and accurate sample separation for clinical, research, and industrial laboratories. Featuring robust construction, precise speed control, and user-friendly operation, they ensure reliable performance across a wide range of laboratory applications.",
+                "specifications": {
+                  "Type": "Benchtop Centrifuge",
+                  "Speed": "Model dependent",
+                  "Capacity": "Multiple rotor configurations available",
+                  "Applications": "Sample separation, Clinical diagnostics, Research",
+                  "Safety": "Lid lock and imbalance detection",
+                  "Features": "Digital controls, Quiet operation, High-speed performance, Durable construction"
+                },
+                "featured": false
               },
-              "featured": true
-            },
-            {
-              "id": "doctor-centrifuges",
-              "name": "Doctor Centrifuges",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=27",
-              "voucher": "/vouchers/doctor-centrifuges.pdf",
-              "shortDescription": "Clinical centrifuges for diagnostic and medical laboratory applications.",
-              "fullDescription": "Neuation doctor centrifuges are designed for clinical and diagnostic laboratory applications. Features include precise speed control, quiet operation, and user-friendly digital display. The compact design makes them ideal for clinical settings with limited space.",
-              "specifications": {
-                "Max Speed": "4,000-6,000 RPM",
-                "Max RCF": "2,500-4,000 x g",
-                "Capacity": "6-24 tubes",
-                "Features": "Digital display, Timer, Safety lock",
-                "Material": "High-quality steel, ABS"
+              {
+                "id": "DryBaths",
+                "name": "Dry Baths",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/09/29-D150-1-Dry-bath-.png",
+                "url": "https://www.accumaxlab.com/product-category/neuation/dry-baths/",
+                "voucher": "/vouchers/laboratory-equipment.pdf",
+                "shortDescription": "Precision dry bath incubators for accurate sample heating and incubation.",
+                "fullDescription": "Dry Baths provide uniform and precise temperature control for sample incubation, enzyme reactions, DNA denaturation, and other laboratory applications. Their compact design and interchangeable blocks make them ideal for daily laboratory use.",
+                "specifications": {
+                  "Type": "Dry Bath Incubator",
+                  "Temperature Range": "Model dependent",
+                  "Heating": "Uniform block heating",
+                  "Applications": "Sample incubation, Molecular biology, Clinical laboratories",
+                  "Display": "Digital temperature display",
+                  "Features": "Accurate temperature control, Interchangeable blocks, Compact design"
+                },
+                "featured": false
               },
-              "featured": false
-            },
-            {
-              "id": "clinical-centrifuges",
-              "name": "Clinical Centrifuges",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=28",
-              "voucher": "/vouchers/clinical-centrifuges.pdf",
-              "shortDescription": "Professional clinical centrifuges for medical and diagnostic laboratories.",
-              "fullDescription": "Neuation clinical centrifuges offer reliable performance for medical and diagnostic laboratories. Features include precise speed control, quiet operation, and user-friendly digital display. Available in various configurations to meet diverse clinical requirements.",
-              "specifications": {
-                "Max Speed": "5,000-6,500 RPM",
-                "Max RCF": "3,000-5,000 x g",
-                "Capacity": "8-24 tubes",
-                "Features": "Digital display, Timer, Safety lock",
-                "Material": "High-quality steel, ABS"
+              {
+                "id": "Homogenizers",
+                "name": "Homogenizers",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/homogenizer.png",
+                "url": "https://www.accumaxlab.com/product-category/neuation/homogenizers/",
+                "voucher": "/vouchers/laboratory-equipment.pdf",
+                "shortDescription": "Efficient homogenizers for rapid sample preparation and tissue disruption.",
+                "fullDescription": "Homogenizers are engineered for consistent mixing, emulsification, and disruption of biological and chemical samples. They provide reliable performance for research laboratories, pharmaceutical applications, and biotechnology workflows.",
+                "specifications": {
+                  "Type": "Laboratory Homogenizer",
+                  "Operation": "Motorized",
+                  "Applications": "Tissue homogenization, Cell disruption, Sample preparation",
+                  "Speed": "Variable (model dependent)",
+                  "Material": "Laboratory-grade construction",
+                  "Features": "High efficiency, Ergonomic design, Low vibration, Easy operation"
+                },
+                "featured": false
               },
-              "featured": false
-            },
-            {
-              "id": "lab-centrifuges",
-              "name": "Lab Centrifuges",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=29",
-              "voucher": "/vouchers/lab-centrifuges.pdf",
-              "shortDescription": "Versatile laboratory centrifuges for various research applications.",
-              "fullDescription": "Neuation lab centrifuges offer versatile separation solutions for various laboratory applications. Features include precise speed control, quiet operation, and user-friendly digital display. Available with multiple rotor options to meet diverse research requirements.",
-              "specifications": {
-                "Max Speed": "5,000-12,000 RPM",
-                "Max RCF": "4,000-15,000 x g",
-                "Capacity": "Various rotors available",
-                "Features": "Digital display, Timer, Safety lock",
-                "Material": "High-quality steel, ABS"
+              {
+                "id": "Incubators",
+                "name": "Incubators",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2026/05/Product-thumbnail.webp",
+                "url": "https://www.accumaxlab.com/product-category/neuation/incubators/",
+                "voucher": "/vouchers/laboratory-equipment.pdf",
+                "shortDescription": "Laboratory incubators providing stable temperature conditions for sample growth and testing.",
+                "fullDescription": "Incubators are designed to maintain precise temperature conditions for microbiology, cell culture, and laboratory research. Their reliable temperature uniformity ensures reproducible results across various scientific applications.",
+                "specifications": {
+                  "Type": "Laboratory Incubator",
+                  "Temperature Range": "Model dependent",
+                  "Control": "Digital temperature controller",
+                  "Applications": "Cell culture, Microbiology, Research",
+                  "Construction": "Corrosion-resistant chamber",
+                  "Features": "Uniform heating, Low noise, Digital display, Stable temperature control"
+                },
+                "featured": false
               },
-              "featured": false
-            },
-            {
-              "id": "universal-centrifuges",
-              "name": "Universal Centrifuges",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=30",
-              "voucher": "/vouchers/universal-centrifuges.pdf",
-              "shortDescription": "Universal centrifuges for multi-application use in research laboratories.",
-              "fullDescription": "Neuation universal centrifuges offer maximum versatility for various laboratory applications. Features include precise speed control, quiet operation, and user-friendly digital display. Available with multiple rotor options and programmable settings for diverse requirements.",
-              "specifications": {
-                "Max Speed": "4,000-14,000 RPM",
-                "Max RCF": "3,000-20,000 x g",
-                "Capacity": "Multiple rotor options",
-                "Features": "Digital display, Timer, Safety lock",
-                "Material": "High-quality steel, ABS"
+              {
+                "id": "Rollers",
+                "name": "Rollers",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/09/30-M6-Roller-with-tubes.png",
+                "url": "https://www.accumaxlab.com/product-category/neuation/rollers/",
+                "voucher": "/vouchers/laboratory-equipment.pdf",
+                "shortDescription": "Laboratory rollers for gentle sample mixing and cell culture applications.",
+                "fullDescription": "Rollers are designed for continuous and uniform mixing of biological samples, blood tubes, and cell culture bottles. They provide smooth operation and adjustable speed for consistent laboratory performance.",
+                "specifications": {
+                  "Type": "Laboratory Roller",
+                  "Speed": "Variable (model dependent)",
+                  "Applications": "Cell culture, Blood sample mixing, General laboratory use",
+                  "Operation": "Continuous rolling",
+                  "Capacity": "Model dependent",
+                  "Features": "Quiet operation, Adjustable speed, Durable construction"
+                },
+                "featured": false
               },
-              "featured": false
-            },
-            {
-              "id": "refrigerated-centrifuges",
-              "name": "Refrigerated Centrifuges",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=31",
-              "voucher": "/vouchers/refrigerated-centrifuges.pdf",
-              "shortDescription": "Temperature-controlled refrigerated centrifuges for sensitive samples.",
-              "fullDescription": "Neuation refrigerated centrifuges offer temperature-controlled separation for sensitive samples. Features include precise temperature and speed control, quiet operation, and user-friendly digital display. Available in various configurations to meet diverse research requirements.",
-              "specifications": {
-                "Max Speed": "6,000-15,000 RPM",
-                "Max RCF": "5,000-25,000 x g",
-                "Temperature Range": "-20°C to +40°C",
-                "Features": "Digital display, Timer, Safety lock",
-                "Material": "High-quality steel, ABS"
+              {
+                "id": "Shakers",
+                "name": "Shakers",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/shakers.png",
+                "url": "https://www.accumaxlab.com/product-category/neuation/shakers/",
+                "voucher": "/vouchers/laboratory-equipment.pdf",
+                "shortDescription": "Precision laboratory shakers for efficient mixing and sample preparation.",
+                "fullDescription": "Shakers provide reliable orbital or linear motion for mixing liquids, culturing cells, and preparing laboratory samples. Designed for smooth operation and consistent performance across research and industrial laboratories.",
+                "specifications": {
+                  "Type": "Laboratory Shaker",
+                  "Motion": "Orbital / Linear (model dependent)",
+                  "Speed": "Variable",
+                  "Applications": "Sample mixing, Cell culture, Research",
+                  "Control": "Digital speed control",
+                  "Features": "Low vibration, Quiet operation, Timer function"
+                },
+                "featured": false
               },
-              "featured": true
-            }
-          ]
+              {
+                "id": "Stirrers",
+                "name": "Stirrers",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/stirrers.png",
+                "url": "https://www.accumaxlab.com/product-category/neuation/stirrers/",
+                "voucher": "/vouchers/laboratory-equipment.pdf",
+                "shortDescription": "Magnetic stirrers for precise and efficient solution mixing.",
+                "fullDescription": "Laboratory stirrers provide uniform mixing of liquids with adjustable speed control for chemical, biological, and pharmaceutical applications. They are built for durability and continuous operation.",
+                "specifications": {
+                  "Type": "Magnetic Stirrer",
+                  "Speed": "Variable",
+                  "Applications": "Solution mixing, Chemical preparation, Research",
+                  "Control": "Digital controls",
+                  "Construction": "Chemical-resistant top plate",
+                  "Features": "Smooth operation, Compact design, Precise speed adjustment"
+                },
+                "featured": false
+              },
+              {
+                "id": "VortexMixers",
+                "name": "Vortex Mixers",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/vortex-mixers.png",
+                "url": "https://www.accumaxlab.com/product-category/neuation/vortex-mixers/",
+                "voucher": "/vouchers/laboratory-equipment.pdf",
+                "shortDescription": "Powerful vortex mixers for rapid and consistent sample mixing.",
+                "fullDescription": "Vortex Mixers are designed to quickly mix laboratory samples with minimal effort. Suitable for tubes, vials, and small containers, they deliver reliable performance for research, diagnostics, and routine laboratory workflows.",
+                "specifications": {
+                  "Type": "Vortex Mixer",
+                  "Mixing Motion": "Orbital vortex",
+                  "Speed": "Variable",
+                  "Applications": "Sample mixing, Molecular biology, Clinical laboratories",
+                  "Operation": "Touch and continuous modes",
+                  "Features": "Compact design, Low noise, Stable operation, Digital controls (selected models)"
+                },
+                "featured": false
+              },
+              {
+                "id": "WaterBaths",
+                "name": "Water Baths",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2026/05/Category-page-Thumbnail.webp",
+                "url": "https://www.accumaxlab.com/product-category/neuation/water-baths/",
+                "voucher": "/vouchers/laboratory-equipment.pdf",
+                "shortDescription": "Temperature-controlled water baths for laboratory heating and incubation applications.",
+                "fullDescription": "Water Baths provide accurate and uniform temperature control for sample warming, incubation, enzyme reactions, and laboratory testing. They are designed for dependable performance and ease of operation in research and clinical laboratories.",
+                "specifications": {
+                  "Type": "Laboratory Water Bath",
+                  "Temperature Range": "Model dependent",
+                  "Control": "Digital temperature controller",
+                  "Applications": "Sample warming, Incubation, Molecular biology",
+                  "Construction": "Stainless steel chamber",
+                  "Features": "Uniform heating, Digital display, Over-temperature protection, Easy maintenance"
+                },
+                "featured": false
+              }
+            ]
         },
         {
-          "id": "mixers-shakers",
-          "name": "Mixers & Shakers",
+          "id": "Vortex Mixers",
+          "name": "Vortex Mixers",
           "products": [
-            {
-              "id": "vortex-mixers",
-              "name": "Vortex Mixers",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=32",
-              "voucher": "/vouchers/vortex-mixers.pdf",
-              "shortDescription": "Powerful vortex mixers for effective sample mixing and preparation.",
-              "fullDescription": "Neuation vortex mixers provide efficient and reliable mixing for various laboratory applications. Features include adjustable speed control, quiet operation, and user-friendly design. Available in various configurations to meet diverse mixing requirements.",
-              "specifications": {
-                "Speed Range": "0-3,000 RPM",
-                "Orbit": "4.5mm",
-                "Mode": "Continuous, Touch, Pulse",
-                "Application": "Vortexing, Sample Preparation",
-                "Material": "High-quality steel, ABS"
+              {
+                "id": "iSwix",
+                "name": "iSwix",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iswix-1.png",
+                "url": "https://www.accumaxlab.com/vortex-mixer/iswix/",
+                "voucher": "/vouchers/vortex-mixers.pdf",
+                "shortDescription": "Compact vortex mixer for rapid and efficient sample mixing.",
+                "fullDescription": "The iSwix Vortex Mixer is designed for fast, reliable mixing of laboratory samples. Its compact footprint, powerful motor, and stable operation make it ideal for research, clinical, and diagnostic laboratories.",
+                "specifications": {
+                  "Type": "Vortex Mixer",
+                  "Operation": "Touch and Continuous",
+                  "Speed": "Variable",
+                  "Applications": "Sample mixing, Molecular biology, Clinical laboratories",
+                  "Power": "Electric",
+                  "Features": "Compact design, Low vibration, Quiet operation, Durable construction"
+                },
+                "featured": false
               },
-              "featured": true
-            },
-            {
-              "id": "shakers",
-              "name": "Shakers",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=33",
-              "voucher": "/vouchers/shakers.pdf",
-              "shortDescription": "Versatile shakers for orbital and rocking applications in laboratories.",
-              "fullDescription": "Neuation shakers offer versatile shaking solutions for various laboratory applications including cell culture, sample preparation, and incubation. Features include adjustable speed control, quiet operation, and user-friendly design. Available with various platform options for diverse requirements.",
-              "specifications": {
-                "Speed Range": "50-250 RPM",
-                "Orbit": "20mm",
-                "Capacity": "Up to 2kg",
-                "Features": "Digital display, Timer",
-                "Material": "High-quality steel, ABS"
+              {
+                "id": "iSwixFS",
+                "name": "iSwix FS",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2022/07/iswix-FS-1.png",
+                "url": "https://www.accumaxlab.com/vortex-mixer/iswix-fs/",
+                "voucher": "/vouchers/vortex-mixers.pdf",
+                "shortDescription": "High-performance vortex mixer with fixed speed operation.",
+                "fullDescription": "The iSwix FS is engineered for consistent and efficient sample mixing with fixed-speed performance. It is ideal for routine laboratory workflows requiring reliable and repeatable vortex mixing.",
+                "specifications": {
+                  "Type": "Fixed Speed Vortex Mixer",
+                  "Operation": "Touch and Continuous",
+                  "Speed": "Fixed",
+                  "Applications": "Routine sample mixing, Clinical diagnostics",
+                  "Power": "Electric",
+                  "Features": "Stable performance, Compact design, Quiet operation"
+                },
+                "featured": false
               },
-              "featured": false
-            }
-          ]
+              {
+                "id": "iSwixJr",
+                "name": "iSwix Jr",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/iSwix-Jr2.png",
+                "url": "https://www.accumaxlab.com/vortex-mixer/iswix-jr/",
+                "voucher": "/vouchers/vortex-mixers.pdf",
+                "shortDescription": "Compact personal vortex mixer for everyday laboratory applications.",
+                "fullDescription": "The iSwix Jr offers efficient sample mixing in a compact and portable design. It is perfect for laboratories requiring quick vortexing of small sample volumes.",
+                "specifications": {
+                  "Type": "Personal Vortex Mixer",
+                  "Operation": "Touch",
+                  "Speed": "Fixed",
+                  "Applications": "Sample preparation, Educational labs, Clinical labs",
+                  "Power": "Electric",
+                  "Features": "Lightweight, Portable, Low noise, Durable"
+                },
+                "featured": false
+              },
+              {
+                "id": "iSwixJrNXT",
+                "name": "iSwix Jr. NXT and iSwix Jr. VT NXT",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2022/07/iSwix-Jr.-NXT-and-iSwix-Jr.-VT-NXT.png",
+                "url": "https://www.accumaxlab.com/vortex-mixer/iswix-jr-nxt-and-iswix-jr-vt-nxt/",
+                "voucher": "/vouchers/vortex-mixers.pdf",
+                "shortDescription": "Next-generation vortex mixers with enhanced performance and ergonomic design.",
+                "fullDescription": "The iSwix Jr. NXT and iSwix Jr. VT NXT combine compact size with improved performance, offering efficient sample mixing for modern laboratory environments.",
+                "specifications": {
+                  "Type": "Advanced Vortex Mixer",
+                  "Operation": "Touch and Continuous",
+                  "Speed": "Variable",
+                  "Applications": "Research, Diagnostics, Molecular biology",
+                  "Power": "Electric",
+                  "Features": "Enhanced stability, Ergonomic design, Quiet operation, Reliable performance"
+                },
+                "featured": false
+              },
+              {
+                "id": "iSwixJrVT",
+                "name": "iSwix Jr. VT",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iSwix-Jr.-VT-2.webp",
+                "url": "https://www.accumaxlab.com/vortex-mixer/iswix-jr-vt/",
+                "voucher": "/vouchers/vortex-mixers.pdf",
+                "shortDescription": "Variable-speed compact vortex mixer for versatile laboratory mixing.",
+                "fullDescription": "The iSwix Jr. VT provides precise variable-speed vortex mixing for a wide range of laboratory applications, ensuring efficient and reproducible results.",
+                "specifications": {
+                  "Type": "Variable Speed Vortex Mixer",
+                  "Operation": "Touch and Continuous",
+                  "Speed": "Variable",
+                  "Applications": "Sample preparation, Diagnostics, Research",
+                  "Power": "Electric",
+                  "Features": "Variable speed control, Compact footprint, Stable operation"
+                },
+                "featured": false
+              },
+              {
+                "id": "iSwixMV",
+                "name": "iSwix MV",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/iswix-MV-1.png",
+                "url": "https://www.accumaxlab.com/vortex-mixer/iswix-mv/",
+                "voucher": "/vouchers/vortex-mixers.pdf",
+                "shortDescription": "Multi-vortex mixer for simultaneous mixing of multiple samples.",
+                "fullDescription": "The iSwix MV is designed for high-throughput laboratories, enabling simultaneous mixing of multiple tubes with consistent performance and reduced hands-on time.",
+                "specifications": {
+                  "Type": "Multi-Tube Vortex Mixer",
+                  "Operation": "Continuous",
+                  "Speed": "Variable",
+                  "Applications": "High-throughput laboratories, Sample preparation",
+                  "Capacity": "Multiple tubes",
+                  "Features": "High productivity, Uniform mixing, Robust construction"
+                },
+                "featured": false
+              },
+              {
+                "id": "iSwixVT",
+                "name": "iSwix VT",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iswix-VT-1.png",
+                "url": "https://www.accumaxlab.com/digital-vortex-mixer-iswix-vt/",
+                "voucher": "/vouchers/vortex-mixers.pdf",
+                "shortDescription": "Digital vortex mixer with precise speed control for demanding laboratory applications.",
+                "fullDescription": "The iSwix VT Digital Vortex Mixer delivers accurate and consistent vortex mixing with digital controls, making it suitable for research, pharmaceutical, and clinical laboratories.",
+                "specifications": {
+                  "Type": "Digital Vortex Mixer",
+                  "Operation": "Touch and Continuous",
+                  "Speed": "Digital Variable Control",
+                  "Applications": "Research, Diagnostics, Pharmaceutical laboratories",
+                  "Display": "Digital",
+                  "Features": "Precise speed control, Digital interface, Stable operation, Quiet performance"
+                },
+                "featured": false
+              }
+            ]
         },
         {
-          "id": "rotators-stirrers",
-          "name": "Rotators & Stirrers",
+          "id": "Rollers",
+          "name": "Rollers & Stirrers",
           "products": [
-            {
-              "id": "rollers",
-              "name": "Rollers",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=34",
-              "voucher": "/vouchers/rollers.pdf",
-              "shortDescription": "Roller mixers for gentle and thorough mixing of laboratory samples.",
-              "fullDescription": "Neuation rollers provide gentle yet thorough mixing for various laboratory applications. Features include adjustable speed control, quiet operation, and user-friendly design. Available in various configurations to meet diverse mixing requirements.",
-              "specifications": {
-                "Speed Range": "5-80 RPM",
-                "Capacity": "6-12 tubes",
-                "Mode": "Continuous, Pulse",
-                "Application": "Mixing, Blood Collection",
-                "Material": "High-quality steel, ABS"
+              {
+                "id": "DiscRotator",
+                "name": "Disc Rotator",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Disc-Rotator.png",
+                "url": "https://www.accumaxlab.com/product-category/neuation/rollers/disc-rotator/",
+                "voucher": "/vouchers/rollers.pdf",
+                "shortDescription": "Laboratory disc rotator for gentle and uniform mixing of biological samples.",
+                "fullDescription": "The Disc Rotator provides smooth rotational mixing for blood samples, hybridization procedures, and other laboratory applications requiring gentle agitation. Its reliable performance and adjustable operating parameters make it ideal for research, clinical, and biotechnology laboratories.",
+                "specifications": {
+                  "Type": "Disc Rotator",
+                  "Rotation": "Continuous",
+                  "Speed": "Variable (model dependent)",
+                  "Applications": "Blood mixing, Hybridization, General laboratory mixing",
+                  "Capacity": "Multiple tube configurations",
+                  "Features": "Quiet operation, Stable platform, Adjustable speed, Continuous rotation"
+                },
+                "featured": false
               },
-              "featured": false
-            },
-            {
-              "id": "stirrers",
-              "name": "Stirrers",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=35",
-              "voucher": "/vouchers/stirrers.pdf",
-              "shortDescription": "High-performance stirrers for laboratory mixing and heating applications.",
-              "fullDescription": "Neuation stirrers offer efficient mixing solutions for various laboratory applications. Features include adjustable speed control, quiet operation, and user-friendly design. Available with heating options for temperature-controlled mixing.",
-              "specifications": {
-                "Speed Range": "50-2000 RPM",
-                "Capacity": "Up to 20L",
-                "Features": "Digital display, Timer, Hot plate option",
-                "Application": "Stirring, Heating, Mixing",
-                "Material": "High-quality steel, Ceramic"
+              {
+                "id": "PlateRotator",
+                "name": "Plate Rotator",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Plate-Rotator.png",
+                "url": "https://www.accumaxlab.com/product-category/neuation/rollers/plate-rotator/",
+                "voucher": "/vouchers/rollers.pdf",
+                "shortDescription": "Efficient plate rotator designed for gentle mixing of microplates and laboratory samples.",
+                "fullDescription": "The Plate Rotator delivers consistent rotational mixing for microplates, culture plates, and laboratory containers. It is designed for applications requiring gentle agitation while maintaining sample integrity.",
+                "specifications": {
+                  "Type": "Plate Rotator",
+                  "Rotation": "Continuous",
+                  "Speed": "Variable (model dependent)",
+                  "Applications": "Microplate mixing, Cell culture, Immunoassays",
+                  "Capacity": "Multiple plate formats",
+                  "Features": "Smooth rotation, Adjustable speed, Compact design, Reliable operation"
+                },
+                "featured": false
               },
-              "featured": false
-            }
-          ]
+              {
+                "id": "TubeRoller",
+                "name": "Tube Roller",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Tube-Roller.png",
+                "url": "https://www.accumaxlab.com/product-category/neuation/rollers/tube-roller/",
+                "voucher": "/vouchers/rollers.pdf",
+                "shortDescription": "Laboratory tube roller for continuous and uniform mixing of blood tubes and sample containers.",
+                "fullDescription": "The Tube Roller is designed for gentle and continuous rolling of laboratory tubes, ensuring homogeneous sample mixing without damaging delicate biological materials. It is widely used in clinical diagnostics, molecular biology, and research laboratories.",
+                "specifications": {
+                  "Type": "Tube Roller",
+                  "Operation": "Continuous rolling",
+                  "Speed": "Variable (model dependent)",
+                  "Applications": "Blood sample mixing, Cell culture, General laboratory use",
+                  "Capacity": "Multiple tubes",
+                  "Features": "Quiet operation, Adjustable speed, Durable construction, Uniform sample mixing"
+                },
+                "featured": false
+              }
+            ]
         },
         {
-          "id": "thermal-equipment",
-          "name": "Thermal Equipment",
+          "id": "Stirrers",
+          "name": "Stirrers",
+          "products": [
+                {
+                  "id": "LargeCapacityStirrers",
+                  "name": "Large Capacity Stirrers",
+                  "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Large-Capacity-Stirrers.png",
+                  "url": "https://www.accumaxlab.com/product-category/neuation/stirrers/large-capacity-stirrers/",
+                  "voucher": "/vouchers/stirrers.pdf",
+                  "shortDescription": "High-capacity laboratory stirrers designed for mixing large volumes with precision and reliability.",
+                  "fullDescription": "Large Capacity Stirrers are engineered for demanding laboratory and industrial applications requiring efficient mixing of high-volume liquids. They provide stable operation, powerful performance, and precise speed control for consistent results.",
+                  "specifications": {
+                    "Type": "Large Capacity Magnetic Stirrer",
+                    "Capacity": "High volume (model dependent)",
+                    "Speed": "Variable speed control",
+                    "Applications": "Chemical processing, Research laboratories, Industrial mixing",
+                    "Control": "Digital speed adjustment",
+                    "Features": "High torque motor, Stable operation, Durable construction, Continuous operation"
+                  },
+                  "featured": false
+                },
+                {
+                  "id": "MagneticStirrerWithHotPlate",
+                  "name": "Magnetic Stirrer With Hot Plate",
+                  "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Magnetic-Stirrer-With-Hot-Plate.png",
+                  "url": "https://www.accumaxlab.com/product-category/neuation/stirrers/magnetic-stirrer-with-hot-plate/",
+                  "voucher": "/vouchers/stirrers.pdf",
+                  "shortDescription": "Magnetic stirrer with integrated hot plate for simultaneous heating and mixing applications.",
+                  "fullDescription": "Magnetic Stirrers with Hot Plate combine precise heating and efficient stirring in a single instrument. They are ideal for chemical reactions, solution preparation, and laboratory research requiring accurate temperature and mixing control.",
+                  "specifications": {
+                    "Type": "Magnetic Stirrer with Hot Plate",
+                    "Heating": "Integrated hot plate",
+                    "Speed": "Variable speed control",
+                    "Temperature": "Adjustable (model dependent)",
+                    "Applications": "Chemical reactions, Sample preparation, Laboratory research",
+                    "Features": "Digital controls, Uniform heating, Chemical-resistant surface, Precise stirring"
+                  },
+                  "featured": false
+                },
+                {
+                  "id": "MagneticStirrers",
+                  "name": "Magnetic Stirrers",
+                  "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Magnetic-Stirrers.png",
+                  "url": "https://www.accumaxlab.com/product-category/neuation/stirrers/magnetic-stirrers/",
+                  "voucher": "/vouchers/stirrers.pdf",
+                  "shortDescription": "Reliable magnetic stirrers for smooth and consistent liquid mixing in laboratory applications.",
+                  "fullDescription": "Magnetic Stirrers are designed for efficient mixing of liquids with precise speed control. Their compact design and dependable performance make them suitable for research laboratories, educational institutions, and industrial environments.",
+                  "specifications": {
+                    "Type": "Magnetic Stirrer",
+                    "Speed": "Variable speed control",
+                    "Capacity": "Model dependent",
+                    "Applications": "Solution mixing, Chemical laboratories, Research",
+                    "Control": "Digital or analog (model dependent)",
+                    "Features": "Quiet operation, Compact design, Chemical-resistant surface, Reliable performance"
+                  },
+                  "featured": false
+                },
+                {
+                  "id": "OverheadStirrer",
+                  "name": "Overhead Stirrer",
+                  "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Overhead-Stirrers.png",
+                  "url": "https://www.accumaxlab.com/product-category/neuation/stirrers/overhead-stirrer/",
+                  "voucher": "/vouchers/stirrers.pdf",
+                  "shortDescription": "Powerful overhead stirrers for high-viscosity mixing and demanding laboratory processes.",
+                  "fullDescription": "Overhead Stirrers are designed for mixing high-viscosity samples and large volumes with exceptional stability and precision. They are widely used in pharmaceutical, chemical, biotechnology, and research laboratories.",
+                  "specifications": {
+                    "Type": "Overhead Stirrer",
+                    "Speed": "Variable speed control",
+                    "Capacity": "High volume (model dependent)",
+                    "Applications": "High-viscosity mixing, Chemical processing, Pharmaceutical research",
+                    "Motor": "High torque motor",
+                    "Features": "Digital controls, Stable operation, Durable construction, Continuous-duty performance"
+                  },
+                  "featured": false
+                }
+              ]
+        },
+        {
+          "id": "Shakers",
+          "name": "Shakers",
+          "products": [
+              {
+                "id": "iShak3D5NXT",
+                "name": "iShak 3D-5 NXT",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2023/03/700x500Px.png.bv.webp?bv_host=www.accumaxlab.com",
+                "url": "https://www.accumaxlab.com/shaker/ishak-3d-5-nxt/",
+                "voucher": "/vouchers/shakers.pdf",
+                "shortDescription": "3D orbital shaker designed for smooth and uniform mixing of laboratory samples.",
+                "fullDescription": "The iShak 3D-5 NXT is a compact three-dimensional shaker engineered for gentle and consistent mixing of samples in laboratories. It provides reliable performance for staining, washing, hybridization, and general sample preparation applications.",
+                "specifications": {
+                  "Type": "3D Orbital Shaker",
+                  "Motion": "3D rocking motion",
+                  "Speed": "Variable speed control",
+                  "Applications": "Sample mixing, Staining, Hybridization, Cell culture",
+                  "Control": "Digital",
+                  "Features": "Quiet operation, Compact design, Continuous operation, Stable platform"
+                },
+                "featured": false
+              },
+              {
+                "id": "iShakBLUnoVT",
+                "name": "iShak BL Uno VT",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2023/03/iShak-BL-UNO-VT-product-image.png.bv.webp?bv_host=www.accumaxlab.com",
+                "url": "https://www.accumaxlab.com/shaker/ishak-bl-uno-vt/",
+                "voucher": "/vouchers/shakers.pdf",
+                "shortDescription": "Compact laboratory shaker offering efficient and reliable sample agitation.",
+                "fullDescription": "The iShak BL Uno VT is designed for dependable mixing of laboratory samples with smooth variable-speed operation. Its compact footprint makes it suitable for routine laboratory workflows and research applications.",
+                "specifications": {
+                  "Type": "Laboratory Shaker",
+                  "Motion": "Orbital",
+                  "Speed": "Variable speed control",
+                  "Applications": "Sample preparation, Research, Diagnostics",
+                  "Control": "Digital",
+                  "Features": "Compact design, Low vibration, Quiet operation, Reliable performance"
+                },
+                "featured": false
+              },
+              {
+                "id": "iShakPS1020NXT",
+                "name": "iShak PS 10 / 20 NXT",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2020/05/700x700.webp",
+                "url": "https://www.accumaxlab.com/ishak-ps-10-20-nxt/",
+                "voucher": "/vouchers/shakers.pdf",
+                "shortDescription": "Platform shaker for efficient mixing of laboratory samples and culture vessels.",
+                "fullDescription": "The iShak PS 10 / 20 NXT platform shaker delivers precise orbital shaking for flasks, bottles, and laboratory containers. It is designed for continuous operation in research, microbiology, and biotechnology laboratories.",
+                "specifications": {
+                  "Type": "Platform Shaker",
+                  "Motion": "Orbital",
+                  "Speed": "Variable speed control",
+                  "Applications": "Cell culture, Sample mixing, Biotechnology",
+                  "Capacity": "Model dependent",
+                  "Features": "Digital controls, Stable platform, Quiet operation, Continuous duty"
+                },
+                "featured": false
+              },
+              {
+                "id": "iShakQuattroNXT",
+                "name": "iShak Quattro NXT",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/03/700X500Px.-01-1.png",
+                "url": "https://www.accumaxlab.com/microplate-shaker/ishak-quattro-nxt/",
+                "voucher": "/vouchers/shakers.pdf",
+                "shortDescription": "High-performance microplate shaker for consistent mixing of microplates.",
+                "fullDescription": "The iShak Quattro NXT is designed to provide uniform shaking for microplates used in ELISA, PCR preparation, and other laboratory assays. It delivers accurate mixing with dependable performance.",
+                "specifications": {
+                  "Type": "Microplate Shaker",
+                  "Motion": "Orbital",
+                  "Speed": "Variable speed control",
+                  "Applications": "ELISA, PCR preparation, Sample mixing",
+                  "Capacity": "Multiple microplates",
+                  "Features": "Compact design, Digital controls, Quiet operation, Uniform mixing"
+                },
+                "featured": false
+              },
+              {
+                "id": "iShakTS4NXT",
+                "name": "iShak TS4 NXT",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/03/iShak-TS4-NXT-Product-image.png",
+                "url": "https://www.accumaxlab.com/microplate-incubator-shaker/ishak-ts4-nxt/",
+                "voucher": "/vouchers/shakers.pdf",
+                "shortDescription": "Microplate incubator shaker combining temperature control with efficient sample mixing.",
+                "fullDescription": "The iShak TS4 NXT integrates incubation and shaking functions into a single instrument, making it ideal for enzyme assays, cell culture, and molecular biology applications requiring precise temperature and agitation.",
+                "specifications": {
+                  "Type": "Microplate Incubator Shaker",
+                  "Motion": "Orbital",
+                  "Temperature": "Adjustable",
+                  "Speed": "Variable speed control",
+                  "Applications": "ELISA, Cell culture, Molecular biology",
+                  "Features": "Digital display, Uniform heating, Stable shaking, Programmable operation"
+                },
+                "featured": false
+              },
+              {
+                "id": "iShakUS15",
+                "name": "iShak US15",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2023/03/iShak-US15-product-image.png.bv.webp?bv_host=www.accumaxlab.com",
+                "url": "https://www.accumaxlab.com/shaker/ishak-us15/",
+                "voucher": "/vouchers/shakers.pdf",
+                "shortDescription": "Laboratory shaker providing precise and reliable agitation for everyday sample preparation.",
+                "fullDescription": "The iShak US15 is engineered for efficient mixing of laboratory samples with smooth and consistent performance. Its compact design and reliable operation make it suitable for research, diagnostics, and routine laboratory applications.",
+                "specifications": {
+                  "Type": "Laboratory Shaker",
+                  "Motion": "Orbital",
+                  "Speed": "Variable speed control",
+                  "Applications": "Sample mixing, Research laboratories, Diagnostics",
+                  "Control": "Digital",
+                  "Features": "Compact footprint, Quiet operation, Stable platform, Durable construction"
+                },
+                "featured": false
+              }
+            ]
+        },
+        {
+          "id": "Dry Baths",
+          "name": "Dry Baths",
           "products": [
             {
-              "id": "dry-baths",
-              "name": "Dry Baths",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=36",
+              "id": "iThermD1501",
+              "name": "iTherm D150-1",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2021/09/iTherm-D150-4.png",
+              "url": "https://www.accumaxlab.com/dry-bath/itherm-d150-1/",
               "voucher": "/vouchers/dry-baths.pdf",
-              "shortDescription": "Precise dry baths for temperature-controlled laboratory applications.",
-              "fullDescription": "Neuation dry baths offer precise temperature control for various laboratory applications including incubation, enzymatic reactions, and sample preparation. Features include accurate temperature control, user-friendly digital display, and multiple block options.",
+              "shortDescription": "Compact digital dry bath for precise heating of laboratory samples.",
+              "fullDescription": "The iTherm D150-1 is a compact dry bath incubator designed for accurate and uniform heating of laboratory samples. It features precise temperature control, rapid heating, and interchangeable heating blocks, making it suitable for molecular biology, clinical, and research laboratories.",
               "specifications": {
-                "Temperature Range": "Ambient +5°C to 120°C",
-                "Capacity": "1-4 blocks",
-                "Features": "Digital display, Timer",
-                "Application": "Incubation, Enzymatic Reactions",
-                "Material": "High-quality aluminum, ABS"
+                "Temperature Range": "Ambient +5°C to 150°C",
+                "Temperature Accuracy": "±0.3°C",
+                "Temperature Uniformity": "Excellent block uniformity",
+                "Display": "Digital LCD",
+                "Applications": "Sample incubation, enzyme reactions, DNA/RNA preparation",
+                "Features": "Compact design, Fast heating, Interchangeable blocks, Over-temperature protection"
               },
               "featured": false
             },
             {
-              "id": "incubators",
-              "name": "Incubators",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=37",
-              "voucher": "/vouchers/incubators.pdf",
-              "shortDescription": "Reliable incubators for microbiological and cell culture applications.",
-              "fullDescription": "Neuation incubators offer reliable temperature control for microbiological and cell culture applications. Features include precise temperature control, uniform heat distribution, and user-friendly digital display. Available in various capacities to meet diverse requirements.",
+              "id": "iThermD1504",
+              "name": "iTherm D150-4",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/iTherm-D150-4closed-lid-1.png",
+              "url": "https://www.accumaxlab.com/dry-bath/itherm-d150-4/",
+              "voucher": "/vouchers/dry-baths.pdf",
+              "shortDescription": "Multi-block digital dry bath with heated lid for consistent sample incubation.",
+              "fullDescription": "The iTherm D150-4 is a high-performance dry bath incubator equipped with multiple block capacity and a heated lid to minimize sample evaporation. It delivers precise temperature control and uniform heating, making it ideal for PCR preparation, enzyme reactions, and other demanding laboratory workflows.",
               "specifications": {
-                "Temperature Range": "Ambient +5°C to 100°C",
-                "Capacity": "50-500 Litres",
-                "Features": "Digital display, Timer, Shaker option",
-                "Application": "Microbiology, Cell Culture",
-                "Material": "High-quality steel, Glass"
-              },
-              "featured": true
-            },
-            {
-              "id": "water-baths",
-              "name": "Water Baths",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=38",
-              "voucher": "/vouchers/water-baths.pdf",
-              "shortDescription": "Precision water baths for temperature-controlled laboratory applications.",
-              "fullDescription": "Neuation water baths offer precise temperature control for various laboratory applications including incubation, thawing, and heating. Features include accurate temperature control, uniform heat distribution, and user-friendly digital display. Available in various capacities to meet diverse requirements.",
-              "specifications": {
-                "Temperature Range": "Ambient +5°C to 100°C",
-                "Capacity": "4-25 Litres",
-                "Features": "Digital display, Timer",
-                "Application": "Incubation, Thawing, Heating",
-                "Material": "High-quality stainless steel"
+                "Temperature Range": "Ambient +5°C to 150°C",
+                "Temperature Accuracy": "±0.3°C",
+                "Block Capacity": "Multiple interchangeable heating blocks",
+                "Display": "Digital LCD",
+                "Applications": "PCR preparation, Sample incubation, Molecular biology, Clinical laboratories",
+                "Features": "Heated lid, Fast heating, Uniform temperature distribution, Over-temperature protection"
               },
               "featured": false
             }
           ]
         },
         {
-          "id": "homogenizers",
+          "id": "Incubators",
+          "name": "Incubators",
+          "products": [
+            {
+              "id": "iThermCH25NXT",
+              "name": "iTherm CH25 NXT",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2019/11/Product-thumbnail.webp",
+              "url": "https://www.accumaxlab.com/incubator/itherm-ch25-nxt/",
+              "voucher": "/vouchers/incubators.pdf",
+              "shortDescription": "Compact digital laboratory incubator for precise temperature-controlled sample incubation.",
+              "fullDescription": "The iTherm CH25 NXT is a compact laboratory incubator designed to provide accurate and uniform temperature control for biological, clinical, and research applications. Featuring a digital interface, precise temperature regulation, and efficient chamber heating, it is ideal for sample incubation, microbiology, and molecular biology workflows.",
+              "specifications": {
+                "Temperature Range": "Ambient +5°C to 70°C",
+                "Temperature Accuracy": "±0.5°C",
+                "Chamber Capacity": "25 L",
+                "Display": "Digital LCD",
+                "Applications": "Sample incubation, Cell culture, Microbiology, Molecular biology",
+                "Features": "Uniform heating, Compact design, Digital temperature control, Over-temperature protection"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "Water_Baths",
+          "name": "Water Baths",
+          "products": [
+              {
+                "id": "iThermWB",
+                "name": "iTherm WB",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2026/04/Product-thumbnail.webp.bv.webp?bv_host=www.accumaxlab.com",
+                "url": "https://www.accumaxlab.com/product/itherm-wb/",
+                "voucher": "/vouchers/water-baths.pdf",
+                "shortDescription": "Digital laboratory water bath for accurate and uniform sample heating.",
+                "fullDescription": "The iTherm WB is a precision laboratory water bath designed to provide stable and uniform temperature control for sample incubation, reagent warming, and various laboratory heating applications. Its digital control system, durable stainless-steel chamber, and efficient heating technology ensure reliable performance in research, clinical, pharmaceutical, and industrial laboratories.",
+                "specifications": {
+                  "Temperature Range": "Ambient +5°C to 100°C",
+                  "Temperature Accuracy": "±0.2°C",
+                  "Chamber Material": "Stainless Steel",
+                  "Display": "Digital LCD",
+                  "Applications": "Sample incubation, Reagent warming, Cell culture, Molecular biology",
+                  "Features": "Uniform temperature distribution, Digital temperature control, Fast heating, Over-temperature protection"
+                },
+                "featured": false
+              }
+          ]
+        },
+        {
+          "id": "Homogenizers",
           "name": "Homogenizers",
           "products": [
-            {
-              "id": "homogenizers",
-              "name": "Homogenizers",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=39",
-              "voucher": "/vouchers/homogenizers.pdf",
-              "shortDescription": "Efficient homogenizers for sample preparation and cell disruption.",
-              "fullDescription": "Neuation homogenizers offer efficient sample preparation for various laboratory applications including cell disruption, emulsification, and particle size reduction. Features include adjustable speed control, quiet operation, and user-friendly design. Available in various configurations to meet diverse requirements.",
-              "specifications": {
-                "Speed Range": "5,000-35,000 RPM",
-                "Capacity": "0.5-50ml",
-                "Application": "Cell Disruption, Emulsification",
-                "Features": "Digital display, Timer",
-                "Material": "High-quality steel, Glass"
+              {
+                "id": "iRupt24P",
+                "name": "iRupt 24P",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2023/03/iRupt-24P-product-image.png.bv.webp?bv_host=www.accumaxlab.com",
+                "url": "https://www.accumaxlab.com/homogenizer/irupt-24p/",
+                "voucher": "/vouchers/homogenizers.pdf",
+                "shortDescription": "High-performance bead homogenizer for rapid and efficient sample preparation.",
+                "fullDescription": "The iRupt 24P is a powerful bead homogenizer designed for fast and reproducible disruption of biological samples. It enables efficient lysis and homogenization of tissues, cells, microorganisms, and other challenging samples, making it ideal for molecular biology, genomics, proteomics, and clinical research laboratories.",
+                "specifications": {
+                  "Sample Capacity": "Up to 24 tubes",
+                  "Operation": "High-speed bead homogenization",
+                  "Applications": "DNA/RNA extraction, Tissue homogenization, Cell lysis, Protein extraction",
+                  "Display": "Digital LCD",
+                  "Features": "Programmable operation, Adjustable speed and time, Uniform sample processing, Low-noise operation"
+                },
+                "featured": false
               },
-              "featured": false
-            }
-          ]
+              {
+                "id": "iRuptJr",
+                "name": "iRupt Jr",
+                "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2023/03/iRupt-Jr.-product-image.png.bv.webp?bv_host=www.accumaxlab.com",
+                "url": "https://www.accumaxlab.com/homogenizer/irupt-jr/",
+                "voucher": "/vouchers/homogenizers.pdf",
+                "shortDescription": "Compact bead homogenizer for efficient disruption of biological samples.",
+                "fullDescription": "The iRupt Jr is a compact laboratory bead homogenizer engineered for rapid and consistent sample disruption. Its space-saving design, precise control, and reliable performance make it ideal for DNA/RNA extraction, tissue homogenization, microbial lysis, and routine molecular biology applications.",
+                "specifications": {
+                  "Sample Capacity": "Multiple tube formats supported",
+                  "Operation": "Bead-based homogenization",
+                  "Applications": "Cell lysis, Tissue disruption, DNA/RNA extraction, Clinical and research laboratories",
+                  "Display": "Digital control panel",
+                  "Features": "Compact design, Adjustable speed and time, Consistent sample processing, Easy operation"
+                },
+                "featured": false
+              }
+            ]
         }
       ]
     },
