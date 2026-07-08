@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
-import { FaSearch, FaFilter, FaTimes } from 'react-icons/fa';
+import { FaSearch, FaFilter, FaTimes, FaChevronRight, FaChevronDown } from 'react-icons/fa';
 
 import productsData from '../data/products.json';
 import ProductCard from '../components/ProductCard';
@@ -10,10 +10,11 @@ import ProductCard from '../components/ProductCard';
 const Products = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [selectedBrand, setSelectedBrand] = useState(searchParams.get('brand') || '');
-  const [selectedCategory, setSelectedCategory] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState(searchParams.get('category') || '');
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
+  const [expandedBrand, setExpandedBrand] = useState(searchParams.get('brand') || null);
 
   useEffect(() => {
     // Filter products based on selections
@@ -50,17 +51,31 @@ const Products = () => {
 
   const handleBrandSelect = (brandId) => {
     setSelectedBrand(brandId);
-    setSelectedCategory('');
-    if (brandId) {
-      setSearchParams({ brand: brandId });
-    } else {
-      setSearchParams({});
-    }
+    setSelectedCategory(''); // Clear category when brand changes
+    
+    // Update URL params
+    const params = {};
+    if (brandId) params.brand = brandId;
+    setSearchParams(params);
+    
+    // Auto-expand the selected brand
+    setExpandedBrand(brandId);
     setIsMobileFilterOpen(false);
   };
 
-  const handleCategorySelect = (categoryId) => {
+  const handleCategorySelect = (brandId, categoryId) => {
+    // Set both brand and category
+    setSelectedBrand(brandId);
     setSelectedCategory(categoryId);
+    
+    // Update URL params
+    const params = {};
+    if (brandId) params.brand = brandId;
+    if (categoryId) params.category = categoryId;
+    setSearchParams(params);
+    
+    // Expand the brand
+    setExpandedBrand(brandId);
     setIsMobileFilterOpen(false);
   };
 
@@ -69,10 +84,11 @@ const Products = () => {
     setSelectedCategory('');
     setSearchQuery('');
     setSearchParams({});
+    setExpandedBrand(null);
   };
 
-  const getBrandCategories = () => {
-    const brand = productsData.brands.find(b => b.id === selectedBrand);
+  const getBrandCategories = (brandId) => {
+    const brand = productsData.brands.find(b => b.id === brandId);
     return brand ? brand.categories : [];
   };
 
@@ -88,6 +104,19 @@ const Products = () => {
   const getBrandName = (brandId) => {
     const brand = productsData.brands.find(b => b.id === brandId);
     return brand ? brand.name : '';
+  };
+
+  const toggleBrand = (brandId) => {
+    if (expandedBrand === brandId) {
+      setExpandedBrand(null);
+    } else {
+      setExpandedBrand(brandId);
+    }
+  };
+
+  // Handle brand click separately from toggle
+  const handleBrandClick = (brandId) => {
+    handleBrandSelect(brandId);
   };
 
   return (
@@ -129,58 +158,101 @@ const Products = () => {
                   )}
                 </div>
 
-                {/* Brands */}
-                <div className="mb-6">
+                {/* Brand Tree */}
+                <div>
                   <h4 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2">Brands</h4>
                   <div className="space-y-1">
+                    {/* All Brands option */}
                     <button
-                      onClick={() => handleBrandSelect('')}
+                      onClick={() => {
+                        handleBrandSelect('');
+                        setExpandedBrand(null);
+                      }}
                       className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors ${
                         !selectedBrand ? 'bg-accent/10 text-accent font-medium' : 'text-gray-600 hover:bg-gray-50'
                       }`}
                     >
                       All Brands
                     </button>
-                    {productsData.brands.map((brand) => (
-                      <button
-                        key={brand.id}
-                        onClick={() => handleBrandSelect(brand.id)}
-                        className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors flex items-center justify-between ${
-                          selectedBrand === brand.id ? 'bg-accent/10 text-accent font-medium' : 'text-gray-600 hover:bg-gray-50'
-                        }`}
-                      >
-                        <span>{brand.name}</span>
-                        <span className="text-xs text-gray-400">({getProductCount(brand.id)})</span>
-                      </button>
-                    ))}
+
+                    {/* Brand items */}
+                    {productsData.brands.map((brand) => {
+                      const isExpanded = expandedBrand === brand.id;
+                      const isActive = selectedBrand === brand.id;
+                      const productCount = getProductCount(brand.id);
+                      const categories = getBrandCategories(brand.id);
+
+                      return (
+                        <div key={brand.id} className="border-b border-gray-100 last:border-0">
+                          {/* Brand header */}
+                          <div className="flex items-center">
+                            <button
+                              onClick={() => toggleBrand(brand.id)}
+                              className="p-2 hover:bg-gray-50 rounded-lg transition-colors"
+                              aria-label={isExpanded ? 'Collapse' : 'Expand'}
+                            >
+                              {isExpanded ? (
+                                <FaChevronDown className="w-3 h-3 text-gray-400" />
+                              ) : (
+                                <FaChevronRight className="w-3 h-3 text-gray-400" />
+                              )}
+                            </button>
+                            <button
+                              onClick={() => handleBrandClick(brand.id)}
+                              className={`flex-1 text-left px-2 py-2 rounded-lg text-sm transition-colors flex items-center justify-between ${
+                                isActive ? 'bg-accent/10 text-accent font-medium' : 'text-gray-600 hover:bg-gray-50'
+                              }`}
+                            >
+                              <span>{brand.name}</span>
+                              <span className="text-xs text-gray-400">({productCount})</span>
+                            </button>
+                          </div>
+
+                          {/* Categories sub-list */}
+                          {isExpanded && categories.length > 0 && (
+                            <div className="ml-8 border-l-2 border-gray-200 pl-2 space-y-1 mb-1">
+                              {/* All Categories option for this brand */}
+                              <button
+                                onClick={() => {
+                                  handleCategorySelect(brand.id, '');
+                                }}
+                                className={`w-full text-left px-3 py-1.5 rounded-lg text-xs transition-colors ${
+                                  !selectedCategory && isActive ? 'bg-accent/10 text-accent font-medium' : 'text-gray-500 hover:bg-gray-50'
+                                }`}
+                              >
+                                All Categories
+                              </button>
+
+                              {categories.map((category) => (
+                                <button
+                                  key={category.id}
+                                  onClick={() => handleCategorySelect(brand.id, category.id)}
+                                  className={`w-full text-left px-3 py-1.5 rounded-lg text-xs transition-colors flex items-center justify-between ${
+                                    selectedCategory === category.id && isActive ? 'bg-accent/10 text-accent font-medium' : 'text-gray-500 hover:bg-gray-50'
+                                  }`}
+                                >
+                                  <span>{category.name}</span>
+                                  <span className="text-xs text-gray-400">({category.products.length})</span>
+                                </button>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
 
-                {/* Categories - Dynamic */}
-                {selectedBrand && (
-                  <div>
-                    <h4 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2">Categories</h4>
-                    <div className="space-y-1">
-                      <button
-                        onClick={() => handleCategorySelect('')}
-                        className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors ${
-                          !selectedCategory ? 'bg-accent/10 text-accent font-medium' : 'text-gray-600 hover:bg-gray-50'
-                        }`}
-                      >
-                        All Categories
-                      </button>
-                      {getBrandCategories().map((category) => (
-                        <button
-                          key={category.id}
-                          onClick={() => handleCategorySelect(category.id)}
-                          className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors flex items-center justify-between ${
-                            selectedCategory === category.id ? 'bg-accent/10 text-accent font-medium' : 'text-gray-600 hover:bg-gray-50'
-                          }`}
-                        >
-                          <span>{category.name}</span>
-                          <span className="text-xs text-gray-400">({category.products.length})</span>
-                        </button>
-                      ))}
+                {/* Active filters summary */}
+                {(selectedBrand || selectedCategory) && (
+                  <div className="mt-6 pt-6 border-t border-gray-200">
+                    <div className="flex flex-wrap gap-2">
+                      {selectedBrand && (
+                        <span className="inline-flex items-center px-3 py-1 rounded-full text-xs bg-accent/10 text-accent">
+                          {getBrandName(selectedBrand)}
+                          {selectedCategory && ` › ${getBrandCategories(selectedBrand).find(c => c.id === selectedCategory)?.name}`}
+                        </span>
+                      )}
                     </div>
                   </div>
                 )}
@@ -233,13 +305,14 @@ const Products = () => {
               </div>
 
               {/* Results Count */}
-              <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
                 <p className="text-sm text-gray-500">
                   Showing <span className="font-semibold text-primary">{filteredProducts.length}</span> products
                 </p>
                 {selectedBrand && (
                   <p className="text-sm text-accent">
                     {getBrandName(selectedBrand)}
+                    {selectedCategory && ` - ${getBrandCategories(selectedBrand).find(c => c.id === selectedCategory)?.name}`}
                   </p>
                 )}
               </div>
@@ -299,61 +372,98 @@ const Products = () => {
                   </button>
                 </div>
 
-                {/* Brands */}
-                <div className="mb-6">
+                {/* Mobile - Brands Tree */}
+                <div>
                   <h4 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2">Brands</h4>
                   <div className="space-y-1">
                     <button
-                      onClick={() => handleBrandSelect('')}
+                      onClick={() => {
+                        handleBrandSelect('');
+                        setExpandedBrand(null);
+                        setIsMobileFilterOpen(false);
+                      }}
                       className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors ${
                         !selectedBrand ? 'bg-accent/10 text-accent font-medium' : 'text-gray-600'
                       }`}
                     >
                       All Brands
                     </button>
-                    {productsData.brands.map((brand) => (
-                      <button
-                        key={brand.id}
-                        onClick={() => handleBrandSelect(brand.id)}
-                        className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors flex items-center justify-between ${
-                          selectedBrand === brand.id ? 'bg-accent/10 text-accent font-medium' : 'text-gray-600'
-                        }`}
-                      >
-                        <span>{brand.name}</span>
-                        <span className="text-xs text-gray-400">({getProductCount(brand.id)})</span>
-                      </button>
-                    ))}
+
+                    {productsData.brands.map((brand) => {
+                      const isExpanded = expandedBrand === brand.id;
+                      const isActive = selectedBrand === brand.id;
+                      const productCount = getProductCount(brand.id);
+                      const categories = getBrandCategories(brand.id);
+
+                      return (
+                        <div key={brand.id} className="border-b border-gray-100 last:border-0">
+                          <div className="flex items-center">
+                            <button
+                              onClick={() => {
+                                if (expandedBrand === brand.id) {
+                                  setExpandedBrand(null);
+                                } else {
+                                  setExpandedBrand(brand.id);
+                                }
+                              }}
+                              className="p-2 hover:bg-gray-50 rounded-lg transition-colors"
+                            >
+                              {isExpanded ? (
+                                <FaChevronDown className="w-3 h-3 text-gray-400" />
+                              ) : (
+                                <FaChevronRight className="w-3 h-3 text-gray-400" />
+                              )}
+                            </button>
+                            <button
+                              onClick={() => {
+                                handleBrandSelect(brand.id);
+                                setIsMobileFilterOpen(false);
+                              }}
+                              className={`flex-1 text-left px-2 py-2 rounded-lg text-sm transition-colors flex items-center justify-between ${
+                                isActive ? 'bg-accent/10 text-accent font-medium' : 'text-gray-600'
+                              }`}
+                            >
+                              <span>{brand.name}</span>
+                              <span className="text-xs text-gray-400">({productCount})</span>
+                            </button>
+                          </div>
+
+                          {isExpanded && categories.length > 0 && (
+                            <div className="ml-8 border-l-2 border-gray-200 pl-2 space-y-1 mb-1">
+                              <button
+                                onClick={() => {
+                                  handleCategorySelect(brand.id, '');
+                                  setIsMobileFilterOpen(false);
+                                }}
+                                className={`w-full text-left px-3 py-1.5 rounded-lg text-xs transition-colors ${
+                                  !selectedCategory && isActive ? 'bg-accent/10 text-accent font-medium' : 'text-gray-500'
+                                }`}
+                              >
+                                All Categories
+                              </button>
+
+                              {categories.map((category) => (
+                                <button
+                                  key={category.id}
+                                  onClick={() => {
+                                    handleCategorySelect(brand.id, category.id);
+                                    setIsMobileFilterOpen(false);
+                                  }}
+                                  className={`w-full text-left px-3 py-1.5 rounded-lg text-xs transition-colors flex items-center justify-between ${
+                                    selectedCategory === category.id && isActive ? 'bg-accent/10 text-accent font-medium' : 'text-gray-500'
+                                  }`}
+                                >
+                                  <span>{category.name}</span>
+                                  <span className="text-xs text-gray-400">({category.products.length})</span>
+                                </button>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
-
-                {/* Categories */}
-                {selectedBrand && (
-                  <div>
-                    <h4 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2">Categories</h4>
-                    <div className="space-y-1">
-                      <button
-                        onClick={() => handleCategorySelect('')}
-                        className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors ${
-                          !selectedCategory ? 'bg-accent/10 text-accent font-medium' : 'text-gray-600'
-                        }`}
-                      >
-                        All Categories
-                      </button>
-                      {getBrandCategories().map((category) => (
-                        <button
-                          key={category.id}
-                          onClick={() => handleCategorySelect(category.id)}
-                          className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors flex items-center justify-between ${
-                            selectedCategory === category.id ? 'bg-accent/10 text-accent font-medium' : 'text-gray-600'
-                          }`}
-                        >
-                          <span>{category.name}</span>
-                          <span className="text-xs text-gray-400">({category.products.length})</span>
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-                )}
 
                 <div className="mt-6 pt-6 border-t border-gray-200">
                   <button

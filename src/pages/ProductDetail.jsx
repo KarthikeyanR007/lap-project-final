@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import { 
   FaArrowLeft, 
-  FaDownload, 
   FaFilePdf,
   FaBoxes,
   FaRuler,
@@ -21,9 +20,10 @@ import PageBanner from '../components/PageBanner';
 import productsData from '../data/products.json';
 import ProductCard from '../components/ProductCard';
 import VoucherDownload from '../components/VoucherDownload';
+import { getProductImage, handleImageError } from '../utils/imageUtils';
 
 const ProductDetail = () => {
-  const { brand: brandId, productId } = useParams();
+  const { brandId, productId } = useParams();
   const navigate = useNavigate();
   const [product, setProduct] = useState(null);
   const [brand, setBrand] = useState(null);
@@ -31,16 +31,17 @@ const ProductDetail = () => {
   const [activeTab, setActiveTab] = useState('description');
 
   useEffect(() => {
-    // Find the product
+    // Find the product with case-insensitive matching
     let foundProduct = null;
     let foundBrand = null;
 
+    // First try to find by brandId and productId
     for (const b of productsData.brands) {
-      if (b.id === brandId) {
+      if (b.id.toLowerCase() === brandId?.toLowerCase()) {
         foundBrand = b;
         for (const category of b.categories) {
           for (const p of category.products) {
-            if (p.id === productId) {
+            if (p.id.toLowerCase() === productId?.toLowerCase()) {
               foundProduct = { ...p, category: { id: category.id, name: category.name } };
               break;
             }
@@ -48,6 +49,42 @@ const ProductDetail = () => {
           if (foundProduct) break;
         }
         break;
+      }
+    }
+
+    // If not found, try searching all brands by product ID only
+    if (!foundProduct) {
+      for (const b of productsData.brands) {
+        for (const category of b.categories) {
+          for (const p of category.products) {
+            if (p.id.toLowerCase() === productId?.toLowerCase()) {
+              foundProduct = { ...p, category: { id: category.id, name: category.name } };
+              foundBrand = b;
+              break;
+            }
+          }
+          if (foundProduct) break;
+        }
+        if (foundProduct) break;
+      }
+    }
+
+    // If still not found, try by product name as fallback
+    if (!foundProduct) {
+      const searchName = productId?.toLowerCase().replace(/-/g, ' ');
+      for (const b of productsData.brands) {
+        for (const category of b.categories) {
+          for (const p of category.products) {
+            if (p.name.toLowerCase().includes(searchName) || 
+                p.id.toLowerCase().includes(searchName)) {
+              foundProduct = { ...p, category: { id: category.id, name: category.name } };
+              foundBrand = b;
+              break;
+            }
+          }
+          if (foundProduct) break;
+        }
+        if (foundProduct) break;
       }
     }
 
@@ -69,6 +106,7 @@ const ProductDetail = () => {
       }
       setRelatedProducts(related.slice(0, 4));
     } else {
+      // If product not found, redirect to products page
       navigate('/products');
     }
   }, [brandId, productId, navigate]);
@@ -99,6 +137,9 @@ const ProductDetail = () => {
   const handleQuoteClick = () => {
     navigate(`/contact?product=${encodeURIComponent(product.name)}`);
   };
+
+  // Get the correct image path
+  const productImageSrc = getProductImage(product.image, brand.id, product.id);
 
   return (
     <>
@@ -137,12 +178,11 @@ const ProductDetail = () => {
               className="bg-white rounded-xl shadow-md overflow-hidden"
             >
               <img
-                src={product.image}
+                src={productImageSrc}
                 alt={product.name}
-                className="w-full h-[500px] object-cover"
-                onError={(e) => {
-                  e.target.src = 'https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=600&h=500&fit=crop';
-                }}
+                className="w-full h-[500px] object-contain"
+                onError={(e) => handleImageError(e, brand.id)}
+                loading="lazy"
               />
               {product.featured && (
                 <div className="p-4 bg-highlight/10 border-t border-highlight/20">
@@ -258,17 +298,19 @@ const ProductDetail = () => {
                     <p className="text-gray-600 leading-relaxed">{product.fullDescription}</p>
                     
                     {/* Key Features */}
-                    <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-3">
-                      {Object.entries(product.specifications).slice(0, 4).map(([key, value]) => (
-                        <div key={key} className="flex items-start space-x-2 bg-background rounded-lg p-3">
-                          <FaCheckCircle className="text-accent text-sm mt-0.5 flex-shrink-0" />
-                          <div>
-                            <span className="text-xs text-gray-400">{key}</span>
-                            <p className="text-sm font-medium text-primary">{value}</p>
+                    {product.specifications && (
+                      <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-3">
+                        {Object.entries(product.specifications).slice(0, 4).map(([key, value]) => (
+                          <div key={key} className="flex items-start space-x-2 bg-background rounded-lg p-3">
+                            <FaCheckCircle className="text-accent text-sm mt-0.5 flex-shrink-0" />
+                            <div>
+                              <span className="text-xs text-gray-400">{key}</span>
+                              <p className="text-sm font-medium text-primary">{value}</p>
+                            </div>
                           </div>
-                        </div>
-                      ))}
-                    </div>
+                        ))}
+                      </div>
+                    )}
                   </motion.div>
                 )}
 
@@ -278,22 +320,26 @@ const ProductDetail = () => {
                     animate={{ opacity: 1 }}
                   >
                     <h3 className="text-lg font-semibold text-primary mb-4">Technical Specifications</h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      {Object.entries(product.specifications).map(([key, value]) => (
-                        <div
-                          key={key}
-                          className="bg-background rounded-lg p-4 flex items-start space-x-3 hover:shadow-md transition-shadow"
-                        >
-                          <div className="text-accent text-lg mt-0.5">
-                            {getSpecIcon(key)}
+                    {product.specifications ? (
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {Object.entries(product.specifications).map(([key, value]) => (
+                          <div
+                            key={key}
+                            className="bg-background rounded-lg p-4 flex items-start space-x-3 hover:shadow-md transition-shadow"
+                          >
+                            <div className="text-accent text-lg mt-0.5">
+                              {getSpecIcon(key)}
+                            </div>
+                            <div>
+                              <p className="text-xs text-gray-400 font-semibold uppercase tracking-wider">{key}</p>
+                              <p className="text-sm font-medium text-primary mt-1">{value}</p>
+                            </div>
                           </div>
-                          <div>
-                            <p className="text-xs text-gray-400 font-semibold uppercase tracking-wider">{key}</p>
-                            <p className="text-sm font-medium text-primary mt-1">{value}</p>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="text-gray-500">No specifications available for this product.</p>
+                    )}
                   </motion.div>
                 )}
 

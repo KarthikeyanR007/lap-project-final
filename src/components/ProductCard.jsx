@@ -1,13 +1,24 @@
+// src/components/ProductCard.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaEye } from 'react-icons/fa';
+import { getProductImage, handleImageError } from '../utils/imageUtils';
 
 const ProductCard = ({ product, brand }) => {
   // Get category name safely
   const categoryName = product.category?.name || product.category || 'General';
   const brandName = brand?.name || product.brand?.name || 'Brand';
+  
+  // Get IDs with fallbacks
   const brandId = brand?.id || product.brand?.id || '';
+  const productId = product?.id || '';
+
+  // Construct the URL
+  const productUrl = `/products/${brandId}/${productId}`;
+
+  // Get the correct image path
+  const imageSrc = getProductImage(product.image, brandId, productId);
 
   return (
     <motion.div
@@ -20,13 +31,11 @@ const ProductCard = ({ product, brand }) => {
       {/* Product Image */}
       <div className="relative h-56 overflow-hidden bg-gray-100">
         <img
-          src={product.image}
+          src={imageSrc}
           alt={product.name}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
           loading="lazy"
-          onError={(e) => {
-            e.target.src = 'https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop';
-          }}
+          onError={(e) => handleImageError(e, brandId)}
         />
         {product.featured && (
           <span className="absolute top-3 right-3 bg-highlight text-white text-xs font-bold px-3 py-1 rounded-full">
@@ -54,7 +63,7 @@ const ProductCard = ({ product, brand }) => {
         </p>
 
         <Link
-          to={`/products/${brandId}/${product.id}`}
+          to={productUrl}
           className="inline-flex items-center space-x-2 text-accent font-medium text-sm hover:text-accent/80 transition-colors group"
         >
           <span>View Details</span>

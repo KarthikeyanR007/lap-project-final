@@ -14,7 +14,11 @@ import {
   FaTint,
   FaCog,
   FaFire,
-  FaBolt
+  FaBolt,
+  FaBox,
+  FaIndustry,
+  FaPlug,
+  FaBiohazard
 } from 'react-icons/fa';
 import { HiOutlineArrowRight } from 'react-icons/hi';
 import { useLocation } from 'react-router-dom';
@@ -30,21 +34,34 @@ const Navbar = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Brand colors and icons mapping
-  const brandIcons = {
-    'rs-equipments': <FaThermometerHalf />,
-    'accumax': <FaVial />,
-    'neuation': <FaFlask />,
-    'dlab': <FaDna />,
-    'sr-lab-instruments': <FaLeaf />
-  };
-
-  const brandColors = {
-    'rs-equipments': 'border-blue-500',
-    'accumax': 'border-green-500',
-    'neuation': 'border-purple-500',
-    'dlab': 'border-red-500',
-    'sr-lab-instruments': 'border-orange-500'
+  // Dynamic brand icons mapping - will work with any brand
+  const getBrandIcon = (brandId, brandName) => {
+    const iconMap = {
+      'rs-equipments': <FaThermometerHalf />,
+      'accumax': <FaVial />,
+      'neuation': <FaFlask />,
+      'dlab': <FaDna />,
+      'sr-lab-instruments': <FaLeaf />,
+      'delvac': <FaIndustry />,
+      'eppendorf': <FaMicroscope />,
+      'thermo-fisher': <FaFire />,
+      'brand': <FaTint />,
+      'sartorius': <FaBolt />,
+      'corning': <FaBox />,
+      'falcon': <FaPlug />,
+    };
+    
+    // Try to find by ID first, then by name
+    const icon = iconMap[brandId] || iconMap[brandId?.toLowerCase()];
+    if (icon) return icon;
+    
+    // If no specific icon, use a default based on brand name
+    const name = brandName?.toLowerCase() || '';
+    if (name.includes('lab')) return <FaFlask />;
+    if (name.includes('sci')) return <FaMicroscope />;
+    if (name.includes('bio')) return <FaBiohazard />;
+    if (name.includes('chem')) return <FaTint />;
+    return <FaCog />;
   };
 
   // Handle scroll effect
@@ -89,6 +106,18 @@ const Navbar = () => {
     { path: '/careers', label: 'Careers' },
     { path: '/contact', label: 'Contact' },
   ];
+
+  // Get all brands from products data
+  const allBrands = productsData.brands || [];
+
+  // Function to get grid columns class based on number of brands
+  const getGridColsClass = (count) => {
+    if (count <= 2) return 'grid-cols-1 sm:grid-cols-2';
+    if (count <= 3) return 'grid-cols-1 sm:grid-cols-2 md:grid-cols-3';
+    if (count <= 4) return 'grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4';
+    if (count <= 5) return 'grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5';
+    return 'grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6';
+  };
 
   return (
     <>
@@ -189,15 +218,15 @@ const Navbar = () => {
                 transition={{ duration: 0.2 }}
                 className="max-w-7xl mx-auto px-6 py-8"
               >
-                <div className="grid grid-cols-5 gap-8">
-                  {productsData.brands.map((brand) => (
+                <div className={`grid ${getGridColsClass(allBrands.length)} gap-8`}>
+                  {allBrands.map((brand) => (
                     <div key={brand.id} className="space-y-4">
                       <div 
                         className="flex items-center space-x-2 cursor-pointer group"
                         onClick={() => handleBrandClick(brand.id)}
                       >
                         <span className="text-accent text-lg">
-                          {brandIcons[brand.id] || <FaCog />}
+                          {getBrandIcon(brand.id, brand.name)}
                         </span>
                         <h4 className="font-bold text-primary uppercase text-sm tracking-wider group-hover:text-accent transition-colors">
                           {brand.name}
@@ -209,15 +238,15 @@ const Navbar = () => {
                             <p className="text-xs text-gray-400 font-semibold uppercase tracking-wider">
                               {category.name}
                             </p>
-                                {category.products.slice(0, 3).map((product) => (
-                                <button
-                                    key={product.id}
-                                    onClick={() => handleProductClick(brand.id, product.id)}
-                                    className="block text-sm text-gray-600 hover:text-accent transition-colors pl-2 text-left w-full"
-                                >
-                                    • {product.name}
-                                </button>
-                                ))}
+                            {category.products.slice(0, 3).map((product) => (
+                              <button
+                                key={product.id}
+                                onClick={() => handleProductClick(brand.id, product.id)}
+                                className="block text-sm text-gray-600 hover:text-accent transition-colors pl-2 text-left w-full truncate"
+                              >
+                                • {product.name}
+                              </button>
+                            ))}
                             {category.products.length > 3 && (
                               <button
                                 onClick={() => handleBrandClick(brand.id)}
@@ -272,14 +301,14 @@ const Navbar = () => {
                           <FaChevronDown className={`text-xs transition-transform ${showMegaMenu ? 'rotate-180' : ''}`} />
                         </button>
                         {showMegaMenu && (
-                          <div className="mt-3 pl-4 space-y-6 border-l-2 border-accent">
-                            {productsData.brands.map((brand) => (
+                          <div className="mt-3 pl-4 space-y-6 border-l-2 border-accent max-h-96 overflow-y-auto">
+                            {allBrands.map((brand) => (
                               <div key={brand.id} className="space-y-2">
                                 <button
                                   onClick={() => handleBrandClick(brand.id)}
                                   className="font-semibold text-primary text-sm hover:text-accent transition-colors flex items-center space-x-2"
                                 >
-                                  <span>{brandIcons[brand.id] || <FaCog />}</span>
+                                  <span>{getBrandIcon(brand.id, brand.name)}</span>
                                   <span>{brand.name}</span>
                                 </button>
                                 <div className="pl-6 space-y-1">
@@ -288,15 +317,15 @@ const Navbar = () => {
                                       <p className="text-xs text-gray-400 font-semibold uppercase">
                                         {category.name}
                                       </p>
-                                        {category.products.slice(0, 2).map((product) => (
-                                            <button
-                                                key={product.id}
-                                                onClick={() => handleProductClick(brand.id, product.id)}
-                                                className="block text-sm text-gray-600 hover:text-accent transition-colors py-1 text-left w-full"
-                                            >
-                                                • {product.name}
-                                            </button>
-                                            ))}
+                                      {category.products.slice(0, 2).map((product) => (
+                                        <button
+                                          key={product.id}
+                                          onClick={() => handleProductClick(brand.id, product.id)}
+                                          className="block text-sm text-gray-600 hover:text-accent transition-colors py-1 text-left w-full truncate"
+                                        >
+                                          • {product.name}
+                                        </button>
+                                      ))}
                                     </div>
                                   ))}
                                 </div>
