@@ -2485,7 +2485,7 @@
             {
               "id": "plant-growth-chamber",
               "name": "Plant Growth Chamber",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=57",
+              "image": "sr-lab/Plant Growth Chamber.jpg",
               "voucher": "/vouchers/plant-growth-chamber.pdf",
               "shortDescription": "Controlled environment chamber for precise plant growth studies.",
               "fullDescription": "SR LAB Plant Growth Chambers provide precise environmental control for plant research and cultivation. Features include accurate temperature, humidity, and light control, user-friendly digital controller, and programmable settings. Available in various sizes to meet diverse research requirements.",
@@ -2501,7 +2501,7 @@
             {
               "id": "walk-in-plant-growth-chamber",
               "name": "Walk In Plant Growth Chamber",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=58",
+              "image": "sr-lab/Walk In Plant Growth Chamber.jpg",
               "voucher": "/vouchers/walk-in-plant-growth-chamber.pdf",
               "shortDescription": "Large-scale walk-in chamber for large-scale plant growth studies.",
               "fullDescription": "SR LAB Walk-In Plant Growth Chambers provide spacious controlled environments for large-scale plant research. Features include precise temperature, humidity, and light control, customizable configurations, and user-friendly digital controller. The walk-in design allows easy access and large capacity.",
@@ -2517,7 +2517,7 @@
             {
               "id": "seed-germinator",
               "name": "Seed Germinator",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=59",
+              "image": "sr-lab/Seed Germinator.jpg",
               "voucher": "/vouchers/seed-germinator.pdf",
               "shortDescription": "Specialized chamber for optimal seed germination studies.",
               "fullDescription": "SR LAB Seed Germinators provide optimal conditions for seed germination and early plant development. Features include precise temperature, humidity, and light control, user-friendly digital controller, and programmable settings. Available in various sizes to meet diverse research requirements.",
@@ -2533,7 +2533,7 @@
             {
               "id": "walk-in-seed-germinator",
               "name": "Walk In Seed Germinator",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=60",
+              "image": "sr-lab/Walk In Seed Germinator.jpg",
               "voucher": "/vouchers/walk-in-seed-germinator.pdf",
               "shortDescription": "Large-scale walk-in seed germinator for bulk germination studies.",
               "fullDescription": "SR LAB Walk-In Seed Germinators provide spacious controlled environments for large-scale seed germination studies. Features include precise temperature, humidity, and light control, customizable configurations, and user-friendly digital controller. The walk-in design allows easy access and large capacity.",
@@ -2549,13 +2549,61 @@
             {
               "id": "insect-growth-chamber",
               "name": "Insect Growth Chamber",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=61",
+              "image": "sr-lab/Insect Growth Chamber.jpg",
               "voucher": "/vouchers/insect-growth-chamber.pdf",
               "shortDescription": "Controlled environment for insect rearing and behavioral studies.",
               "fullDescription": "SR LAB Insect Growth Chambers provide controlled environments for insect rearing and research. Features include precise temperature, humidity, and light cycle control, user-friendly digital controller, and programmable settings. Available in various sizes to meet diverse research requirements.",
               "specifications": {
                 "Temperature Range": "10°C to 45°C",
                 "Humidity Range": "50-95% RH",
+                "Light Cycle": "Programmable",
+                "Features": "Digital controller, Programmable",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "algal-growth-chamber",
+              "name": "Algal Growth Chamber",
+              "image": "sr-lab/Algal Growth Chamber.jpg",
+              "voucher": "/vouchers/algal-growth-chamber.pdf",
+              "shortDescription": "Specialized chamber for algal culture and research.",
+              "fullDescription": "SR LAB Algal Growth Chambers provide precise environmental control for algal culture and research. Features include controlled light intensity and spectrum, temperature regulation, and user-friendly digital controller.",
+              "specifications": {
+                "Temperature Range": "15°C to 40°C",
+                "Light Intensity": "0-10,000 Lux",
+                "Light Spectrum": "Customizable",
+                "Features": "Digital controller, Programmable",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "arabidopsis-growth-chamber",
+              "name": "Arabidopsis Growth Chamber",
+              "image": "sr-lab/Arabidopsis Growth Chamber.jpg",
+              "voucher": "/vouchers/arabidopsis-growth-chamber.pdf",
+              "shortDescription": "Controlled environment for Arabidopsis research.",
+              "fullDescription": "SR LAB Arabidopsis Growth Chambers provide precise environmental conditions for Arabidopsis thaliana research. Features include controlled temperature, humidity, and light, with programmable settings for various growth protocols.",
+              "specifications": {
+                "Temperature Range": "15°C to 30°C",
+                "Humidity Range": "50-85% RH",
+                "Light Intensity": "0-15,000 Lux",
+                "Features": "Digital controller, Programmable",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "drosophila-chamber",
+              "name": "Drosophila Chamber",
+              "image": "sr-lab/Drosophila Chamber.jpg",
+              "voucher": "/vouchers/drosophila-chamber.pdf",
+              "shortDescription": "Controlled environment for Drosophila research and culture.",
+              "fullDescription": "SR LAB Drosophila Chambers provide controlled environments for Drosophila melanogaster research. Features include precise temperature and humidity control, light cycle programming, and user-friendly digital controller.",
+              "specifications": {
+                "Temperature Range": "15°C to 30°C",
+                "Humidity Range": "50-85% RH",
                 "Light Cycle": "Programmable",
                 "Features": "Digital controller, Programmable",
                 "Material": "High-quality steel, Glass"
@@ -2571,7 +2619,7 @@
             {
               "id": "stability-chamber",
               "name": "Stability Chamber",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=62",
+              "image": "sr-lab/Stability Chamber.jpg",
               "voucher": "/vouchers/stability-chamber.pdf",
               "shortDescription": "Temperature and humidity controlled stability chamber for product testing.",
               "fullDescription": "SR LAB Stability Chambers provide precise temperature and humidity control for stability testing of pharmaceutical, food, and other products. Features include accurate control, data logging capability, and user-friendly digital controller. Available in various sizes to meet diverse testing requirements.",
@@ -2587,7 +2635,7 @@
             {
               "id": "walk-in-stability-chamber",
               "name": "Walk In Stability Chamber",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=63",
+              "image": "sr-lab/Walk In Stability Chamber.jpg",
               "voucher": "/vouchers/walk-in-stability-chamber.pdf",
               "shortDescription": "Large-scale walk-in stability chamber for bulk product testing.",
               "fullDescription": "SR LAB Walk-In Stability Chambers provide spacious controlled environments for large-scale stability testing. Features include precise temperature and humidity control, customizable configurations, and user-friendly digital controller. The walk-in design allows easy access and large capacity.",
@@ -2603,7 +2651,7 @@
             {
               "id": "photo-stability-chamber",
               "name": "Photo Stability Chamber",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=64",
+              "image": "sr-lab/Photo Stability Chamber.jpg",
               "voucher": "/vouchers/photo-stability-chamber.pdf",
               "shortDescription": "Stability chamber with controlled light exposure for photo-stability testing.",
               "fullDescription": "SR LAB Photo Stability Chambers provide controlled temperature, humidity, and light exposure for photo-stability testing of pharmaceutical and other products. Features include precise control, user-friendly digital controller, and data logging capability.",
@@ -2612,6 +2660,22 @@
                 "Humidity Range": "20-95% RH",
                 "Light Intensity": "Controlled",
                 "Application": "ICH Photo-stability Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "accelerated-ageing-chamber",
+              "name": "Accelerated Ageing Chamber",
+              "image": "sr-lab/Accelerated Ageing Chamber.jpg",
+              "voucher": "/vouchers/accelerated-ageing-chamber.pdf",
+              "shortDescription": "Chamber for accelerated ageing studies of materials and products.",
+              "fullDescription": "SR LAB Accelerated Ageing Chambers provide controlled conditions for accelerated ageing studies of materials and products. Features include precise temperature and humidity control, user-friendly digital controller, and programmable settings. Available in various sizes to meet diverse testing requirements.",
+              "specifications": {
+                "Temperature Range": "20°C to 80°C",
+                "Humidity Range": "20-95% RH",
+                "Features": "Digital controller, Programmable",
+                "Application": "Material Ageing Testing",
                 "Material": "High-quality steel, Glass"
               },
               "featured": false
@@ -2625,7 +2689,7 @@
             {
               "id": "environmental-test-chamber",
               "name": "Environmental Test Chamber",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=65",
+              "image": "sr-lab/Environmental Test Chamber.jpg",
               "voucher": "/vouchers/environmental-test-chamber.pdf",
               "shortDescription": "Versatile environmental test chamber for various testing applications.",
               "fullDescription": "SR LAB Environmental Test Chambers provide controlled temperature and humidity for various testing applications including material testing, product validation, and quality control. Features include precise control, user-friendly digital controller, and programmable settings.",
@@ -2639,17 +2703,33 @@
               "featured": true
             },
             {
-              "id": "accelerated-ageing-chamber",
-              "name": "Accelerated Ageing Chamber",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=66",
-              "voucher": "/vouchers/accelerated-ageing-chamber.pdf",
-              "shortDescription": "Chamber for accelerated ageing studies of materials and products.",
-              "fullDescription": "SR LAB Accelerated Ageing Chambers provide controlled conditions for accelerated ageing studies of materials and products. Features include precise temperature and humidity control, user-friendly digital controller, and programmable settings. Available in various sizes to meet diverse testing requirements.",
+              "id": "environmental-climatic-conditioning-chamber",
+              "name": "Environmental Climatic Conditioning Chamber",
+              "image": "sr-lab/Environmental Climatic Conditioning Chamber.png",
+              "voucher": "/vouchers/environmental-climatic-conditioning-chamber.pdf",
+              "shortDescription": "Advanced climatic conditioning chamber for environmental simulation.",
+              "fullDescription": "SR LAB Environmental Climatic Conditioning Chambers provide precise temperature and humidity control for advanced environmental simulation. Features include wide range of temperature and humidity, user-friendly digital controller, and programmable settings.",
               "specifications": {
-                "Temperature Range": "20°C to 80°C",
-                "Humidity Range": "20-95% RH",
+                "Temperature Range": "-70°C to 180°C",
+                "Humidity Range": "10-98% RH",
                 "Features": "Digital controller, Programmable",
-                "Application": "Material Ageing Testing",
+                "Application": "Environmental Simulation",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "walk-in-environmental-climatic-chamber",
+              "name": "Walk In Environmental Climatic Chamber",
+              "image": "sr-lab/Walk In Environmental Climatic Chamber.png",
+              "voucher": "/vouchers/walk-in-environmental-climatic-chamber.pdf",
+              "shortDescription": "Large-scale walk-in chamber for environmental simulation.",
+              "fullDescription": "SR LAB Walk-In Environmental Climatic Chambers provide spacious controlled environments for large-scale environmental simulation. Features include wide temperature and humidity range, customizable configurations, and user-friendly digital controller.",
+              "specifications": {
+                "Temperature Range": "-40°C to 100°C",
+                "Humidity Range": "20-95% RH",
+                "Features": "Customizable, Walk-in access",
+                "Application": "Large-scale Environmental Testing",
                 "Material": "High-quality steel, Glass"
               },
               "featured": false
@@ -2657,7 +2737,7 @@
             {
               "id": "thermal-shock-chamber",
               "name": "Thermal Shock Chamber",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=67",
+              "image": "sr-lab/Thermal Shock Chamber.jpg",
               "voucher": "/vouchers/thermal-shock-chamber.pdf",
               "shortDescription": "Chamber for rapid temperature change testing of materials and products.",
               "fullDescription": "SR LAB Thermal Shock Chambers provide rapid temperature change testing for material and product evaluation. Features include precise temperature control, fast transfer times, and user-friendly digital controller. Available in various configurations to meet diverse testing requirements.",
@@ -2671,9 +2751,25 @@
               "featured": true
             },
             {
+              "id": "walk-in-thermal-chamber-with-flame-proof",
+              "name": "Walk in Thermal Chamber with Flame Proof",
+              "image": "sr-lab/Walk In Thermal Chamber with Flame Proof.jpg",
+              "voucher": "/vouchers/walk-in-thermal-chamber-flame-proof.pdf",
+              "shortDescription": "Walk-in thermal chamber with flame proof construction for safety.",
+              "fullDescription": "SR LAB Walk-In Thermal Chambers with Flame Proof construction provide safe and controlled thermal testing environments. Features include flame proof materials, precise temperature control, and user-friendly digital controller.",
+              "specifications": {
+                "Temperature Range": "-40°C to 150°C",
+                "Construction": "Flame Proof",
+                "Features": "Walk-in access, Digital controller",
+                "Application": "Thermal Testing with Safety",
+                "Material": "Flame-proof steel, Glass"
+              },
+              "featured": false
+            },
+            {
               "id": "salt-spray-chamber",
               "name": "Salt Spray Chamber",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=68",
+              "image": "sr-lab/Salt Spray Chamber.jpg",
               "voucher": "/vouchers/salt-spray-chamber.pdf",
               "shortDescription": "Chamber for salt spray corrosion testing of materials and coatings.",
               "fullDescription": "SR LAB Salt Spray Chambers provide controlled salt spray conditions for corrosion testing of materials and coatings. Features include precise temperature control, user-friendly digital controller, and programmable settings. Available in various sizes to meet diverse testing requirements.",
@@ -2682,6 +2778,132 @@
                 "Salt Solution": "5% NaCl",
                 "Features": "Digital controller, Timer",
                 "Application": "Corrosion Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "accelerated-weathering-chamber",
+              "name": "Accelerated Weathering Chamber",
+              "image": "sr-lab/Accelerated Weathering Chamber.png",
+              "voucher": "/vouchers/accelerated-weathering-chamber.pdf",
+              "shortDescription": "Chamber for accelerated weathering testing of materials and coatings.",
+              "fullDescription": "SR LAB Accelerated Weathering Chambers simulate the effects of sunlight, temperature, and moisture for material and coating testing. Features include controlled UV exposure, temperature and humidity control, and user-friendly digital controller.",
+              "specifications": {
+                "Temperature Range": "20°C to 80°C",
+                "Humidity Range": "20-95% RH",
+                "UV Exposure": "Controlled",
+                "Application": "Accelerated Weathering Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "hot-and-cold-chamber-srl-hcch-02",
+              "name": "Hot and Cold Chamber Model : SRL / HCCH-02",
+              "image": "sr-lab/Hot and Cold Chamber ModelSRL_HCCH-02.png",
+              "voucher": "/vouchers/hot-cold-chamber-hcch-02.pdf",
+              "shortDescription": "Hot and cold chamber model SRL/HCCH-02 for temperature testing.",
+              "fullDescription": "SR LAB Hot and Cold Chamber Model SRL/HCCH-02 provides precise temperature control for hot and cold testing applications. Features include wide temperature range, user-friendly digital controller, and programmable settings.",
+              "specifications": {
+                "Temperature Range": "-40°C to 150°C",
+                "Features": "Digital controller, Programmable",
+                "Application": "Temperature Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "humidity-chamber-srl-hc-09",
+              "name": "Humidity Chamber Model : SRL / HC-09",
+              "image": "sr-lab/Humidity Chamber Model  SRL  HC-09.png",
+              "voucher": "/vouchers/humidity-chamber-hc-09.pdf",
+              "shortDescription": "Humidity chamber model SRL/HC-09 for precise humidity control.",
+              "fullDescription": "SR LAB Humidity Chamber Model SRL/HC-09 provides precise humidity control for various testing applications. Features include accurate humidity control, user-friendly digital controller, and programmable settings.",
+              "specifications": {
+                "Humidity Range": "20-98% RH",
+                "Temperature Range": "Ambient to 60°C",
+                "Features": "Digital controller, Programmable",
+                "Application": "Humidity Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "walk-in-humidity-chamber-srl-wihc-12",
+              "name": "Walk In Humidity Chamber Model : SRL / WIHC-12",
+              "image": "sr-lab/Walk In Humidity Chamber Model  SRL  WIHC-12.png",
+              "voucher": "/vouchers/walk-in-humidity-chamber-wihc-12.pdf",
+              "shortDescription": "Walk-in humidity chamber model SRL/WIHC-12 for large-scale humidity testing.",
+              "fullDescription": "SR LAB Walk-In Humidity Chamber Model SRL/WIHC-12 provides large-scale controlled humidity environments for various testing applications. Features include wide humidity range, customizable configurations, and user-friendly digital controller.",
+              "specifications": {
+                "Humidity Range": "20-95% RH",
+                "Features": "Walk-in access, Digital controller",
+                "Application": "Large-scale Humidity Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "rain-test-chamber",
+              "name": "Rain Test Chamber",
+              "image": "sr-lab/Rain Test Chamber.jpg",
+              "voucher": "/vouchers/rain-test-chamber.pdf",
+              "shortDescription": "Chamber for rain testing of products and materials.",
+              "fullDescription": "SR LAB Rain Test Chambers simulate rain conditions for testing the waterproof integrity of products and materials. Features include adjustable water flow and pressure, and user-friendly digital controller.",
+              "specifications": {
+                "Water Flow": "Adjustable",
+                "Pressure": "Controlled",
+                "Features": "Digital controller, Timer",
+                "Application": "Waterproof Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "walk-in-ripening-chamber",
+              "name": "Walk In Ripening Chamber",
+              "image": "sr-lab/Walk In Ripening Chamber.jpg",
+              "voucher": "/vouchers/walk-in-ripening-chamber.pdf",
+              "shortDescription": "Walk-in chamber for controlled ripening of fruits and vegetables.",
+              "fullDescription": "SR LAB Walk-In Ripening Chambers provide controlled environments for fruit and vegetable ripening. Features include precise temperature and humidity control, user-friendly digital controller, and customizable configurations.",
+              "specifications": {
+                "Temperature Range": "15°C to 30°C",
+                "Humidity Range": "70-95% RH",
+                "Features": "Walk-in access, Digital controller",
+                "Application": "Fruit Ripening",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "carbonation-chamber",
+              "name": "Carbonation Chamber",
+              "image": "sr-lab/Carbonation Chamber.jpg",
+              "voucher": "/vouchers/carbonation-chamber.pdf",
+              "shortDescription": "Chamber for controlled carbonation testing of materials.",
+              "fullDescription": "SR LAB Carbonation Chambers provide controlled conditions for carbonation testing of materials such as concrete. Features include precise CO2 concentration and temperature control, and user-friendly digital controller.",
+              "specifications": {
+                "CO2 Concentration": "0-20%",
+                "Temperature Range": "20°C to 40°C",
+                "Features": "Digital controller, Programmable",
+                "Application": "Carbonation Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "mould-growth-chamber",
+              "name": "Mould Growth Chamber",
+              "image": "sr-lab/Mould Growth Chamber.jpg",
+              "voucher": "/vouchers/mould-growth-chamber.pdf",
+              "shortDescription": "Chamber for controlled mould growth studies.",
+              "fullDescription": "SR LAB Mould Growth Chambers provide controlled conditions for mould growth studies. Features include precise temperature and humidity control, user-friendly digital controller, and programmable settings.",
+              "specifications": {
+                "Temperature Range": "20°C to 40°C",
+                "Humidity Range": "60-95% RH",
+                "Features": "Digital controller, Programmable",
+                "Application": "Mould Growth Testing",
                 "Material": "High-quality steel, Glass"
               },
               "featured": false
@@ -2695,7 +2917,7 @@
             {
               "id": "dehumidifier",
               "name": "Dehumidifier",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=69",
+              "image": "sr-lab/Dehumidifier.jpg",
               "voucher": "/vouchers/dehumidifier.pdf",
               "shortDescription": "Laboratory dehumidifier for precise moisture control.",
               "fullDescription": "SR LAB Dehumidifiers provide efficient moisture control for laboratory and controlled environments. Features include precise humidity control, user-friendly digital display, and auto-defrost function. Available in various capacities to meet diverse requirements.",
@@ -2711,7 +2933,7 @@
             {
               "id": "terg-o-tometer",
               "name": "Terg-O-Tometer",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=70",
+              "image": "sr-lab/Terg-O-Tometer.jpg",
               "voucher": "/vouchers/terg-o-tometer.pdf",
               "shortDescription": "Multi-purpose laboratory tester for textile and detergent testing.",
               "fullDescription": "SR LAB Terg-O-Tometer provides versatile testing capabilities for textile and detergent testing applications. Features include multiple test stations, adjustable speed control, and user-friendly digital controller. Designed for reliable and reproducible test results.",
@@ -2721,6 +2943,52 @@
                 "Features": "Digital controller, Timer",
                 "Application": "Textile Testing, Detergent Testing",
                 "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            },
+            {
+              "id": "burn-in-chamber",
+              "name": "Burn In Chamber",
+              "image": "sr-lab/Burn In Chamber.png",
+              "voucher": "/vouchers/burn-in-chamber.pdf",
+              "shortDescription": "Chamber for burn-in testing of electronic components and devices.",
+              "fullDescription": "SR LAB Burn-In Chambers provide controlled conditions for burn-in testing of electronic components and devices. Features include precise temperature control, user-friendly digital controller, and programmable settings.",
+              "specifications": {
+                "Temperature Range": "Ambient to 100°C",
+                "Features": "Digital controller, Programmable",
+                "Application": "Electronic Component Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "walk-in-burn-in-chamber",
+              "name": "Walk in Burn in Chamber",
+              "image": "sr-lab/Walk In Burn In Chamber.jpg",
+              "voucher": "/vouchers/walk-in-burn-in-chamber.pdf",
+              "shortDescription": "Walk-in chamber for large-scale burn-in testing.",
+              "fullDescription": "SR LAB Walk-In Burn-In Chambers provide spacious controlled environments for large-scale burn-in testing of electronic components and devices. Features include precise temperature control, customizable configurations, and user-friendly digital controller.",
+              "specifications": {
+                "Temperature Range": "Ambient to 100°C",
+                "Features": "Walk-in access, Digital controller",
+                "Application": "Large-scale Component Testing",
+                "Material": "High-quality steel, Glass"
+              },
+              "featured": false
+            },
+            {
+              "id": "environmental-vibration-test-chamber",
+              "name": "Environmental Vibration Test Chamber",
+              "image": "sr-lab/Environmental Vibration Test Chamber.jpg",
+              "voucher": "/vouchers/environmental-vibration-test-chamber.pdf",
+              "shortDescription": "Chamber for combined environmental and vibration testing.",
+              "fullDescription": "SR LAB Environmental Vibration Test Chambers provide combined controlled environmental conditions with vibration testing capabilities. Features include precise temperature and humidity control, programmable vibration profiles, and user-friendly digital controller.",
+              "specifications": {
+                "Temperature Range": "-40°C to 120°C",
+                "Humidity Range": "20-95% RH",
+                "Vibration": "Programmable",
+                "Application": "Combined Environmental and Vibration Testing",
+                "Material": "High-quality steel, Glass"
               },
               "featured": false
             }
