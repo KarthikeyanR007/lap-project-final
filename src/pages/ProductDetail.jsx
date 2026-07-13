@@ -282,7 +282,7 @@ const ProductDetail = () => {
                     }`}
                   >
                     <FaFilePdf className="inline mr-2" />
-                    Voucher
+                    Brochure
                   </button>
                 </div>
               </div>

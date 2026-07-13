@@ -1,28 +1,23 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaDownload, FaFilePdf, FaFileAlt } from 'react-icons/fa';
+import { FaDownload, FaFilePdf, FaFileAlt, FaExternalLinkAlt } from 'react-icons/fa';
 
 const VoucherDownload = ({ productName, voucherUrl }) => {
-  const [isDownloading, setIsDownloading] = useState(false);
+  const [isOpening, setIsOpening] = useState(false);
 
-  const handleDownload = async () => {
-    setIsDownloading(true);
+  const handleOpenInNewTab = () => {
+    setIsOpening(true);
     try {
-      // Create an anchor element and trigger download
-      const link = document.createElement('a');
-      link.href = voucherUrl;
-      link.download = `${productName.replace(/\s+/g, '_')}_voucher.pdf`;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
+      // Open the brochure in a new tab
+      window.open(voucherUrl, '_blank', 'noopener,noreferrer');
       
-      // Simulate download completion
+      // Reset the button state after a moment
       setTimeout(() => {
-        setIsDownloading(false);
-      }, 2000);
+        setIsOpening(false);
+      }, 1000);
     } catch (error) {
-      console.error('Download failed:', error);
-      setIsDownloading(false);
+      console.error('Failed to open Brochure:', error);
+      setIsOpening(false);
     }
   };
 
@@ -38,37 +33,37 @@ const VoucherDownload = ({ productName, voucherUrl }) => {
             <FaFilePdf className="text-accent text-2xl" />
           </div>
           <div>
-            <h4 className="font-semibold text-primary">Product Voucher</h4>
+            <h4 className="font-semibold text-primary">Product Brochure</h4>
             <p className="text-gray-500 text-sm mt-1">
-              Download the product voucher/brochure for <span className="font-medium text-primary">{productName}</span>
+              View the product brochure for <span className="font-medium text-primary">{productName}</span>
             </p>
             <div className="flex items-center space-x-2 mt-2 text-xs text-gray-400">
               <FaFileAlt />
-              <span>PDF Document</span>
+              <span>PDF Document - Opens in new tab</span>
             </div>
           </div>
         </div>
         <button
-          onClick={handleDownload}
-          disabled={isDownloading}
+          onClick={handleOpenInNewTab}
+          disabled={isOpening}
           className={`flex items-center space-x-2 px-6 py-3 rounded-lg font-medium transition-all ${
-            isDownloading
+            isOpening
               ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
               : 'bg-accent text-white hover:bg-accent/90 shadow-lg hover:shadow-xl'
           }`}
         >
-          {isDownloading ? (
+          {isOpening ? (
             <>
               <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                 <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
               </svg>
-              <span>Downloading...</span>
+              <span>Opening...</span>
             </>
           ) : (
             <>
-              <FaDownload />
-              <span>Download Voucher</span>
+              <FaExternalLinkAlt />
+              <span>View Brochure</span>
             </>
           )}
         </button>

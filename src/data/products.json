@@ -234,7 +234,7 @@
                     "name": "Accumax - Smart",
                     "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Smart.png",
                     "url": "https://www.accumaxlab.com/smart-mechanical-pipette/",
-                    "voucher": "/vouchers/micropipettes.pdf",
+                    "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Accumax-Smart-Pipettes-E-Catalogue-Mar26-1.pdf",
                     "shortDescription": "Mechanical micropipette designed for precise, reliable, and comfortable liquid handling.",
                     "fullDescription": "Accumax Smart is a high-quality mechanical micropipette designed for accurate and consistent liquid handling in laboratory applications. It offers smooth operation, ergonomic design for reduced hand fatigue, and adjustable volume settings. Built for durability and precision, it is suitable for routine lab workflows and research applications requiring dependable performance.",
                     "specifications": {
@@ -252,7 +252,7 @@
                     "name": "Accumax A Series",
                     "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/A-Series.png",
                     "url": "https://www.accumaxlab.com/a-series-pipette/",
-                    "voucher": "/vouchers/micropipettes.pdf",
+                    "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Acccumax-A-Series-Pipettes-E-Catalouge-July-25.pdf",
                     "shortDescription": "Reliable and durable micropipettes designed for everyday lab applications.",
                     "fullDescription": "Accumax A Series micropipettes are designed for routine laboratory work requiring accuracy and durability. They provide smooth plunger movement, consistent performance, and easy calibration, making them ideal for general lab use.",
                     "specifications": {
@@ -269,7 +269,7 @@
                     "name": "Accumax PRO",
                     "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/accumax-pro.png",
                     "url": "https://www.accumaxlab.com/pro-pipette/",
-                    "voucher": "/vouchers/micropipettes.pdf",
+                    "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Accumax-PRO-E-Cat-Oct-24.pdf",
                     "shortDescription": "Advanced micropipette series built for precision and professional lab use.",
                     "fullDescription": "Accumax PRO micropipettes are engineered for advanced laboratory workflows requiring superior accuracy and comfort. They feature enhanced ergonomics, smooth operation, and high durability for long-term usage.",
                     "specifications": {
@@ -286,7 +286,7 @@
                     "name": "Accumax VA-FA",
                     "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/VA-FA.png",
                     "url": "https://www.accumaxlab.com/va-fa-pipette/",
-                    "voucher": "/vouchers/micropipettes.pdf",
+                    "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Accumax-VA-FA-Broucher.pdf",
                     "shortDescription": "Versatile micropipette series designed for flexible lab applications.",
                     "fullDescription": "Accumax VA-FA micropipettes offer versatility and precision for a wide range of laboratory tasks. They are designed for accuracy, ease of use, and reliable performance in both routine and specialized applications.",
                     "specifications": {
@@ -303,7 +303,7 @@
                     "name": "Electronic Pipette",
                     "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Electronic-Pipette.png",
                     "url": "https://www.accumaxlab.com/electronic-pipette/",
-                    "voucher": "/vouchers/micropipettes.pdf",
+                    "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Accumax-Electronic-Pipette-E-Catalogue-June-26-1.pdf",
                     "shortDescription": "Digital pipette for automated and high-precision liquid handling.",
                     "fullDescription": "Electronic pipettes provide automated liquid handling with enhanced precision and reduced user fatigue. Ideal for repetitive pipetting tasks in advanced laboratory environments.",
                     "specifications": {
@@ -320,7 +320,7 @@
                     "name": "FAB LF Pipettes",
                     "image": "https://www.accumaxlab.com/wp-content/uploads/2023/09/FabLF.png",
                     "url": "https://www.accumaxlab.com/fab-low-force-pipette/",
-                    "voucher": "/vouchers/micropipettes.pdf",
+                    "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/09/Accumax__FAB-LF-Pipette-E-Catalogue_June-25.pdf",
                     "shortDescription": "Low-force pipettes designed for effortless and ergonomic handling.",
                     "fullDescription": "FAB LF pipettes are designed to reduce hand strain while maintaining high accuracy. They are ideal for long laboratory sessions requiring repetitive pipetting tasks.",
                     "specifications": {
@@ -337,7 +337,7 @@
                     "name": "Fab Micropipette",
                     "image": "https://www.accumaxlab.com/wp-content/uploads/2023/03/Fab.png",
                     "url": "https://www.accumaxlab.com/micropipette-fab/",
-                    "voucher": "/vouchers/micropipettes.pdf",
+                    "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/03/Accumax-FAB-Pipette-E-catalogue-Apr-26.pdf",
                     "shortDescription": "Standard micropipette series for general laboratory applications.",
                     "fullDescription": "Fab micropipettes offer reliable and accurate liquid handling for routine laboratory tasks. They are built for durability, precision, and ease of use.",
                     "specifications": {
@@ -354,7 +354,7 @@
                     "name": "FabFLEX ®",
                     "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2026/05/AI-Background-Image-for-Web-Page.webp.bv.webp?bv_host=www.accumaxlab.com",
                     "url": "https://www.accumaxlab.com/product/adjustable-tip-spacing-pipette-fabflex/",
-                    "voucher": "/vouchers/micropipettes.pdf",
+                    "voucher": "https://www.accumaxlab.com/wp-content/uploads/2026/05/New-FABFLEX%E2%84%A2-Adjustable-Multi-Channel-Pipette-Final.pdf",
                     "shortDescription": "Advanced adjustable tip-spacing pipette for flexible workflows.",
                     "fullDescription": "FabFLEX is an innovative pipetting solution designed with adjustable tip spacing technology, enabling flexible multi-sample handling and improved workflow efficiency.",
                     "specifications": {
@@ -371,7 +371,7 @@
                     "name": "Junior Pipette",
                     "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Junior-Pipette.png",
                     "url": "https://www.accumaxlab.com/junior-pipette/",
-                    "voucher": "/vouchers/micropipettes.pdf",
+                    "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/JuniorPipette-E-Broucher.pdf",
                     "shortDescription": "Entry-level pipette designed for educational and basic lab use.",
                     "fullDescription": "Junior pipettes are designed for training, educational labs, and basic liquid handling tasks. They are simple, durable, and easy to use.",
                     "specifications": {
@@ -388,7 +388,7 @@
                     "name": "Transfer Pipette",
                     "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/08-Transfer-Pipette-.png",
                     "url": "https://www.accumaxlab.com/transfer-pipette/",
-                    "voucher": "/vouchers/micropipettes.pdf",
+                    "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Accumax_Transfer-Pipette_E-catalogue-Aug21.pdf",
                     "shortDescription": "Simple pipette for transferring small liquid volumes.",
                     "fullDescription": "Transfer pipettes are designed for quick and easy liquid transfer tasks in laboratory environments. They are disposable and convenient for routine usage.",
                     "specifications": {
@@ -411,7 +411,7 @@
               "name": "Bottle Top Dispenser",
               "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Bottle-Top-Dispenser.png",
               "url": "https://www.accumaxlab.com/bottle-top-dispenser/",
-              "voucher": "/vouchers/liquid-handling.pdf",
+              "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/03/Accumax-BTD-E-Catalogue-Dec-25.pdf",
               "shortDescription": "Precision bottle top dispenser designed for safe, accurate, and controlled liquid dispensing.",
               "fullDescription": "Bottle Top Dispenser is engineered for precise and contamination-free liquid dispensing directly from reagent bottles. It ensures high accuracy, chemical resistance, and ease of use in laboratory environments. Ideal for repetitive dispensing tasks, it minimizes waste and improves workflow efficiency.",
               "specifications": {
@@ -435,7 +435,7 @@
               "name": "Pipette Controller",
               "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Pipette-Controller-1.webp",
               "url": "https://www.accumaxlab.com/pipette-controller/",
-              "voucher": "/vouchers/liquid-handling.pdf",
+              "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Pipette-Controller-Broucher.pdf",
               "shortDescription": "Ergonomic pipette controller for precise and effortless liquid aspiration and dispensing.",
               "fullDescription": "The Pipette Controller is designed for smooth, accurate, and efficient liquid handling with serological and volumetric pipettes. Its lightweight ergonomic design minimizes user fatigue while providing precise speed control for aspiration and dispensing. Suitable for routine laboratory applications, it ensures safe and reliable operation across various research, clinical, and industrial environments.",
               "specifications": {
@@ -459,7 +459,7 @@
               "name": "PCR Consumables",
               "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/PCR-Plat.png",
               "url": "https://www.accumaxlab.com/pcr-consumables/",
-              "voucher": "/vouchers/pcr-consumables.pdf",
+              "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/PCR-Tubes-E-Catalouge_July-25_pdf.pdf",
               "shortDescription": "High-quality PCR consumables designed for reliable molecular biology and diagnostic applications.",
               "fullDescription": "PCR Consumables are manufactured to deliver consistent performance in PCR, qPCR, and molecular biology workflows. Designed for maximum sample integrity and compatibility with standard thermal cyclers, these consumables ensure accurate amplification, minimal contamination risk, and dependable laboratory results. Suitable for research, clinical, and biotechnology laboratories.",
               "specifications": {
@@ -483,7 +483,7 @@
               "name": "Centrifuge Tubes",
               "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Centrifuge-Tubes.png",
               "url": "https://www.accumaxlab.com/centrifuge-tubes/",
-              "voucher": "/vouchers/lab-consumables.pdf",
+              "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Accumax-Centrifuge-Tube-15-50-ml-July-25.pdf",
               "shortDescription": "High-strength centrifuge tubes designed for safe and reliable sample processing.",
               "fullDescription": "Centrifuge Tubes are manufactured from high-quality polypropylene to provide excellent mechanical strength and chemical resistance. Designed to withstand high centrifugal forces, they ensure secure sample storage, preparation, and processing for research, clinical, and industrial laboratories.",
               "specifications": {
@@ -501,7 +501,7 @@
               "name": "Cryovials",
               "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Cryovials.png",
               "url": "https://www.accumaxlab.com/cryovials/",
-              "voucher": "/vouchers/lab-consumables.pdf",
+              "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Acccumax-Cryovial-E-Catalouge-SEP-25.pdf",
               "shortDescription": "Cryogenic storage vials for secure preservation of biological samples.",
               "fullDescription": "Cryovials are designed for the safe storage and preservation of biological samples under ultra-low temperature conditions. Manufactured from premium laboratory-grade polypropylene, they provide excellent sealing performance, durability, and sample protection for research and clinical laboratories.",
               "specifications": {
@@ -519,7 +519,7 @@
               "name": "Heavy Metal Free Centrifuge Tubes",
               "image": "https://www.accumaxlab.com/wp-content/uploads/2024/02/Heavy-Metal-Free-Centrifuge-Tubes.png",
               "url": "https://www.accumaxlab.com/product/heavy-metal-free-centrifuge-tubes/",
-              "voucher": "/vouchers/lab-consumables.pdf",
+              "voucher": "https://www.accumaxlab.com/wp-content/uploads/2024/02/Accumax-Heavy-Metal-Free-Tubes-e-catalogue-Oct_25.pdf",
               "shortDescription": "Certified heavy metal-free centrifuge tubes for trace element analysis.",
               "fullDescription": "Heavy Metal Free Centrifuge Tubes are specially manufactured for laboratories performing trace metal and elemental analysis. These tubes minimize contamination risks, ensuring accurate analytical results while maintaining excellent durability and chemical resistance.",
               "specifications": {
@@ -537,7 +537,7 @@
               "name": "Microcentrifuge Tubes",
               "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/11-Microcentrifuge-tube-.png",
               "url": "https://www.accumaxlab.com/microcentrifuge-tubes/",
-              "voucher": "/vouchers/lab-consumables.pdf",
+              "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Microcentrifuge-Tubes-Broucher.pdf",
               "shortDescription": "Premium microcentrifuge tubes for small-volume sample handling and storage.",
               "fullDescription": "Microcentrifuge Tubes are designed for efficient handling, storage, and centrifugation of small-volume samples. Manufactured using high-purity polypropylene, they offer excellent clarity, secure sealing, and high centrifugal resistance for molecular biology, clinical, and research laboratories.",
               "specifications": {
@@ -561,7 +561,7 @@
                 "name": "GreenMAX Tips",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2024/05/1000-1000.png",
                 "url": "https://www.accumaxlab.com/product-category/accumax/tips/greenmax-tips/",
-                "voucher": "/vouchers/pipette-tips.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2024/08/GreenMAX-Tip-Racks-e-cat_OCT23.pdf",
                 "shortDescription": "Premium low-retention pipette tips designed for maximum sample recovery and precision.",
                 "fullDescription": "GreenMAX Tips are high-performance pipette tips engineered to deliver superior liquid recovery, minimal sample retention, and exceptional accuracy. Manufactured from medical-grade virgin polypropylene, they are compatible with a wide range of micropipettes and are ideal for molecular biology, diagnostics, and research laboratories.",
                 "specifications": {
@@ -579,7 +579,7 @@
                 "name": "LF Tips",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/17-LF-Tips-.png",
                 "url": "https://www.accumaxlab.com/product-category/accumax/tips/lf-tips/",
-                "voucher": "/vouchers/pipette-tips.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Accumax_LF-tips_e-catlogue_Oct23.pdf",
                 "shortDescription": "Low-force pipette tips designed for smooth fitting and effortless ejection.",
                 "fullDescription": "LF Tips are specially designed to reduce insertion and ejection force while maintaining a secure seal. They improve user comfort during repetitive pipetting tasks and provide consistent performance across laboratory applications.",
                 "specifications": {
@@ -597,7 +597,7 @@
                 "name": "Pipettes Tips",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/16-Pipette-Tips-.png",
                 "url": "https://www.accumaxlab.com/product-category/accumax/tips/pipettes-tips/",
-                "voucher": "/vouchers/pipette-tips.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2024/08/Accumax-Micropipette-Tips.pdf",
                 "shortDescription": "High-quality disposable pipette tips for accurate liquid handling.",
                 "fullDescription": "Pipette Tips are manufactured using premium virgin polypropylene to ensure precision, contamination-free sample handling, and universal compatibility. They are suitable for routine laboratory work, molecular biology, clinical diagnostics, and research applications.",
                 "specifications": {
@@ -615,7 +615,7 @@
                 "name": "Robotic Tips",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2023/09/07-Robotic-tips-.png",
                 "url": "https://www.accumaxlab.com/product-category/accumax/tips/robotic-tips/",
-                "voucher": "/vouchers/pipette-tips.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Acccumax-Dynex-Type-Tips-IVD-E-Catalouge-Dec-24.pdf",
                 "shortDescription": "Precision robotic pipette tips for automated liquid handling systems.",
                 "fullDescription": "Robotic Tips are engineered for compatibility with automated liquid handling platforms, ensuring reliable sample transfer, minimal liquid retention, and consistent performance. They are manufactured to strict quality standards for high-throughput laboratory workflows.",
                 "specifications": {
@@ -639,7 +639,7 @@
               "name": "HPLC Safety Cap",
               "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/HPLC-Safety-Caps.png",
               "url": "https://www.accumaxlab.com/hplc-safety-cap/",
-              "voucher": "/vouchers/hplc-accessories.pdf",
+              "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/accumax_Safery-Cap_e-catlogue_Jan23-1.pdf",
               "shortDescription": "Safety cap system designed for secure solvent handling in HPLC applications.",
               "fullDescription": "The HPLC Safety Cap is engineered to improve laboratory safety during High-Performance Liquid Chromatography (HPLC) operations. It minimizes solvent evaporation, reduces exposure to hazardous vapors, and protects mobile phases from contamination. Designed for easy installation and compatibility with standard laboratory solvent bottles, it enhances both operator safety and analytical reliability.",
               "specifications": {
@@ -663,7 +663,7 @@
               "name": "Filter Plates",
               "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/filterplate-03.png",
               "url": "https://www.accumaxlab.com/filter-plates/",
-              "voucher": "/vouchers/filtration-products.pdf",
+              "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Accumax-Filtration-Range_Micro-Plate_E-Catalogue-July-2025.pdf",
               "shortDescription": "High-performance filter plates for efficient sample preparation and filtration workflows.",
               "fullDescription": "Filter Plates are designed for high-throughput filtration, sample preparation, purification, and biological assays. Manufactured from premium laboratory-grade materials, they deliver consistent filtration performance, excellent chemical compatibility, and reliable results across research, pharmaceutical, and diagnostic laboratories.",
               "specifications": {
@@ -681,7 +681,7 @@
               "name": "Spin Columns",
               "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/01-Filtration.png",
               "url": "https://www.accumaxlab.com/spin-columns/",
-              "voucher": "/vouchers/filtration-products.pdf",
+              "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Accumax-Filtration-Range_Spin_E-Cate_E-Cate_Mar23-1.pdf ",
               "shortDescription": "Reliable spin columns for rapid purification and nucleic acid extraction workflows.",
               "fullDescription": "Spin Columns are engineered for efficient DNA, RNA, protein, and sample purification applications. Designed to provide high recovery rates and consistent performance, they are widely used in molecular biology, genomics, diagnostics, and life science research laboratories.",
               "specifications": {
@@ -705,7 +705,7 @@
                 "name": "Reservoirs",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Reservoirnew.png",
                 "url": "https://www.accumaxlab.com/reservoirs/",
-                "voucher": "/vouchers/lab-consumables.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Accumax_Catalogue_Reservoirs_Mar-26-1.pdf",
                 "shortDescription": "Disposable reagent reservoirs designed for efficient liquid handling and multichannel pipetting.",
                 "fullDescription": "Reservoirs are manufactured from high-quality virgin polypropylene to provide reliable reagent storage and transfer during laboratory workflows. Designed for use with single and multichannel pipettes, they minimize reagent waste while ensuring excellent chemical compatibility and contamination-free liquid handling.",
                 "specifications": {
@@ -729,7 +729,7 @@
                 "name": "Deepwell Plates",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/2.0-ML-V-BOTTOM-DEEP-WELL-PLATE-STEP-FILE.2768.png",
                 "url": "https://www.accumaxlab.com/deepwell-plates/",
-                "voucher": "/vouchers/lab-consumables.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Accumax-Deepwell-Plates-E-catalogue-_Sep-25.pdf",
                 "shortDescription": "High-capacity deepwell plates for sample storage, preparation, and high-throughput laboratory workflows.",
                 "fullDescription": "Deepwell Plates are designed for sample storage, mixing, cell culture, and high-throughput screening applications. Manufactured from premium laboratory-grade polypropylene, they offer excellent chemical resistance, uniform well geometry, and compatibility with automated laboratory systems for reliable and reproducible results.",
                 "specifications": {
@@ -753,7 +753,7 @@
                 "name": "Media Bottles",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Product-thumbnail-without-background.webp",
                 "url": "https://www.accumaxlab.com/media-bottles/",
-                "voucher": "/vouchers/lab-glassware.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Accumax-Media-Bottle_E-Cate_Jun-26.pdf",
                 "shortDescription": "High-quality media bottles designed for safe storage and handling of laboratory reagents and culture media.",
                 "fullDescription": "Media Bottles are designed for reliable storage, mixing, and transport of laboratory reagents and culture media. Manufactured using high-grade materials, they ensure excellent chemical resistance, leak-proof sealing, and durability for routine laboratory workflows.",
                 "specifications": {
@@ -777,7 +777,7 @@
                 "name": "Reagent Bottles",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2023/09/04-existing-website-Reagent-bottle-product-page-banner-.png",
                 "url": "https://www.accumaxlab.com/reagent-bottles/",
-                "voucher": "/vouchers/lab-glassware.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Accumax-Reagent-Bottle-E-catalogue-Mar-2026.pdf",
                 "shortDescription": "Durable reagent bottles for safe chemical storage and laboratory use.",
                 "fullDescription": "Reagent Bottles are designed for safe storage and handling of chemical reagents in laboratory environments. They offer high durability, chemical resistance, and secure sealing to prevent contamination and leakage.",
                 "specifications": {
@@ -801,7 +801,7 @@
           "name": "Erlenmeyer Flask",
           "image": "https://www.accumaxlab.com/wp-content/uploads/2023/09/14-Erlenmeyer-Flask-.png",
           "url": "https://www.accumaxlab.com/erlenmeyer-flask/",
-          "voucher": "/vouchers/lab-glassware.pdf",
+          "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/09/Accumax-Erlenmeyer-Flask_E-Cate_March26-1.pdf",
           "shortDescription": "Conical flasks designed for mixing, heating, and culturing applications.",
           "fullDescription": "Erlenmeyer Flasks are widely used in laboratories for mixing, heating, and culturing solutions. Their conical shape allows easy swirling without spillage, making them ideal for chemical reactions and microbiological applications.",
           "specifications": {
@@ -825,7 +825,7 @@
           "name": "Petri Plates",
           "image": "https://www.accumaxlab.com/wp-content/uploads/2023/09/Accumax_Petri-Plates.png",
           "url": "https://www.accumaxlab.com/petri-plates/",
-          "voucher": "/vouchers/lab-glassware.pdf",
+          "voucher": "https://www.accumaxlab.com/wp-content/uploads/2025/12/Accumax-Petri-Plates-E-cat-Dec-25.pdf",
           "shortDescription": "Sterile petri plates for microbiological culture and laboratory research.",
           "fullDescription": "Petri Plates are designed for microbiological culture, bacterial growth studies, and laboratory research applications. Manufactured under strict quality standards, they ensure contamination-free and consistent performance.",
           "specifications": {
@@ -849,7 +849,7 @@
               "name": "PETG Diagnostic Vial",
               "image": "https://www.accumaxlab.com/wp-content/uploads/2023/11/Accumax-20ml-Diagnostic-Vial.png",
               "url": "https://www.accumaxlab.com/petg-diagnostic-vial/",
-              "voucher": "/vouchers/diagnostic-consumables.pdf",
+              "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/11/PETG-Diagnostic-Vial-E-CAT-April-24.pdf",
               "shortDescription": "High-quality PETG diagnostic vials designed for safe sample storage and transport.",
               "fullDescription": "PETG Diagnostic Vials are designed for secure storage and transport of biological and diagnostic samples. Manufactured using high-clarity PETG material, they offer excellent chemical resistance, durability, and leak-proof sealing for laboratory and clinical applications.",
               "specifications": {
@@ -873,7 +873,7 @@
               "name": "Serological Pipette",
               "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2024/10/Accumax-STERIPETTE-1000x1000-1.png.bv.webp?bv_host=www.accumaxlab.com",
               "url": "https://www.accumaxlab.com/product/serological-pipette/",
-              "voucher": "/vouchers/liquid-handling.pdf",
+              "voucher": "https://www.accumaxlab.com/wp-content/uploads/2024/10/Accumax_Catalogue_Accumax-Serological-Pipette_July-25.pdf",
               "shortDescription": "Sterile serological pipettes for accurate liquid transfer in laboratory workflows.",
               "fullDescription": "Serological Pipettes are designed for precise measurement and transfer of liquids in cell culture, microbiology, and general laboratory applications. They ensure accuracy, sterility, and ease of use in routine lab workflows.",
               "specifications": {
@@ -897,7 +897,7 @@
                 "name": "Screw Cap Tubes",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2024/12/Mobile-banner.png",
                 "url": "https://www.accumaxlab.com/product/screw-cap-tubes/",
-                "voucher": "/vouchers/lab-consumables.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2024/12/Accumax_Catalogue_SCREW-CAP-TUBES_FEB-26.pdf",
                 "shortDescription": "Secure screw cap tubes designed for safe storage and transport of laboratory samples.",
                 "fullDescription": "Screw Cap Tubes are engineered for reliable containment of biological and chemical samples. With secure sealing and high chemical resistance, they are ideal for storage, centrifugation, and transport in laboratory environments.",
                 "specifications": {
@@ -921,7 +921,7 @@
                 "name": "Roller Bottle",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2025/07/thumbnail-1000x1000-1.webp.bv.webp?bv_host=www.accumaxlab.com",
                 "url": "https://www.accumaxlab.com/product/roller-bottle/",
-                "voucher": "/vouchers/cell-culture-consumables.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2025/07/Roller-Bottle-E-catalogue_Mar-26.pdf",
                 "shortDescription": "High-quality roller bottle designed for efficient cell culture growth and maintenance.",
                 "fullDescription": "Roller Bottles are designed for large-scale cell culture applications, providing optimal surface area for cell attachment and growth. They ensure uniform nutrient distribution when used in roller systems, making them ideal for research, bioprocessing, and pharmaceutical applications.",
                 "specifications": {
@@ -1121,7 +1121,7 @@
                 "name": "iSwix",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iswix-1.png",
                 "url": "https://www.accumaxlab.com/vortex-mixer/iswix/",
-                "voucher": "/vouchers/vortex-mixers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iSwix-E-Catalogue-_SEp_25.pdf",
                 "shortDescription": "Compact vortex mixer for rapid and efficient sample mixing.",
                 "fullDescription": "The iSwix Vortex Mixer is designed for fast, reliable mixing of laboratory samples. Its compact footprint, powerful motor, and stable operation make it ideal for research, clinical, and diagnostic laboratories.",
                 "specifications": {
@@ -1139,7 +1139,7 @@
                 "name": "iSwix FS",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2022/07/iswix-FS-1.png",
                 "url": "https://www.accumaxlab.com/vortex-mixer/iswix-fs/",
-                "voucher": "/vouchers/vortex-mixers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2022/07/iSwix-FS-E-Catalogue_Sep_25.pdf",
                 "shortDescription": "High-performance vortex mixer with fixed speed operation.",
                 "fullDescription": "The iSwix FS is engineered for consistent and efficient sample mixing with fixed-speed performance. It is ideal for routine laboratory workflows requiring reliable and repeatable vortex mixing.",
                 "specifications": {
@@ -1157,7 +1157,7 @@
                 "name": "iSwix Jr",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/iSwix-Jr2.png",
                 "url": "https://www.accumaxlab.com/vortex-mixer/iswix-jr/",
-                "voucher": "/vouchers/vortex-mixers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/iSwix-Jr.-E-Catalogue_Sep_25.pdf",
                 "shortDescription": "Compact personal vortex mixer for everyday laboratory applications.",
                 "fullDescription": "The iSwix Jr offers efficient sample mixing in a compact and portable design. It is perfect for laboratories requiring quick vortexing of small sample volumes.",
                 "specifications": {
@@ -1175,7 +1175,7 @@
                 "name": "iSwix Jr. NXT and iSwix Jr. VT NXT",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2022/07/iSwix-Jr.-NXT-and-iSwix-Jr.-VT-NXT.png",
                 "url": "https://www.accumaxlab.com/vortex-mixer/iswix-jr-nxt-and-iswix-jr-vt-nxt/",
-                "voucher": "/vouchers/vortex-mixers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2022/07/iSwix-Jr.-NXT-and-iSwix-Jr.-VT-NXT-Combine-E-Catalogue_-Sep_25.pdf",
                 "shortDescription": "Next-generation vortex mixers with enhanced performance and ergonomic design.",
                 "fullDescription": "The iSwix Jr. NXT and iSwix Jr. VT NXT combine compact size with improved performance, offering efficient sample mixing for modern laboratory environments.",
                 "specifications": {
@@ -1193,7 +1193,7 @@
                 "name": "iSwix Jr. VT",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iSwix-Jr.-VT-2.webp",
                 "url": "https://www.accumaxlab.com/vortex-mixer/iswix-jr-vt/",
-                "voucher": "/vouchers/vortex-mixers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iSwix-Jr-VT-E-Catalogue_Sep_25.pdf",
                 "shortDescription": "Variable-speed compact vortex mixer for versatile laboratory mixing.",
                 "fullDescription": "The iSwix Jr. VT provides precise variable-speed vortex mixing for a wide range of laboratory applications, ensuring efficient and reproducible results.",
                 "specifications": {
@@ -1211,7 +1211,7 @@
                 "name": "iSwix MV",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/iswix-MV-1.png",
                 "url": "https://www.accumaxlab.com/vortex-mixer/iswix-mv/",
-                "voucher": "/vouchers/vortex-mixers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/iSwix-MV-E-Catalogue_Sep_25.pdf",
                 "shortDescription": "Multi-vortex mixer for simultaneous mixing of multiple samples.",
                 "fullDescription": "The iSwix MV is designed for high-throughput laboratories, enabling simultaneous mixing of multiple tubes with consistent performance and reduced hands-on time.",
                 "specifications": {
@@ -1229,7 +1229,7 @@
                 "name": "iSwix VT",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iswix-VT-1.png",
                 "url": "https://www.accumaxlab.com/digital-vortex-mixer-iswix-vt/",
-                "voucher": "/vouchers/vortex-mixers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iSwix-VT-E-Catalogue.pdf",
                 "shortDescription": "Digital vortex mixer with precise speed control for demanding laboratory applications.",
                 "fullDescription": "The iSwix VT Digital Vortex Mixer delivers accurate and consistent vortex mixing with digital controls, making it suitable for research, pharmaceutical, and clinical laboratories.",
                 "specifications": {
@@ -1253,7 +1253,7 @@
                 "name": "Disc Rotator",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Disc-Rotator.png",
                 "url": "https://www.accumaxlab.com/product-category/neuation/rollers/disc-rotator/",
-                "voucher": "/vouchers/rollers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2019/02/iRoll-DR24-E-Catalogue-Sep-25.pdf",
                 "shortDescription": "Laboratory disc rotator for gentle and uniform mixing of biological samples.",
                 "fullDescription": "The Disc Rotator provides smooth rotational mixing for blood samples, hybridization procedures, and other laboratory applications requiring gentle agitation. Its reliable performance and adjustable operating parameters make it ideal for research, clinical, and biotechnology laboratories.",
                 "specifications": {
@@ -1271,7 +1271,7 @@
                 "name": "Plate Rotator",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Plate-Rotator.png",
                 "url": "https://www.accumaxlab.com/product-category/neuation/rollers/plate-rotator/",
-                "voucher": "/vouchers/rollers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2019/11/iRoll-PR35-E-Catalogue-Sep-25.pdf",
                 "shortDescription": "Efficient plate rotator designed for gentle mixing of microplates and laboratory samples.",
                 "fullDescription": "The Plate Rotator delivers consistent rotational mixing for microplates, culture plates, and laboratory containers. It is designed for applications requiring gentle agitation while maintaining sample integrity.",
                 "specifications": {
@@ -1289,7 +1289,7 @@
                 "name": "Tube Roller",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Tube-Roller.png",
                 "url": "https://www.accumaxlab.com/product-category/neuation/rollers/tube-roller/",
-                "voucher": "/vouchers/rollers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iRoll-RnR-4-E-Catalogue-Sep-25.pdf",
                 "shortDescription": "Laboratory tube roller for continuous and uniform mixing of blood tubes and sample containers.",
                 "fullDescription": "The Tube Roller is designed for gentle and continuous rolling of laboratory tubes, ensuring homogeneous sample mixing without damaging delicate biological materials. It is widely used in clinical diagnostics, molecular biology, and research laboratories.",
                 "specifications": {
@@ -1313,7 +1313,7 @@
                   "name": "Large Capacity Stirrers",
                   "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Large-Capacity-Stirrers.png",
                   "url": "https://www.accumaxlab.com/product-category/neuation/stirrers/large-capacity-stirrers/",
-                  "voucher": "/vouchers/stirrers.pdf",
+                  "voucher": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iStir-50L_200L-E-Catalogue-Sep-25.pdf",
                   "shortDescription": "High-capacity laboratory stirrers designed for mixing large volumes with precision and reliability.",
                   "fullDescription": "Large Capacity Stirrers are engineered for demanding laboratory and industrial applications requiring efficient mixing of high-volume liquids. They provide stable operation, powerful performance, and precise speed control for consistent results.",
                   "specifications": {
@@ -1331,7 +1331,7 @@
                   "name": "Magnetic Stirrer With Hot Plate",
                   "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Magnetic-Stirrer-With-Hot-Plate.png",
                   "url": "https://www.accumaxlab.com/product-category/neuation/stirrers/magnetic-stirrer-with-hot-plate/",
-                  "voucher": "/vouchers/stirrers.pdf",
+                  "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/iStir-HP-5M_10M_15M-E-Catalogue-Sep-25.pdf",
                   "shortDescription": "Magnetic stirrer with integrated hot plate for simultaneous heating and mixing applications.",
                   "fullDescription": "Magnetic Stirrers with Hot Plate combine precise heating and efficient stirring in a single instrument. They are ideal for chemical reactions, solution preparation, and laboratory research requiring accurate temperature and mixing control.",
                   "specifications": {
@@ -1349,7 +1349,7 @@
                   "name": "Magnetic Stirrers",
                   "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Magnetic-Stirrers.png",
                   "url": "https://www.accumaxlab.com/product-category/neuation/stirrers/magnetic-stirrers/",
-                  "voucher": "/vouchers/stirrers.pdf",
+                  "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/iStir-MS10-E-Catalogue-Sep-25.pdf",
                   "shortDescription": "Reliable magnetic stirrers for smooth and consistent liquid mixing in laboratory applications.",
                   "fullDescription": "Magnetic Stirrers are designed for efficient mixing of liquids with precise speed control. Their compact design and dependable performance make them suitable for research laboratories, educational institutions, and industrial environments.",
                   "specifications": {
@@ -1367,7 +1367,7 @@
                   "name": "Overhead Stirrer",
                   "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Overhead-Stirrers.png",
                   "url": "https://www.accumaxlab.com/product-category/neuation/stirrers/overhead-stirrer/",
-                  "voucher": "/vouchers/stirrers.pdf",
+                  "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/OHS-Elite.pdf",
                   "shortDescription": "Powerful overhead stirrers for high-viscosity mixing and demanding laboratory processes.",
                   "fullDescription": "Overhead Stirrers are designed for mixing high-viscosity samples and large volumes with exceptional stability and precision. They are widely used in pharmaceutical, chemical, biotechnology, and research laboratories.",
                   "specifications": {
@@ -1391,7 +1391,7 @@
                 "name": "iShak 3D-5 NXT",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2023/03/700x500Px.png.bv.webp?bv_host=www.accumaxlab.com",
                 "url": "https://www.accumaxlab.com/shaker/ishak-3d-5-nxt/",
-                "voucher": "/vouchers/shakers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iShak-3D-5-NXT-E-Catalogue_Sep_25.pdf",
                 "shortDescription": "3D orbital shaker designed for smooth and uniform mixing of laboratory samples.",
                 "fullDescription": "The iShak 3D-5 NXT is a compact three-dimensional shaker engineered for gentle and consistent mixing of samples in laboratories. It provides reliable performance for staining, washing, hybridization, and general sample preparation applications.",
                 "specifications": {
@@ -1409,7 +1409,7 @@
                 "name": "iShak BL Uno VT",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2023/03/iShak-BL-UNO-VT-product-image.png.bv.webp?bv_host=www.accumaxlab.com",
                 "url": "https://www.accumaxlab.com/shaker/ishak-bl-uno-vt/",
-                "voucher": "/vouchers/shakers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iShak-BL-Uno-VT-E-Catalogue-Oct_25.pdf",
                 "shortDescription": "Compact laboratory shaker offering efficient and reliable sample agitation.",
                 "fullDescription": "The iShak BL Uno VT is designed for dependable mixing of laboratory samples with smooth variable-speed operation. Its compact footprint makes it suitable for routine laboratory workflows and research applications.",
                 "specifications": {
@@ -1427,7 +1427,7 @@
                 "name": "iShak PS 10 / 20 NXT",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2020/05/700x700.webp",
                 "url": "https://www.accumaxlab.com/ishak-ps-10-20-nxt/",
-                "voucher": "/vouchers/shakers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iShak-PS-10-20-NXT-E-Catalogue-AUG-25.pdf",
                 "shortDescription": "Platform shaker for efficient mixing of laboratory samples and culture vessels.",
                 "fullDescription": "The iShak PS 10 / 20 NXT platform shaker delivers precise orbital shaking for flasks, bottles, and laboratory containers. It is designed for continuous operation in research, microbiology, and biotechnology laboratories.",
                 "specifications": {
@@ -1445,7 +1445,7 @@
                 "name": "iShak Quattro NXT",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2023/03/700X500Px.-01-1.png",
                 "url": "https://www.accumaxlab.com/microplate-shaker/ishak-quattro-nxt/",
-                "voucher": "/vouchers/shakers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2022/04/iShak-Quattro-NXT-E-Catalogue_Oct_25.pdf",
                 "shortDescription": "High-performance microplate shaker for consistent mixing of microplates.",
                 "fullDescription": "The iShak Quattro NXT is designed to provide uniform shaking for microplates used in ELISA, PCR preparation, and other laboratory assays. It delivers accurate mixing with dependable performance.",
                 "specifications": {
@@ -1463,7 +1463,7 @@
                 "name": "iShak TS4 NXT",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/2023/03/iShak-TS4-NXT-Product-image.png",
                 "url": "https://www.accumaxlab.com/microplate-incubator-shaker/ishak-ts4-nxt/",
-                "voucher": "/vouchers/shakers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2022/01/iShak-TS4-NXT-E-Catalogue-Sep-25.pdf",
                 "shortDescription": "Microplate incubator shaker combining temperature control with efficient sample mixing.",
                 "fullDescription": "The iShak TS4 NXT integrates incubation and shaking functions into a single instrument, making it ideal for enzyme assays, cell culture, and molecular biology applications requiring precise temperature and agitation.",
                 "specifications": {
@@ -1481,7 +1481,7 @@
                 "name": "iShak US15",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2023/03/iShak-US15-product-image.png.bv.webp?bv_host=www.accumaxlab.com",
                 "url": "https://www.accumaxlab.com/shaker/ishak-us15/",
-                "voucher": "/vouchers/shakers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iShak-US15-E-Catalogue-Oct_25.pdf",
                 "shortDescription": "Laboratory shaker providing precise and reliable agitation for everyday sample preparation.",
                 "fullDescription": "The iShak US15 is engineered for efficient mixing of laboratory samples with smooth and consistent performance. Its compact design and reliable operation make it suitable for research, diagnostics, and routine laboratory applications.",
                 "specifications": {
@@ -1505,7 +1505,7 @@
               "name": "iTherm D150-1",
               "image": "https://www.accumaxlab.com/wp-content/uploads/2021/09/iTherm-D150-4.png",
               "url": "https://www.accumaxlab.com/dry-bath/itherm-d150-1/",
-              "voucher": "/vouchers/dry-baths.pdf",
+              "voucher": "https://www.accumaxlab.com/wp-content/uploads/2021/09/iTherm-D150-1_Sep-25.pdf",
               "shortDescription": "Compact digital dry bath for precise heating of laboratory samples.",
               "fullDescription": "The iTherm D150-1 is a compact dry bath incubator designed for accurate and uniform heating of laboratory samples. It features precise temperature control, rapid heating, and interchangeable heating blocks, making it suitable for molecular biology, clinical, and research laboratories.",
               "specifications": {
@@ -1523,7 +1523,7 @@
               "name": "iTherm D150-4",
               "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/iTherm-D150-4closed-lid-1.png",
               "url": "https://www.accumaxlab.com/dry-bath/itherm-d150-4/",
-              "voucher": "/vouchers/dry-baths.pdf",
+              "voucher": "https://www.accumaxlab.com/wp-content/uploads/2023/04/iTherm-D150-4-E-Catalogue-Sep-25.pdf",
               "shortDescription": "Multi-block digital dry bath with heated lid for consistent sample incubation.",
               "fullDescription": "The iTherm D150-4 is a high-performance dry bath incubator equipped with multiple block capacity and a heated lid to minimize sample evaporation. It delivers precise temperature control and uniform heating, making it ideal for PCR preparation, enzyme reactions, and other demanding laboratory workflows.",
               "specifications": {
@@ -1547,7 +1547,7 @@
               "name": "iTherm CH25 NXT",
               "image": "https://www.accumaxlab.com/wp-content/uploads/2019/11/Product-thumbnail.webp",
               "url": "https://www.accumaxlab.com/incubator/itherm-ch25-nxt/",
-              "voucher": "/vouchers/incubators.pdf",
+              "voucher": "https://www.accumaxlab.com/wp-content/uploads/2019/11/iTherm-CH25-NXT-E-Catalogue_Feb-26-1.pdf",
               "shortDescription": "Compact digital laboratory incubator for precise temperature-controlled sample incubation.",
               "fullDescription": "The iTherm CH25 NXT is a compact laboratory incubator designed to provide accurate and uniform temperature control for biological, clinical, and research applications. Featuring a digital interface, precise temperature regulation, and efficient chamber heating, it is ideal for sample incubation, microbiology, and molecular biology workflows.",
               "specifications": {
@@ -1571,7 +1571,7 @@
                 "name": "iTherm WB",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2026/04/Product-thumbnail.webp.bv.webp?bv_host=www.accumaxlab.com",
                 "url": "https://www.accumaxlab.com/product/itherm-wb/",
-                "voucher": "/vouchers/water-baths.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2026/04/iTherm-WB-Catalogue-Nov_25.pdf",
                 "shortDescription": "Digital laboratory water bath for accurate and uniform sample heating.",
                 "fullDescription": "The iTherm WB is a precision laboratory water bath designed to provide stable and uniform temperature control for sample incubation, reagent warming, and various laboratory heating applications. Its digital control system, durable stainless-steel chamber, and efficient heating technology ensure reliable performance in research, clinical, pharmaceutical, and industrial laboratories.",
                 "specifications": {
@@ -1595,7 +1595,7 @@
                 "name": "iRupt 24P",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2023/03/iRupt-24P-product-image.png.bv.webp?bv_host=www.accumaxlab.com",
                 "url": "https://www.accumaxlab.com/homogenizer/irupt-24p/",
-                "voucher": "/vouchers/homogenizers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2020/05/iRupt-24P-E-Catalogue-Sep-25.pdf",
                 "shortDescription": "High-performance bead homogenizer for rapid and efficient sample preparation.",
                 "fullDescription": "The iRupt 24P is a powerful bead homogenizer designed for fast and reproducible disruption of biological samples. It enables efficient lysis and homogenization of tissues, cells, microorganisms, and other challenging samples, making it ideal for molecular biology, genomics, proteomics, and clinical research laboratories.",
                 "specifications": {
@@ -1612,7 +1612,7 @@
                 "name": "iRupt Jr",
                 "image": "https://www.accumaxlab.com/wp-content/uploads/al_opt_content/IMAGE/www.accumaxlab.com/wp-content/uploads/2023/03/iRupt-Jr.-product-image.png.bv.webp?bv_host=www.accumaxlab.com",
                 "url": "https://www.accumaxlab.com/homogenizer/irupt-jr/",
-                "voucher": "/vouchers/homogenizers.pdf",
+                "voucher": "https://www.accumaxlab.com/wp-content/uploads/2019/11/iRupt-Jr.-E-Catalogue-Sep-25.pdf",
                 "shortDescription": "Compact bead homogenizer for efficient disruption of biological samples.",
                 "fullDescription": "The iRupt Jr is a compact laboratory bead homogenizer engineered for rapid and consistent sample disruption. Its space-saving design, precise control, and reliable performance make it ideal for DNA/RNA extraction, tissue homogenization, microbial lysis, and routine molecular biology applications.",
                 "specifications": {
