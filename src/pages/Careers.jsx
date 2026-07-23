@@ -81,7 +81,7 @@ const Careers = () => {
             <span className="text-white">Careers</span>
           </>
         }
-        backgroundImage="/images/banners/banner-careers.jpg"
+        backgroundImage="/images/banners/banner-careers.png"
       />
 
       {/* Main Content */}

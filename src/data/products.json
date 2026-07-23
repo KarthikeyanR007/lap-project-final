@@ -1643,7 +1643,7 @@
               "name": "HiPette-LTS Fully Autoclavable Manual 12-Channel Adjustable Color-Coded Pipette (Coming Soon)",
               "image": "dlab/HiPette-LTS Fully Autoclavable Manual 12-Channel Adjustable Color-Coded Pipette(Coming Soon).png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/HiPette-LTS.pdf",
               "shortDescription": "Fully autoclavable 12-channel adjustable pipette with color-coding and LTS technology.",
               "fullDescription": "A 12-channel manual pipette featuring LTS technology, fully autoclavable for sterility, and color-coded for easy volume identification.",
               "specifications": {
@@ -1661,7 +1661,7 @@
               "name": "HiPette-LTS Fully Autoclavable Manual 8-Channel Adjustable Colorful Pipette (Coming Soon)",
               "image": "dlab/HiPette-LTS Fully Autoclavable Manual 8-Channel Adjustable Colorful Pipette.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/HiPette-LTS.pdf",
               "shortDescription": "Fully autoclavable 8-channel adjustable pipette with a colorful design and LTS technology.",
               "fullDescription": "An 8-channel manual pipette featuring LTS technology, fully autoclavable, and available in a variety of colors for a personalized lab experience.",
               "specifications": {
@@ -1679,7 +1679,7 @@
               "name": "HiPette Fully Autoclavable Manual 12-Channel Adjustable Color-Coded Pipette",
               "image": "dlab/HiPette Fully Autoclavable Manual 12-Channel Adjustable Color-Coded Pipette.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/HiPette8&12&16.pdf",
               "shortDescription": "Fully autoclavable 12-channel manual pipette with color-coding for accurate and efficient multi-channel dispensing.",
               "fullDescription": "A reliable 12-channel manual pipette featuring full autoclavability and a color-coded system for easy volume identification, suitable for routine and complex laboratory tasks.",
               "specifications": {
@@ -1696,7 +1696,7 @@
               "name": "dPette+ Multi-functional 8-channel Electronic Pipette",
               "image": "dlab/dPette+ Multi-functional 8-channel Electronic Pipette.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/dPette+&dPette.pdf",
               "shortDescription": "Multi-functional 8-channel electronic pipette for versatile and high-throughput liquid handling.",
               "fullDescription": "The dPette+ is a multi-functional 8-channel electronic pipette that offers versatility and high throughput, perfect for complex laboratory protocols.",
               "specifications": {
@@ -1712,7 +1712,7 @@
               "name": "Levo ME Pipette Filler",
               "image": "dlab/Levo ME Pipette Filler.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/LevoME.pdf",
               "shortDescription": "Manual pipette filler for accurate and safe liquid handling.",
               "fullDescription": "The Levo ME is a manual pipette filler designed for accurate and safe aspiration and dispensing of liquids using serological pipettes.",
               "specifications": {
@@ -1727,7 +1727,7 @@
               "name": "Mini Pipette (Premium Model)",
               "image": "dlab/Mini Pipette (Premium Model).png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/MiniPipette&LevoE.pdf",
               "shortDescription": "Premium model of the Mini Pipette for high-performance small-volume handling.",
               "fullDescription": "The premium model of the Mini Pipette offers enhanced performance and features for demanding small-volume liquid handling applications.",
               "specifications": {
@@ -1743,7 +1743,7 @@
               "name": "Mini Pipette (Standard Model)",
               "image": "dlab/Mini Pipette (Standard Model).png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/MiniPipette&LevoE.pdf",
               "shortDescription": "Standard model of the Mini Pipette for general small-volume liquid handling.",
               "fullDescription": "The standard model of the Mini Pipette offers reliable performance for everyday small-volume liquid handling applications.",
               "specifications": {
@@ -1759,7 +1759,7 @@
               "name": "StepMate Stepper",
               "image": "dlab/StepMate Stepper.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/StepMate.pdf",
               "shortDescription": "Stepper pipette for repetitive dispensing of equal volumes.",
               "fullDescription": "The StepMate is a stepper pipette designed for efficient and repetitive dispensing of equal liquid volumes, ideal for routine lab workflows.",
               "specifications": {
@@ -1774,7 +1774,7 @@
               "name": "dTrite Electronic Burette",
               "image": "dlab/dTrite Electronic Burette.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/dTrite.pdf",
               "shortDescription": "Electronic burette for precise and controlled liquid dispensing in titration.",
               "fullDescription": "The dTrite Electronic Burette provides accurate and controlled liquid dispensing for titration applications, enhancing precision and ease of use.",
               "specifications": {
@@ -1789,7 +1789,7 @@
               "name": "dFlow Electronic Bottle-Top Dispenser",
               "image": "dlab/dFlow Electronic Bottle-Top Dispenser.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/dFlow.pdf",
               "shortDescription": "Electronic bottle-top dispenser for accurate and convenient liquid handling.",
               "fullDescription": "The dFlow is an electronic bottle-top dispenser designed for accurate, convenient, and safe dispensing of liquids directly from their storage bottles.",
               "specifications": {
@@ -1804,7 +1804,7 @@
               "name": "DispensMate Bottle-Top Dispenser",
               "image": "dlab/DispensMate Bottle-Top Dispenser.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/DispensMate.pdf",
               "shortDescription": "Bottle-top dispenser for accurate and safe dispensing of liquids.",
               "fullDescription": "The DispensMate is a bottle-top dispenser that provides accurate, safe, and convenient dispensing of reagents and chemicals directly from their bottles.",
               "specifications": {
@@ -1818,7 +1818,7 @@
               "name": "SafeVac Vacuum-Controlled Aspiration System 4L",
               "image": "dlab/SafeVac Vacuum-Controlled Aspiration System 4L.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/SafeVac.pdf",
               "shortDescription": "4L vacuum-controlled aspiration system for safe and efficient liquid removal.",
               "fullDescription": "The SafeVac is a 4L vacuum-controlled aspiration system designed for safe, efficient, and reliable removal of liquids in cell culture and other laboratory applications.",
               "specifications": {
@@ -1840,7 +1840,7 @@
               "name": "HB105-S2 LED Digital Double Modules Dry Bath",
               "image": "dlab/HB105-S2 LED Digital Double Modules Dry Bath.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/HB105-S2-LED-Digital-Double-Modules-Dry-Bath.pdf",
               "shortDescription": "Double-module dry bath with LED digital display for dual-temperature applications.",
               "fullDescription": "The HB105-S2 is a double-module dry bath with an LED digital display, allowing for two independent heating blocks to run at different temperatures simultaneously.",
               "specifications": {
@@ -1856,7 +1856,7 @@
               "name": "HB150-S2 LED Digital Double Modules Dry Bath",
               "image": "dlab/HB150-S2 LED Digital Double Modules Dry Bath.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/HB105-S2-LED-Digital-Double-Modules-Dry-Bath.pdf",
               "shortDescription": "Double-module dry bath with LED digital display for dual-temperature applications.",
               "fullDescription": "The HB150-S2 is a double-module dry bath with an LED digital display, allowing for two independent heating blocks to run at different temperatures simultaneously.",
               "specifications": {
@@ -1872,7 +1872,7 @@
               "name": "HM100-pro Thermo Mix (Mechanical fixation)",
               "image": "dlab/HM100-pro Thermo Mix (Mechanical fixation).png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/HCM100-Pro&HM100-Pro&HC110-Pro.pdf",
               "shortDescription": "Thermo mixer with mechanical fixation for precise temperature and mixing control.",
               "fullDescription": "The HM100-pro is a thermo mixer featuring mechanical fixation, combining precise temperature control with efficient mixing for various laboratory applications.",
               "specifications": {
@@ -1887,7 +1887,7 @@
               "name": "HCM100-Pro Thermo Mix (Mechanical fixation)",
               "image": "dlab/HCM100-Pro Thermo Mix (Mechanical fixation).png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/HCM100-Pro&HM100-Pro&HC110-Pro.pdf",
               "shortDescription": "Thermo mixer with mechanical fixation for precise temperature and mixing control.",
               "fullDescription": "The HCM100-Pro is a thermo mixer featuring mechanical fixation, combining precise temperature control with efficient mixing for various laboratory applications.",
               "specifications": {
@@ -1923,7 +1923,7 @@
               "name": "DMS4-550 LCD Glass Ceramic Heating Magnetic Stirrer with Timer",
               "image": "dlab/DMS4-550 LCD Glass Ceramic Heating Magnetic Stirrer with Timer.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/DMS7-550M&DHP7-550&DMS7&DMS4-550&DHP4-550&DMS4.pdf",
               "shortDescription": "Glass ceramic heating magnetic stirrer with LCD display and timer.",
               "fullDescription": "The DMS4-550 combines a glass ceramic hotplate with magnetic stirring, featuring an LCD display and timer for precise, controlled heating and mixing.",
               "specifications": {
@@ -1939,7 +1939,7 @@
               "name": "DMS5-340 LCD Heating Magnetic Stirrer with Timer",
               "image": "dlab/DMS5-340 LCD Heating Magnetic Stirrer with Timer.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/DMS5-340&DMS5-340M&DMS5.pdf",
               "shortDescription": "LCD heating magnetic stirrer with timer for general laboratory use.",
               "fullDescription": "The DMS5-340 is a versatile heating magnetic stirrer with an LCD display and timer, suitable for a wide range of general laboratory heating and mixing tasks.",
               "specifications": {
@@ -1954,7 +1954,7 @@
               "name": "MS10-H500-Pro LCD Digital Magnetic Hotplate Stirrer With 10 Inch Ceramic Plate",
               "image": "dlab/MS10-H500-Pro LCD Digital Magnetic Hotplate Stirrer With 10 Inch Ceramic Plate.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/MS10-H500-Pro.pdf",
               "shortDescription": "Large 10-inch LCD digital magnetic hotplate stirrer with ceramic plate.",
               "fullDescription": "The MS10-H500-Pro is a large 10-inch digital magnetic hotplate stirrer featuring a durable ceramic plate, ideal for large-volume heating and mixing.",
               "specifications": {
@@ -1970,7 +1970,7 @@
               "name": "MS-H-S Security Analog Magnetic Hotplate stirrer",
               "image": "dlab/MS-H-S Security Analog Magnetic Hotplate stirrer.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/MS-H-ProA&+&T&MS-H-S.pdf",
               "shortDescription": "Security-focused analog magnetic hotplate stirrer.",
               "fullDescription": "The MS-H-S is an analog magnetic hotplate stirrer designed with enhanced safety features for secure laboratory operation.",
               "specifications": {
@@ -1985,7 +1985,7 @@
               "name": "HP550-S LED Hotplate",
               "image": "dlab/HP550-S LED Hotplate.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/HP550-S.pdf",
               "shortDescription": "LED hotplate for essential heating applications.",
               "fullDescription": "The HP550-S is an LED hotplate designed for basic and efficient heating in laboratory settings.",
               "specifications": {
@@ -2000,7 +2000,7 @@
               "name": "DHP7-550 LCD Digital 7-Inch Timed Heating Hotplate",
               "image": "dlab/DHP7-550 LCD Digital 7-Inch Timed Heating Hotplate.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/DMS7-550M&DHP7-550&DMS7&DMS4-550&DHP4-550&DMS4.pdf",
               "shortDescription": "7-inch LCD digital hotplate with timer for precise heating.",
               "fullDescription": "The DHP7-550 is a 7-inch digital hotplate with an LCD display and a timer, providing accurate and timed heating for various laboratory procedures.",
               "specifications": {
@@ -2016,7 +2016,7 @@
               "name": "MS6-Pro LCD Digital Magnetic Stirrer",
               "image": "dlab/MS6-Pro LCD Digital Magnetic Stirrer.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/MS-S&MS6-Pro&MS7-S.pdf",
               "shortDescription": "LCD digital magnetic stirrer with advanced features.",
               "fullDescription": "The MS6-Pro is an LCD digital magnetic stirrer offering advanced control and performance for precise laboratory mixing.",
               "specifications": {
@@ -2031,7 +2031,7 @@
               "name": "MS-PB Magnetic Stirrer",
               "image": "dlab/MS-PB Magnetic Stirrer.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/MS-PAPB.pdf",
               "shortDescription": "Compact magnetic stirrer for basic mixing.",
               "fullDescription": "The MS-PB is a compact magnetic stirrer designed for basic and efficient mixing in a small footprint.",
               "specifications": {
@@ -2045,7 +2045,7 @@
               "name": "TB-H240-V1 Constant temperature bath",
               "image": "dlab/TB-H240-V1 Constant Temperature Bath.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/TB-H240-V1.pdf",
               "shortDescription": "Constant temperature bath for precise temperature control of samples.",
               "fullDescription": "The TB-H240-V1 is a constant temperature bath designed for precise and stable temperature control, ideal for various sample incubation and testing applications.",
               "specifications": {
@@ -2060,7 +2060,7 @@
               "name": "OS-T40-Plus/OS-T60-Plus LCD Digital Timed Overhead Stirrer",
               "image": "dlab/OS-T40-PlusOS-T60-Plus LCD Digital Timed Overhead Stirrer.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/OS-T40&60-Plus&T400-Plus.pdf",
               "shortDescription": "LCD digital overhead stirrer with timer functionality for precise mixing.",
               "fullDescription": "The OS-T40-Plus and OS-T60-Plus are LCD digital overhead stirrers featuring a built-in timer for controlled and reproducible mixing processes.",
               "specifications": {
@@ -2076,7 +2076,7 @@
               "name": "OS40-S LED Overhead Stirrer",
               "image": "dlab/OS40-S LED Overhead Stirrer.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/OS20-S&OS40-S.pdf",
               "shortDescription": "LED overhead stirrer with 40L capacity.",
               "fullDescription": "The OS40-S is an LED overhead stirrer capable of handling volumes up to 40L, suitable for a variety of laboratory mixing needs.",
               "specifications": {
@@ -2106,7 +2106,7 @@
               "name": "D-160 Handheld Homogenizer",
               "image": "dlab/D-160 Handheld Homogenizer.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/D-160.pdf",
               "shortDescription": "Handheld homogenizer for efficient and convenient sample processing.",
               "fullDescription": "The D-160 is a handheld homogenizer designed for efficient and convenient processing of small-volume samples, ideal for quick homogenization, dispersion, and emulsification.",
               "specifications": {
@@ -2128,7 +2128,7 @@
               "name": "RE100-S LED Digital Rotary Evaporator",
               "image": "dlab/RE100-S LED Digital Rotary Evaporator.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/RE100-S.pdf",
               "shortDescription": "LED digital rotary evaporator for standard evaporation tasks.",
               "fullDescription": "The RE100-S is an LED digital rotary evaporator designed for standard evaporation tasks, offering reliable performance and ease of use.",
               "specifications": {
@@ -2144,7 +2144,7 @@
               "name": "RE500-E Pilot Scale Digital Control Rotary Evaporator",
               "image": "dlab/RE500-E Pilot Scale Digital Control Rotary Evaporator.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/RE500&1000&2000&5000-E.pdf",
               "shortDescription": "Pilot scale digital control rotary evaporator with 5L capacity.",
               "fullDescription": "The RE500-E is a pilot scale digital control rotary evaporator with a 5L capacity, ideal for scale-up and pilot plant applications.",
               "specifications": {
@@ -2160,7 +2160,7 @@
               "name": "DCP-5 Low-Temperature Cooling Circulator",
               "image": "dlab/DCP-5 Low-Temperature Cooling Circulator.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/DCP-5&DCP-17&DCP-20.pdf",
               "shortDescription": "Low-temperature cooling circulator with 5L capacity.",
               "fullDescription": "The DCP-5 is a low-temperature cooling circulator with a 5L capacity, ideal for space-saving and efficient cooling applications.",
               "specifications": {
@@ -2176,7 +2176,7 @@
               "name": "DUC-10 High Precision Chiller",
               "image": "dlab/DUC-10 High Precision Chiller.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/DUC-10.pdf",
               "shortDescription": "High precision chiller for accurate temperature control.",
               "fullDescription": "The DUC-10 is a high precision chiller providing accurate and stable temperature control for various laboratory and industrial applications.",
               "specifications": {
@@ -2192,7 +2192,7 @@
               "name": "C410 Chemistry-design diapharm pump",
               "image": "dlab/C410 Chemistry-design diapharm pump.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/C410.pdf",
               "shortDescription": "Chemistry-design diaphragm pump for vacuum applications.",
               "fullDescription": "The C410 is a chemistry-design diaphragm pump, ideal for providing vacuum in rotary evaporation and other laboratory applications.",
               "specifications": {
@@ -2214,7 +2214,7 @@
               "name": "D1012UA High Speed Micro Centrifuges",
               "image": "dlab/D1012UA High Speed Micro Centrifuges.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/D1012UA.pdf",
               "shortDescription": "High-speed micro centrifuge with advanced features.",
               "fullDescription": "The D1012UA is a high-speed micro centrifuge with advanced features for precise and efficient sample separation.",
               "specifications": {
@@ -2229,7 +2229,7 @@
               "name": "DG1616 High Speed Centrifuge",
               "image": "dlab/DG1616 High Speed Centrifuge.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/DG1616&DG1616R.pdf",
               "shortDescription": "High-speed centrifuge for demanding laboratory applications.",
               "fullDescription": "The DG1616 is a high-speed centrifuge suitable for a wide range of laboratory applications requiring efficient and rapid sample separation.",
               "specifications": {
@@ -2244,7 +2244,7 @@
               "name": "D1524R High Speed Refrigerated Centrifuge",
               "image": "dlab/D1524R High Speed Refrigerated Centrifuge.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/D1524R.pdf",
               "shortDescription": "High-speed refrigerated centrifuge for sensitive sample separation.",
               "fullDescription": "The D1524R is a high-speed refrigerated centrifuge designed for the separation of sensitive biological samples requiring precise temperature control.",
               "specifications": {
@@ -2260,7 +2260,7 @@
               "name": "DM0408 Low Speed Centrifuge",
               "image": "dlab/DM0408 Low Speed Centrifuge.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/DM0424&DM0408.pdf",
               "shortDescription": "Low-speed centrifuge with 8-tube capacity.",
               "fullDescription": "The DM0408 is a low-speed centrifuge with an 8-tube capacity, suitable for smaller laboratories or specialized applications.",
               "specifications": {
@@ -2275,7 +2275,7 @@
               "name": "DM0436E Low Speed Centrifuge",
               "image": "dlab/DM0436E Low Speed Centrifuge.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/DM0436E.pdf",
               "shortDescription": "Low-speed centrifuge with enhanced features.",
               "fullDescription": "The DM0436E is a low-speed centrifuge with enhanced features for improved performance and user convenience.",
               "specifications": {
@@ -2296,7 +2296,7 @@
               "name": "MX-C Cell Disruptor",
               "image": "dlab/MX-C Cell Disruptor.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/MX-C.pdf",
               "shortDescription": "Cell disruptor for sample preparation.",
               "fullDescription": "The MX-C is a cell disruptor designed for effective disruption of cells and tissues in sample preparation.",
               "specifications": {
@@ -2311,7 +2311,7 @@
               "name": "MX-S+ Digital Vortex Mixer",
               "image": "dlab/MX-S+ Digital Vortex Mixer.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/MX-S+.pdf",
               "shortDescription": "Digital vortex mixer with enhanced features.",
               "fullDescription": "The MX-S+ is a digital vortex mixer offering precise speed control and enhanced features for effective sample mixing.",
               "specifications": {
@@ -2327,7 +2327,7 @@
               "name": "MX-S Variable speed Vortex Mixer",
               "image": "dlab/MX-S Variable speed Vortex Mixer.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/MX-S.pdf",
               "shortDescription": "Variable speed vortex mixer for versatile mixing.",
               "fullDescription": "The MX-S is a variable speed vortex mixer offering flexible speed control for a wide range of sample types.",
               "specifications": {
@@ -2343,7 +2343,7 @@
               "name": "MX-M Microplate Mixer",
               "image": "dlab/MX-M Microplate Mixer.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/MX-M.pdf",
               "shortDescription": "Microplate mixer for efficient plate mixing.",
               "fullDescription": "The MX-M is a dedicated microplate mixer designed for efficient and uniform mixing of samples in microplates.",
               "specifications": {
@@ -2358,7 +2358,7 @@
               "name": "MX-T6-Pro LCD Digital Tube Roller",
               "image": "dlab/MX-T6-Pro LCD Digital Tube Roller.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/MXT6ProSS+.pdf",
               "shortDescription": "LCD digital tube roller for efficient mixing.",
               "fullDescription": "The MX-T6-Pro is an LCD digital tube roller designed for gentle yet efficient mixing of tubes.",
               "specifications": {
@@ -2373,7 +2373,7 @@
               "name": "SK-R30S-E Short Deck Rocking Rotator",
               "image": "dlab/SK-R30S-E Short Deck Rocking Rotator.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/SK-R30D&L&S-E.pdf",
               "shortDescription": "Short deck rocking rotator for gentle mixing.",
               "fullDescription": "The SK-R30S-E is a short deck rocking rotator designed for gentle and efficient mixing.",
               "specifications": {
@@ -2404,7 +2404,7 @@
               "name": "SK-O330-M Orbital Decolorizing Shaker",
               "image": "dlab/SK-O330-M Orbital Decolorizing Shaker.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/SK-O180-S&SK-O330-M.pdf",
               "shortDescription": "Orbital decolorizing shaker for gentle mixing.",
               "fullDescription": "The SK-O330-M is an orbital shaker designed for decolorizing and other gentle mixing applications.",
               "specifications": {
@@ -2425,7 +2425,7 @@
               "name": "TC1000-S+ Thermal Cycler Standard",
               "image": "dlab/TC1000-S+ Thermal Cycler Standard.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/TC1000-S+&TC1000-G-Pro.pdf",
               "shortDescription": "Standard thermal cycler for routine PCR applications.",
               "fullDescription": "The TC1000-S+ is a standard thermal cycler designed for reliable and consistent PCR amplification in routine laboratory applications.",
               "specifications": {
@@ -2441,7 +2441,7 @@
               "name": "TC1000-G-Pro Thermal Cycler Gradient",
               "image": "dlab/TC1000-G-Pro Thermal Cycler Gradient.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/TC1000-S+&TC1000-G-Pro.pdf",
               "shortDescription": "Gradient thermal cycler for PCR optimization.",
               "fullDescription": "The TC1000-G-Pro is a gradient thermal cycler designed for PCR optimization, allowing simultaneous testing of multiple annealing temperatures.",
               "specifications": {
@@ -2457,7 +2457,7 @@
               "name": "TC2000-G1/G2/G3 Thermal Cycler Gradient",
               "image": "dlab/TC2000-G1_G2_G3 Thermal Cycler Gradient.png",
               "url": null,
-              "voucher": null,
+              "voucher": "/vouchers/TC2000-G1G2G3.pdf",
               "shortDescription": "Gradient thermal cycler with multiple block options (G1/G2/G3).",
               "fullDescription": "The TC2000-G series are gradient thermal cyclers available in multiple block configurations (G1, G2, G3), offering flexibility for different throughput needs and PCR optimization.",
               "specifications": {
