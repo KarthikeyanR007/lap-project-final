@@ -14,7 +14,7 @@
               "id": "low-freezer-20c",
               "name": "Low Freezer -20°C",
               "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop",
-              "voucher": "/vouchers/low-freezer-20c.pdf",
+              "voucher": "vouchers/RS-LowFreezer.pdf",
               "shortDescription": "Reliable -20°C freezer for safe laboratory storage of biological samples and reagents.",
               "fullDescription": "The Low Freezer -20°C is designed for safe storage of biological samples, reagents, and other temperature-sensitive materials. Features include precise temperature control, energy-efficient operation, and user-friendly digital display. The unit is constructed with high-quality materials ensuring durability and consistent performance for years.",
               "specifications": {
@@ -31,7 +31,7 @@
               "id": "deep-freezer-40c",
               "name": "Deep Freezer -40°C",
               "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=1",
-              "voucher": "/vouchers/deep-freezer-40c.pdf",
+              "voucher": "vouchers/RS-DeepFreezer.pdf",
               "shortDescription": "Reliable -40°C deep freezer for long-term storage of biological specimens.",
               "fullDescription": "The Deep Freezer -40°C offers dependable performance for preserving biological specimens, reagents, and other sensitive materials. With advanced cooling technology and precise temperature control, this unit ensures sample integrity for extended periods. The robust construction and energy-efficient design make it ideal for research and clinical laboratories.",
               "specifications": {
@@ -46,13 +46,13 @@
             },
             {
               "id": "ultra-low-freezer-86c",
-              "name": "Ultra Low Freezer -86°C",
+              "name": "Ultra Low Freezer -80°C",
               "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=2",
-              "voucher": "/vouchers/ultra-low-freezer-86c.pdf",
-              "shortDescription": "High-performance -86°C ultra-low temperature freezer for cryogenic storage.",
-              "fullDescription": "The Ultra Low Freezer -86°C provides reliable cryogenic storage for valuable biological samples, vaccines, and research materials. Featuring advanced cascade refrigeration system, this unit maintains stable temperatures even in demanding environments. The intelligent control system with data logging capability ensures sample safety and regulatory compliance.",
+              "voucher": "vouchers/RS-UltraLowFreezer.pdf",
+              "shortDescription": "High-performance -80°C ultra-low temperature freezer for cryogenic storage.",
+              "fullDescription": "The Ultra Low Freezer -80°C provides reliable cryogenic storage for valuable biological samples, vaccines, and research materials. Featuring advanced cascade refrigeration system, this unit maintains stable temperatures even in demanding environments. The intelligent control system with data logging capability ensures sample safety and regulatory compliance.",
               "specifications": {
-                "Temperature Range": "-86°C ± 2°C",
+                "Temperature Range": "-80°C ± 2°C",
                 "Capacity": "300-800 Litres",
                 "Power Supply": "230V, 50Hz",
                 "Display": "Digital LED with data logging",
@@ -65,7 +65,7 @@
               "id": "laboratory-refrigerator-4c",
               "name": "Laboratory Refrigerator +4°C",
               "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=3",
-              "voucher": "/vouchers/laboratory-refrigerator-4c.pdf",
+              "voucher": "vouchers/RS-LaboratoryRefrigerator.pdf",
               "shortDescription": "Precise +4°C laboratory refrigerator for safe vaccine and reagent storage.",
               "fullDescription": "The Laboratory Refrigerator +4°C is designed for safe storage of vaccines, reagents, biological samples, and other temperature-sensitive materials. The unit features precise temperature control, uniform cooling throughout the cabinet, and user-friendly digital display. The robust construction and energy-efficient design ensure reliable performance for years.",
               "specifications": {
@@ -82,7 +82,7 @@
               "id": "walk-in-cold-room",
               "name": "Walk-in Cold Room",
               "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=4",
-              "voucher": "/vouchers/walk-in-cold-room.pdf",
+              "voucher": "vouchers/RS-WalkinColdRoom.pdf",
               "shortDescription": "Large-scale walk-in cold room for bulk storage of temperature-sensitive materials.",
               "fullDescription": "The Walk-in Cold Room provides spacious cold storage solutions for pharmaceutical, research, and industrial facilities. Designed for bulk storage of vaccines, biological samples, and other temperature-sensitive materials, this unit features robust construction, precise temperature control, and efficient insulation. Customizable configurations available to meet specific requirements.",
               "specifications": {
@@ -99,7 +99,7 @@
               "id": "walk-in-freezer-room",
               "name": "Walk-in Freezer Room",
               "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=5",
-              "voucher": "/vouchers/walk-in-freezer-room.pdf",
+              "voucher": "vouchers/RS-WalkinFreezerRoom.pdf",
               "shortDescription": "Large-scale walk-in freezer room for bulk frozen storage.",
               "fullDescription": "The Walk-in Freezer Room provides spacious frozen storage solutions for pharmaceutical, research, and industrial facilities. Designed for bulk storage of frozen biological samples, reagents, and other temperature-sensitive materials, this unit features robust construction, precise temperature control, and efficient insulation. Customizable configurations available.",
               "specifications": {
@@ -116,7 +116,7 @@
               "id": "re-circulating-chiller",
               "name": "Re-circulating Chiller",
               "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=6",
-              "voucher": "/vouchers/re-circulating-chiller.pdf",
+              "voucher": "vouchers/RS-RecirculatingChiller.pdf",
               "shortDescription": "Efficient re-circulating chiller for precise laboratory cooling applications.",
               "fullDescription": "The Re-circulating Chiller provides precise temperature control for laboratory equipment and processes. Designed for cooling rotary evaporators, condensers, and other laboratory instruments, this unit features efficient cooling performance, user-friendly controls, and reliable operation. The compact design and quiet operation make it suitable for various laboratory settings.",
               "specifications": {
@@ -139,7 +139,7 @@
               "id": "hot-air-oven",
               "name": "Hot Air Oven",
               "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=7",
-              "voucher": "/vouchers/hot-air-oven.pdf",
+              "voucher": "vouchers/RS-HotAirOven.pdf",
               "shortDescription": "High-precision hot air oven for sterilization, drying, and heating applications.",
               "fullDescription": "The Hot Air Oven provides reliable heating, drying, and sterilization for laboratory applications. Features include precise temperature control, uniform heat distribution, and user-friendly digital PID controller. The unit is constructed with high-quality materials ensuring durability and consistent performance for years.",
               "specifications": {
@@ -156,7 +156,7 @@
               "id": "muffle-furnace",
               "name": "Muffle Furnace",
               "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=8",
-              "voucher": "/vouchers/muffle-furnace.pdf",
+              "voucher": "vouchers/RS-MuffleFurnace.pdf",
               "shortDescription": "High-temperature muffle furnace for ashing, sintering, and heat treatment.",
               "fullDescription": "The Muffle Furnace is designed for high-temperature applications including ashing, sintering, heat treatment, and material testing. Features include precise temperature control, uniform heat distribution, and user-friendly digital PID controller. The unit is constructed with high-quality refractory materials ensuring durability and consistent performance.",
               "specifications": {
@@ -179,7 +179,7 @@
               "id": "autoclave-vertical",
               "name": "Autoclave (Vertical)",
               "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=9",
-              "voucher": "/vouchers/autoclave-vertical.pdf",
+              "voucher": "vouchers/rslab/RS-Autoclave (Vertical).pdf",
               "shortDescription": "Vertical autoclave for reliable sterilization of laboratory equipment and media.",
               "fullDescription": "The Vertical Autoclave is designed for reliable sterilization of laboratory equipment, media, and waste. Features include precise temperature control, uniform steam distribution, and user-friendly digital controller. The unit is constructed with high-quality stainless steel ensuring durability and consistent performance for years.",
               "specifications": {
@@ -202,7 +202,7 @@
               "id": "tray-dryer",
               "name": "Tray Dryer",
               "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=10",
-              "voucher": "/vouchers/tray-dryer.pdf",
+              "voucher": "vouchers/RS-TrayDryer.pdf",
               "shortDescription": "Efficient tray dryer for laboratory and pilot-scale drying applications.",
               "fullDescription": "The Tray Dryer is designed for efficient drying of various materials in laboratory and pilot-scale applications. Features include precise temperature control, uniform air distribution, and user-friendly digital controller. The unit is constructed with high-quality materials ensuring durability and consistent performance.",
               "specifications": {

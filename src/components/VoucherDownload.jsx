@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaDownload, FaFilePdf, FaFileAlt, FaExternalLinkAlt, FaCloudDownloadAlt } from 'react-icons/fa';
 
-const VoucherDownload = ({ productName, voucherUrl }) => {
+const VoucherDownload = ({ productName, voucherUrl, brandId }) => {
   const [isOpening, setIsOpening] = useState(false);
   const [downloadProgress, setDownloadProgress] = useState(0);
 
@@ -12,9 +12,35 @@ const VoucherDownload = ({ productName, voucherUrl }) => {
     return url.startsWith('http://') || url.startsWith('https://');
   };
 
-  const isLocalFile = (url) => {
-    if (!url) return false;
-    return url.startsWith('/') || url.startsWith('./') || url.endsWith('.pdf');
+  const getCorrectVoucherPath = (url) => {
+    if (!url) return null;
+    
+    // If it's already a full URL, return as is
+    if (isUrl(url)) return url;
+    
+    // If it starts with '/', it's an absolute path from root
+    if (url.startsWith('/')) return url;
+    
+    // If it starts with 'vouchers/', it's relative to root
+    if (url.startsWith('vouchers/')) return `/${url}`;
+    
+    // If it's just a filename (like "HiPette-LTS.pdf"), it's in the root vouchers folder
+    if (!url.includes('/')) return `/vouchers/${url}`;
+    
+    // For any other case, assume it's in the vouchers folder
+    return `/vouchers/${url}`;
+  };
+
+  const getFileTypeInfo = () => {
+    if (!voucherUrl) return 'No brochure available';
+    if (isUrl(voucherUrl)) return 'Online PDF - Opens in new tab';
+    return 'PDF Document - Opens in new tab';
+  };
+
+  const getFileIcon = () => {
+    if (!voucherUrl) return <FaFileAlt className="text-gray-400" />;
+    if (isUrl(voucherUrl)) return <FaExternalLinkAlt className="text-accent" />;
+    return <FaFilePdf className="text-accent" />;
   };
 
   const handleOpenInNewTab = () => {
@@ -26,24 +52,16 @@ const VoucherDownload = ({ productName, voucherUrl }) => {
     setIsOpening(true);
     
     try {
-      if (isUrl(voucherUrl)) {
-        // Open URL in new tab
-        window.open(voucherUrl, '_blank', 'noopener,noreferrer');
-      } else if (isLocalFile(voucherUrl)) {
-        // For local PDF files, we can either:
-        // Option 1: Open in new tab using the path
-        window.open(voucherUrl, '_blank', 'noopener,noreferrer');
-        // Option 2: Force download
-        // const link = document.createElement('a');
-        // link.href = voucherUrl;
-        // link.download = `${productName}-brochure.pdf`;
-        // document.body.appendChild(link);
-        // link.click();
-        // document.body.removeChild(link);
-      } else {
-        // Try opening as is
-        window.open(voucherUrl, '_blank', 'noopener,noreferrer');
+      const finalUrl = getCorrectVoucherPath(voucherUrl);
+      
+      if (!finalUrl) {
+        console.error('Invalid voucher URL');
+        setIsOpening(false);
+        return;
       }
+      
+      // Open URL in new tab
+      window.open(finalUrl, '_blank', 'noopener,noreferrer');
       
       setTimeout(() => {
         setIsOpening(false);
@@ -55,31 +73,20 @@ const VoucherDownload = ({ productName, voucherUrl }) => {
       // Fallback: Try to download
       if (voucherUrl) {
         try {
-          const link = document.createElement('a');
-          link.href = voucherUrl;
-          link.download = `${productName.replace(/\s+/g, '-')}-brochure.pdf`;
-          document.body.appendChild(link);
-          link.click();
-          document.body.removeChild(link);
+          const finalUrl = getCorrectVoucherPath(voucherUrl);
+          if (finalUrl) {
+            const link = document.createElement('a');
+            link.href = finalUrl;
+            link.download = `${productName.replace(/\s+/g, '-')}-brochure.pdf`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+          }
         } catch (downloadError) {
           console.error('Failed to download brochure:', downloadError);
         }
       }
     }
-  };
-
-  const getFileTypeInfo = () => {
-    if (!voucherUrl) return 'No brochure available';
-    if (isUrl(voucherUrl)) return 'Online PDF - Opens in new tab';
-    if (isLocalFile(voucherUrl)) return 'Local PDF - Opens in new tab';
-    return 'PDF Document - Opens in new tab';
-  };
-
-  const getFileIcon = () => {
-    if (!voucherUrl) return <FaFileAlt className="text-gray-400" />;
-    if (isUrl(voucherUrl)) return <FaExternalLinkAlt className="text-accent" />;
-    if (isLocalFile(voucherUrl)) return <FaCloudDownloadAlt className="text-accent" />;
-    return <FaFilePdf className="text-accent" />;
   };
 
   return (
@@ -104,7 +111,7 @@ const VoucherDownload = ({ productName, voucherUrl }) => {
             </div>
             {voucherUrl && (
               <div className="mt-1 text-xs text-gray-500 font-mono truncate max-w-xs">
-                {voucherUrl}
+                {getCorrectVoucherPath(voucherUrl)}
               </div>
             )}
           </div>
