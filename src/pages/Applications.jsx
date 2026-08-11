@@ -75,7 +75,7 @@ const Applications = () => {
                 {/* Image */}
                 <div className="h-48 overflow-hidden relative">
                   <img 
-                    src={app.image} 
+                    src={app.image}  // ← Updated path
                     alt={app.name} 
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />

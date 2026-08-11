@@ -2,7 +2,7 @@
   {
     "id": "pharmaceutical",
     "name": "Pharmaceutical & Biotech",
-    "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=71",
+    "image": "/images/application/paramedical.jpg",
     "description": "Supporting drug development and quality control with precision instruments and reliable testing equipment.",
     "relatedBrands": ["rs-equipments", "dlab", "sr-lab-instruments"],
     "relatedProducts": ["low-freezer-20c", "thermal-cycler", "stability-chamber"]
@@ -10,7 +10,7 @@
   {
     "id": "food-beverage",
     "name": "Food & Beverage Testing",
-    "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=72",
+    "image": "/images/application/FoodBeverageTesting.jpg",
     "description": "Ensuring food safety and quality with reliable testing equipment and consumables.",
     "relatedBrands": ["accumax", "neuation", "dlab"],
     "relatedProducts": ["pcr-consumables", "vortex-mixers", "magnetic-stirrers"]
@@ -18,7 +18,7 @@
   {
     "id": "environmental",
     "name": "Environmental Analysis",
-    "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=73",
+    "image": "/images/application/EnvironmentalAnalysis1.png",
     "description": "Monitoring environmental quality with advanced instrumentation and testing chambers.",
     "relatedBrands": ["sr-lab-instruments", "rs-equipments"],
     "relatedProducts": ["environmental-test-chamber", "salt-spray-chamber"]
@@ -26,7 +26,7 @@
   {
     "id": "chemical-petrochemical",
     "name": "Chemical & Petrochemical",
-    "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=74",
+    "image": "/images/application/ChemicalPetrochemical.png",
     "description": "Precise analysis and quality control for chemical industries with reliable equipment.",
     "relatedBrands": ["dlab", "accumax"],
     "relatedProducts": ["overhead-stirrer", "reagent-bottles"]
@@ -34,7 +34,7 @@
   {
     "id": "research-academic",
     "name": "Research & Academic",
-    "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=75",
+    "image": "/images/application/ResearchAcademic.jpg",
     "description": "Supporting scientific discovery and education with reliable laboratory equipment.",
     "relatedBrands": ["neuation", "dlab", "sr-lab-instruments"],
     "relatedProducts": ["micro-centrifuges", "plant-growth-chamber", "thermal-cycler"]
@@ -42,7 +42,7 @@
   {
     "id": "industrial-qc",
     "name": "Industrial QC",
-    "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=76",
+    "image": "/images/application/IndustrialQC.jpg",
     "description": "Ensuring product quality and compliance with advanced testing and measurement equipment.",
     "relatedBrands": ["sr-lab-instruments", "rs-equipments"],
     "relatedProducts": ["environmental-test-chamber", "hot-air-oven"]

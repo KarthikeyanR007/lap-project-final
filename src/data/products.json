@@ -3011,7 +3011,7 @@
               "name": "Mini - Lyodel",
               "image": "https://delvacpumps.com/wp-content/uploads/2024/02/MINI-LYODEL-01.jpg",
               "url": "https://delvacpumps.com/mini-lyodel-2/",
-              "voucher": null,
+              "voucher": "/vouchers/LYOPHILISER.pdf",
               "shortDescription": "Compact freeze dryer for small-scale lyophilization.",
               "fullDescription": "The Mini-Lyodel is a compact freeze dryer designed for small-scale lyophilization, ideal for laboratories with limited space and low sample volumes.",
               "specifications": {
@@ -3027,7 +3027,7 @@
               "name": "Lyodel",
               "image": "https://delvacpumps.com/wp-content/uploads/elementor/thumbs/08-qqnaemzpe1sm0m3fk09u5jkovk2uh6i7xnmsdi1bm0.png",
               "url": "https://delvacpumps.com/lyodel/",
-              "voucher": null,
+              "voucher": "/vouchers/LYOPHILISER.pdf",
               "shortDescription": "Standard freeze dryer for general laboratory use.",
               "fullDescription": "The Lyodel is a standard freeze dryer designed for general laboratory use, providing reliable lyophilization for a variety of samples.",
               "specifications": {
@@ -3043,7 +3043,7 @@
               "name": "Maxi - Lyodel",
               "image": "https://delvacpumps.com/wp-content/uploads/2024/02/MAXI-LYODEL-01.jpg",
               "url": "https://delvacpumps.com/maxi-lyodel-2/",
-              "voucher": null,
+              "voucher": "/vouchers/LYOPHILISER.pdf",
               "shortDescription": "Large capacity freeze dryer for high-volume lyophilization.",
               "fullDescription": "The Maxi-Lyodel is a large capacity freeze dryer designed for high-volume lyophilization, suitable for industrial and research applications requiring bulk processing.",
               "specifications": {
@@ -3059,7 +3059,7 @@
               "name": "Accessories",
               "image": "https://delvacpumps.com/wp-content/uploads/2024/03/q.jpg",
               "url": "https://delvacpumps.com/accessories/",
-              "voucher": null,
+              "voucher": "/vouchers/LYOPHILISER.pdf",
               "shortDescription": "A range of accessories for freeze dryers and laboratory equipment.",
               "fullDescription": "A comprehensive range of accessories designed to enhance the functionality and versatility of freeze dryers and other laboratory equipment.",
               "specifications": {

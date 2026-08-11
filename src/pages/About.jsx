@@ -81,7 +81,7 @@ const About = () => {
               viewport={{ once: true }}
             >
               <img 
-                src="https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=600&h=400&fit=crop&random=82" 
+                src="/images/about/aboutImg1.jpg" 
                 alt="About LabEquip" 
                 className="rounded-xl shadow-lg w-full h-[400px] object-cover"
               />
