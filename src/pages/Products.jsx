@@ -79,6 +79,34 @@ const Products = () => {
     setIsMobileFilterOpen(false);
   };
 
+
+  // Function to get ALL products across ALL categories for a brand
+const getAllBrandProducts = (brandData, brandId) => {
+  const brand = brandData?.brands?.find(b => b.id === brandId);
+  if (!brand) return [];
+  
+  const allProducts = [];
+  
+  // Iterate through each category
+  brand.categories.forEach(category => {
+    // Iterate through ALL products in each category (not just first)
+    if (category.products && Array.isArray(category.products)) {
+      category.products.forEach(product => {
+        allProducts.push({
+          ...product,
+          brandId: brand.id,
+          brandName: brand.name,
+          categoryId: category.id,
+          categoryName: category.name
+        });
+      });
+    }
+  });
+  
+  return allProducts;
+};
+
+
   const clearFilters = () => {
     setSelectedBrand('');
     setSelectedCategory('');
@@ -215,6 +243,7 @@ const Products = () => {
                               <button
                                 onClick={() => {
                                   handleCategorySelect(brand.id, '');
+                                  // getAllBrandProducts(productsData, brand.id);
                                 }}
                                 className={`w-full text-left px-3 py-1.5 rounded-lg text-xs transition-colors ${
                                   !selectedCategory && isActive ? 'bg-accent/10 text-accent font-medium' : 'text-gray-500 hover:bg-gray-50'

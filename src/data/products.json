@@ -13,8 +13,7 @@
             {
               "id": "low-freezer-20c",
               "name": "Low Freezer -20°C",
-              "image": "rslab/LowFreezer20.jpeg",
-              "voucher": "vouchers/RS-LowFreezer.pdf",
+              "image": "https://lh3.googleusercontent.com/pw/AP1GczOCtyQqIkjjB5wXdBMjO_AbgCK02Izjb2t_fv7884LyU4B8aRKRP2rwaXnhYz_AWssuNvApyzbc5xhwCTOc_2woF79mTj_fYKiw7VucWgxgU3g_6FZYGbx-Tg7MwJSyypH6IukoJ_kx-LlWZukwpTe29dfDsslqRzx_9u3BgSkjVHPg14b42Nd8q_qI78jXJVT4kq6FECA-_3EgIYY55M9VpmO8HazTHzkQHRlUP6zs0A2Pnkxft5ABuur57q7a4OlrwOeP3Mi-DodnYp7DZpGbwLvQsm3aWC642C07cH-I79y2ws_2dYC7n-H-izjHV3qHuuTihNiEt2l5HBI4QJaff3vNhFO085b7xjSTHE5czKJVaQAWv6LCyDFxznUp6k5L0dTMCsJwoFFQM-53RSxye_yAuxJ9hSe4pTTzNe5gVjAx2-xiuHNzRDCgRcl5Wb-Xqrxqwer_zkUoSMZfDDFgQM-XooZFGjFfhDfYbWIVapA36i3W_HprOE0mZNMhwRBgvuS9LQlXF-LoRip08_XBDtAmy3PytrSUmq_85QPOtR_C8Sw7B8GimBlik0CI-0OQC_U6edTLJVDU7gPC32qyL31VwWgWG0Pqjx7ovJMfqr4hftJTZ6VWH-_KEaMNuSHZryj1KEkXytpoZhsL-t8u_66hEXWP6DVga90MrRD8O8yqUoZ2VhERFdjOfq61I-nkOkE5yLqUKvNeNTBurKMA-JUgxpoS0C7UqKIXwyRaZ_WmeizzDA6Uj2UbLK3GAFwUSztaAzCPomEAd_GEl5-ymDQZiQduZFJ7btbvNAR6j6hEDOLT3NDuZJXg6zbj_bWOckHACCCp-eQ---LnZ5uZpmQ2rndUq5w1MIzi6eno1fD3JhwutZmXZs0zVJOe583vP3K9VXREIbjz5Uyr1QHqXsVzUbBxNvYmsXjeGpGtEediHckLc99SU694R7YKQ19-zIF1YNdvbxYZozCyS7QDFntiOSvlySj90ySsyOcRJ7-OwAZcV6mLQzmc=s250-k-rw-no",
               "shortDescription": "Reliable -20°C freezer for safe laboratory storage of biological samples and reagents.",
               "fullDescription": "The Low Freezer -20°C is designed for safe storage of biological samples, reagents, and other temperature-sensitive materials. Features include precise temperature control, energy-efficient operation, and user-friendly digital display. The unit is constructed with high-quality materials ensuring durability and consistent performance for years.",
               "specifications": {
@@ -948,169 +947,103 @@
           "id": "Centrifuges",
           "name": "Centrifuges",
           "products": [
-              {
-                "id": "Centrifuges",
-                "name": "Centrifuges",
-                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Centrifuges.png",
-                "url": "https://www.accumaxlab.com/product-category/neuation/benchtop-centrifuge/",
-                "voucher": "/vouchers/laboratory-equipment.pdf",
-                "shortDescription": "High-performance benchtop centrifuges for reliable sample separation and laboratory workflows.",
-                "fullDescription": "Centrifuges are designed to deliver efficient and accurate sample separation for clinical, research, and industrial laboratories. Featuring robust construction, precise speed control, and user-friendly operation, they ensure reliable performance across a wide range of laboratory applications.",
-                "specifications": {
-                  "Type": "Benchtop Centrifuge",
-                  "Speed": "Model dependent",
-                  "Capacity": "Multiple rotor configurations available",
-                  "Applications": "Sample separation, Clinical diagnostics, Research",
-                  "Safety": "Lid lock and imbalance detection",
-                  "Features": "Digital controls, Quiet operation, High-speed performance, Durable construction"
-                },
-                "featured": false
+            {
+              "id": "ClinicalCentrifuges",
+              "name": "Clinical Centrifuges",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Clinical-Centrifuges.png",
+              "url": "https://www.accumaxlab.com/product-category/neuation/benchtop-centrifuge/clinical-centrifuges/",
+              "voucher": "/vouchers/laboratory-equipment.pdf",
+              "shortDescription": "Reliable clinical centrifuges for diagnostic and medical laboratory applications.",
+              "fullDescription": "Clinical Centrifuges are designed for diagnostic and clinical laboratory applications, offering reliable sample separation with consistent performance. They are ideal for routine clinical testing, blood sample processing, and diagnostic workflows.",
+              "specifications": {
+                "Type": "Clinical Benchtop Centrifuge",
+                "Applications": "Clinical diagnostics, Blood sample separation, Routine laboratory testing",
+                "Safety": "Lid lock and imbalance detection",
+                "Features": "Quiet operation, Compact design, Easy-to-use controls, Durable construction"
               },
-              {
-                "id": "DryBaths",
-                "name": "Dry Baths",
-                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/09/29-D150-1-Dry-bath-.png",
-                "url": "https://www.accumaxlab.com/product-category/neuation/dry-baths/",
-                "voucher": "/vouchers/laboratory-equipment.pdf",
-                "shortDescription": "Precision dry bath incubators for accurate sample heating and incubation.",
-                "fullDescription": "Dry Baths provide uniform and precise temperature control for sample incubation, enzyme reactions, DNA denaturation, and other laboratory applications. Their compact design and interchangeable blocks make them ideal for daily laboratory use.",
-                "specifications": {
-                  "Type": "Dry Bath Incubator",
-                  "Temperature Range": "Model dependent",
-                  "Heating": "Uniform block heating",
-                  "Applications": "Sample incubation, Molecular biology, Clinical laboratories",
-                  "Display": "Digital temperature display",
-                  "Features": "Accurate temperature control, Interchangeable blocks, Compact design"
-                },
-                "featured": false
+              "featured": false
+            },
+            {
+              "id": "DoctorCentrifuges",
+              "name": "Doctor Centrifuges",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Doctor-Centrifuges.png",
+              "url": "https://www.accumaxlab.com/product-category/neuation/benchtop-centrifuge/doctor-centrifuges/",
+              "voucher": "/vouchers/laboratory-equipment.pdf",
+              "shortDescription": "Compact and efficient centrifuges for point-of-care and medical practice applications.",
+              "fullDescription": "Doctor Centrifuges are compact benchtop units designed for point-of-care testing, physician offices, and small clinical laboratories. They provide reliable separation of blood and biological samples with user-friendly operation and safety features.",
+              "specifications": {
+                "Type": "Compact Benchtop Centrifuge",
+                "Applications": "Point-of-care testing, Physician offices, Small clinical laboratories",
+                "Safety": "Automatic lid lock, Imbalance detection",
+                "Features": "Space-saving design, Quiet operation, Simple controls, Reliable performance"
               },
-              {
-                "id": "Homogenizers",
-                "name": "Homogenizers",
-                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/homogenizer.png",
-                "url": "https://www.accumaxlab.com/product-category/neuation/homogenizers/",
-                "voucher": "/vouchers/laboratory-equipment.pdf",
-                "shortDescription": "Efficient homogenizers for rapid sample preparation and tissue disruption.",
-                "fullDescription": "Homogenizers are engineered for consistent mixing, emulsification, and disruption of biological and chemical samples. They provide reliable performance for research laboratories, pharmaceutical applications, and biotechnology workflows.",
-                "specifications": {
-                  "Type": "Laboratory Homogenizer",
-                  "Operation": "Motorized",
-                  "Applications": "Tissue homogenization, Cell disruption, Sample preparation",
-                  "Speed": "Variable (model dependent)",
-                  "Material": "Laboratory-grade construction",
-                  "Features": "High efficiency, Ergonomic design, Low vibration, Easy operation"
-                },
-                "featured": false
+              "featured": false
+            },
+            {
+              "id": "LabCentrifuges",
+              "name": "Lab Centrifuges",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Lab-Centrifuges.png",
+              "url": "https://www.accumaxlab.com/product-category/neuation/benchtop-centrifuge/lab-centrifuges/",
+              "voucher": "/vouchers/laboratory-equipment.pdf",
+              "shortDescription": "Versatile laboratory centrifuges for research and general laboratory workflows.",
+              "fullDescription": "Lab Centrifuges offer versatile sample separation for research, academic, and industrial laboratories. They are designed to handle a wide range of applications with robust construction, precise speed control, and consistent performance.",
+              "specifications": {
+                "Type": "General-Purpose Benchtop Centrifuge",
+                "Applications": "Research, Sample preparation, Industrial laboratories",
+                "Safety": "Lid lock and imbalance detection",
+                "Features": "Broad rotor compatibility, Digital controls, Quiet operation, Durable build"
               },
-              {
-                "id": "Incubators",
-                "name": "Incubators",
-                "image": "https://www.accumaxlab.com/wp-content/uploads/2026/05/Product-thumbnail.webp",
-                "url": "https://www.accumaxlab.com/product-category/neuation/incubators/",
-                "voucher": "/vouchers/laboratory-equipment.pdf",
-                "shortDescription": "Laboratory incubators providing stable temperature conditions for sample growth and testing.",
-                "fullDescription": "Incubators are designed to maintain precise temperature conditions for microbiology, cell culture, and laboratory research. Their reliable temperature uniformity ensures reproducible results across various scientific applications.",
-                "specifications": {
-                  "Type": "Laboratory Incubator",
-                  "Temperature Range": "Model dependent",
-                  "Control": "Digital temperature controller",
-                  "Applications": "Cell culture, Microbiology, Research",
-                  "Construction": "Corrosion-resistant chamber",
-                  "Features": "Uniform heating, Low noise, Digital display, Stable temperature control"
-                },
-                "featured": false
+              "featured": false
+            },
+            {
+              "id": "MicroCentrifuges",
+              "name": "Micro Centrifuges",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/08/iFuge-M08-product-image.png",
+              "url": "https://www.accumaxlab.com/product-category/neuation/benchtop-centrifuge/micro-centrifuges/",
+              "voucher": "/vouchers/laboratory-equipment.pdf",
+              "shortDescription": "High-speed micro centrifuges for efficient separation of small-volume samples.",
+              "fullDescription": "Micro Centrifuges are designed for high-speed separation of small sample volumes, ideal for molecular biology, microbiology, and clinical research. They provide precise speed control, quiet operation, and compact design for efficient laboratory workflows.",
+              "specifications": {
+                "Type": "High-Speed Micro Centrifuge",
+                "Applications": "Molecular biology, DNA/RNA preparation, Microbiology",
+                "Safety": "Lid lock and automatic rotor recognition",
+                "Features": "High-speed performance, Compact footprint, Digital controls, Low noise"
               },
-              {
-                "id": "Rollers",
-                "name": "Rollers",
-                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/09/30-M6-Roller-with-tubes.png",
-                "url": "https://www.accumaxlab.com/product-category/neuation/rollers/",
-                "voucher": "/vouchers/laboratory-equipment.pdf",
-                "shortDescription": "Laboratory rollers for gentle sample mixing and cell culture applications.",
-                "fullDescription": "Rollers are designed for continuous and uniform mixing of biological samples, blood tubes, and cell culture bottles. They provide smooth operation and adjustable speed for consistent laboratory performance.",
-                "specifications": {
-                  "Type": "Laboratory Roller",
-                  "Speed": "Variable (model dependent)",
-                  "Applications": "Cell culture, Blood sample mixing, General laboratory use",
-                  "Operation": "Continuous rolling",
-                  "Capacity": "Model dependent",
-                  "Features": "Quiet operation, Adjustable speed, Durable construction"
-                },
-                "featured": false
+              "featured": false
+            },
+            {
+              "id": "RefrigeratedCentrifuges",
+              "name": "Refrigerated Centrifuges",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2024/07/Refrigerated-Centrifuge-Thumbnail_2.png",
+              "url": "https://www.accumaxlab.com/product-category/neuation/benchtop-centrifuge/refrigerated-centrifuges/",
+              "voucher": "/vouchers/laboratory-equipment.pdf",
+              "shortDescription": "Temperature-controlled centrifuges for sensitive sample processing.",
+              "fullDescription": "Refrigerated Centrifuges combine high-speed separation with precise temperature control to protect sensitive biological samples. They are essential for applications requiring temperature-sensitive processing, such as protein purification, nucleic acid research, and clinical diagnostics.",
+              "specifications": {
+                "Type": "Refrigerated Benchtop Centrifuge",
+                "Applications": "Protein purification, Nucleic acid research, Clinical diagnostics",
+                "Temperature Control": "Precise cooling system",
+                "Features": "Temperature stability, High-speed performance, Sample protection, Quiet operation"
               },
-              {
-                "id": "Shakers",
-                "name": "Shakers",
-                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/shakers.png",
-                "url": "https://www.accumaxlab.com/product-category/neuation/shakers/",
-                "voucher": "/vouchers/laboratory-equipment.pdf",
-                "shortDescription": "Precision laboratory shakers for efficient mixing and sample preparation.",
-                "fullDescription": "Shakers provide reliable orbital or linear motion for mixing liquids, culturing cells, and preparing laboratory samples. Designed for smooth operation and consistent performance across research and industrial laboratories.",
-                "specifications": {
-                  "Type": "Laboratory Shaker",
-                  "Motion": "Orbital / Linear (model dependent)",
-                  "Speed": "Variable",
-                  "Applications": "Sample mixing, Cell culture, Research",
-                  "Control": "Digital speed control",
-                  "Features": "Low vibration, Quiet operation, Timer function"
-                },
-                "featured": false
+              "featured": false
+            },
+            {
+              "id": "UniversalCentrifuges",
+              "name": "Universal Centrifuges",
+              "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/Universal-Centrifuges.png",
+              "url": "https://www.accumaxlab.com/product-category/neuation/benchtop-centrifuge/universal-centrifuges/",
+              "voucher": "/vouchers/laboratory-equipment.pdf",
+              "shortDescription": "Versatile universal centrifuges compatible with multiple rotor types and sample formats.",
+              "fullDescription": "Universal Centrifuges offer exceptional versatility with compatibility for various rotor types and sample containers. They are designed to handle diverse laboratory applications, from clinical diagnostics to research, with user-friendly operation and reliable performance.",
+              "specifications": {
+                "Type": "Multipurpose Benchtop Centrifuge",
+                "Applications": "Clinical diagnostics, Research, Industrial laboratories",
+                "Rotor Options": "Multiple rotor configurations available",
+                "Features": "Versatile rotor compatibility, Digital controls, Safety features, Durable construction"
               },
-              {
-                "id": "Stirrers",
-                "name": "Stirrers",
-                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/stirrers.png",
-                "url": "https://www.accumaxlab.com/product-category/neuation/stirrers/",
-                "voucher": "/vouchers/laboratory-equipment.pdf",
-                "shortDescription": "Magnetic stirrers for precise and efficient solution mixing.",
-                "fullDescription": "Laboratory stirrers provide uniform mixing of liquids with adjustable speed control for chemical, biological, and pharmaceutical applications. They are built for durability and continuous operation.",
-                "specifications": {
-                  "Type": "Magnetic Stirrer",
-                  "Speed": "Variable",
-                  "Applications": "Solution mixing, Chemical preparation, Research",
-                  "Control": "Digital controls",
-                  "Construction": "Chemical-resistant top plate",
-                  "Features": "Smooth operation, Compact design, Precise speed adjustment"
-                },
-                "featured": false
-              },
-              {
-                "id": "VortexMixers",
-                "name": "Vortex Mixers",
-                "image": "https://www.accumaxlab.com/wp-content/uploads/2023/04/vortex-mixers.png",
-                "url": "https://www.accumaxlab.com/product-category/neuation/vortex-mixers/",
-                "voucher": "/vouchers/laboratory-equipment.pdf",
-                "shortDescription": "Powerful vortex mixers for rapid and consistent sample mixing.",
-                "fullDescription": "Vortex Mixers are designed to quickly mix laboratory samples with minimal effort. Suitable for tubes, vials, and small containers, they deliver reliable performance for research, diagnostics, and routine laboratory workflows.",
-                "specifications": {
-                  "Type": "Vortex Mixer",
-                  "Mixing Motion": "Orbital vortex",
-                  "Speed": "Variable",
-                  "Applications": "Sample mixing, Molecular biology, Clinical laboratories",
-                  "Operation": "Touch and continuous modes",
-                  "Features": "Compact design, Low noise, Stable operation, Digital controls (selected models)"
-                },
-                "featured": false
-              },
-              {
-                "id": "WaterBaths",
-                "name": "Water Baths",
-                "image": "https://www.accumaxlab.com/wp-content/uploads/2026/05/Category-page-Thumbnail.webp",
-                "url": "https://www.accumaxlab.com/product-category/neuation/water-baths/",
-                "voucher": "/vouchers/laboratory-equipment.pdf",
-                "shortDescription": "Temperature-controlled water baths for laboratory heating and incubation applications.",
-                "fullDescription": "Water Baths provide accurate and uniform temperature control for sample warming, incubation, enzyme reactions, and laboratory testing. They are designed for dependable performance and ease of operation in research and clinical laboratories.",
-                "specifications": {
-                  "Type": "Laboratory Water Bath",
-                  "Temperature Range": "Model dependent",
-                  "Control": "Digital temperature controller",
-                  "Applications": "Sample warming, Incubation, Molecular biology",
-                  "Construction": "Stainless steel chamber",
-                  "Features": "Uniform heating, Digital display, Over-temperature protection, Easy maintenance"
-                },
-                "featured": false
-              }
-            ]
+              "featured": false
+            }
+          ]
         },
         {
           "id": "Vortex Mixers",

@@ -59,20 +59,51 @@ export const getProductImage = (imagePath, brandId = '', productId = '') => {
  * @param {Event} event - The error event from img tag
  * @param {string} brandId - The brand ID (optional)
  */
+// export const handleImageError = (event, brandId = '') => {
+//   const img = event.target;
+  
+//   // If the image failed, try a brand-specific fallback
+//   if (brandId) {
+//     const brandFallback = `/images/brands/${brandId}/brand-logo.jpg`;
+//     // Only set if not already trying this fallback
+//     if (img.src !== brandFallback && !img.src.includes('brand-logo.jpg')) {
+//       img.src = brandFallback;
+//       return;
+//     }
+//   }
+  
+//   // Ultimate fallback - use a default image
+//   img.src = '/images/products/default-product.jpg';
+// };
+
+
+/**
+ * Handle image errors - provide fallback images
+ * @param {Event} event - The error event from img tag
+ * @param {string} brandId - The brand ID (optional)
+ */
 export const handleImageError = (event, brandId = '') => {
   const img = event.target;
   
-  // If the image failed, try a brand-specific fallback
-  if (brandId) {
-    const brandFallback = `/images/brands/${brandId}/brand-logo.jpg`;
-    // Only set if not already trying this fallback
-    if (img.src !== brandFallback && !img.src.includes('brand-logo.jpg')) {
-      img.src = brandFallback;
-      return;
-    }
+  // ✅ CRITICAL FIX: If the image src already contains "default", stop trying forever.
+  if (img.src.includes('default-product.jpg') || img.src.includes('default-brand.jpg')) {
+    return; // STOP THE INFINITE LOOP HERE
+  }
+
+  // If we already tried the brand logo and it failed, go straight to default
+  if (brandId && img.src.includes('brand-logo.jpg')) {
+    img.src = '/images/products/default-product.jpg';
+    return;
   }
   
-  // Ultimate fallback - use a default image
+  // If brandId exists and we haven't tried the brand logo yet, try it
+  if (brandId) {
+    const brandFallback = `/images/brands/${brandId}/brand-logo.jpg`;
+    img.src = brandFallback;
+    return;
+  }
+  
+  // Ultimate fallback - default product image
   img.src = '/images/products/default-product.jpg';
 };
 
