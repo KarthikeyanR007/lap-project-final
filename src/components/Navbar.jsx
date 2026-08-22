@@ -136,7 +136,7 @@ const Navbar = () => {
                 <FaFlask className="text-white text-xl" />
               </div>
               <div>
-                <span className="text-xl font-bold text-primary">LabEquip</span>
+                <span className="text-xl font-bold text-primary">R.S Equipments</span>
                 <span className="text-xs text-accent block -mt-1">Precision Instruments</span>
               </div>
             </Link>

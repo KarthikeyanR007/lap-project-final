@@ -100,17 +100,17 @@ const Contact = () => {
     { 
       icon: <FaMapMarkerAlt />, 
       title: 'Address', 
-      details: ['123, Lab Equipment City,', 'Chennai - 600001, India'] 
+      details: ['5/13, Karunanidhi Street,', ' West Mambalam Chennai-600033'] 
     },
     { 
       icon: <FaPhone />, 
       title: 'Phone', 
-      details: ['+91 12345 67890', '+91 98765 43210'] 
+      details: ['+91 9840168240', '+91 7358078463'] 
     },
     { 
       icon: <FaEnvelope />, 
       title: 'Email', 
-      details: ['info@labequip.com', 'sales@labequip.com'] 
+      details: [ 'rs4equipments@gmail.com', 'rsequipments.marketing@gmail.com', 'sales.rsequipments@gmail.com' ] 
     },
     { 
       icon: <FaClock />, 
@@ -122,7 +122,7 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us - LabEquip</title>
+        <title>Contact Us - R.S Equipments</title>
         <meta name="description" content="Get in touch with our team for inquiries, quotes, or support. We're here to help with all your laboratory equipment needs." />
       </Helmet>
 

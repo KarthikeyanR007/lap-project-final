@@ -97,7 +97,7 @@
             {
               "id": "walk-in-freezer-room",
               "name": "Walk-in Freezer Room",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=5",
+              "image": "rslab/RS-WalkinColdRoom.jpeg",
               "voucher": "vouchers/RS-WalkinFreezerRoom.pdf",
               "shortDescription": "Large-scale walk-in freezer room for bulk frozen storage.",
               "fullDescription": "The Walk-in Freezer Room provides spacious frozen storage solutions for pharmaceutical, research, and industrial facilities. Designed for bulk storage of frozen biological samples, reagents, and other temperature-sensitive materials, this unit features robust construction, precise temperature control, and efficient insulation. Customizable configurations available.",
@@ -177,7 +177,7 @@
             {
               "id": "autoclave-vertical",
               "name": "Autoclave (Vertical)",
-              "image": "https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=9",
+              "image": "rslab/Autoclave.jpg.jpeg",
               "voucher": "vouchers/rslab/RS-Autoclave (Vertical).pdf",
               "shortDescription": "Vertical autoclave for reliable sterilization of laboratory equipment and media.",
               "fullDescription": "The Vertical Autoclave is designed for reliable sterilization of laboratory equipment, media, and waste. Features include precise temperature control, uniform steam distribution, and user-friendly digital controller. The unit is constructed with high-quality stainless steel ensuring durability and consistent performance for years.",

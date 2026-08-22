@@ -34,7 +34,7 @@ const Footer = () => {
                 <span className="text-white text-xl font-bold">L</span>
               </div>
               <div>
-                <span className="text-xl font-bold">LabEquip</span>
+                <span className="text-xl font-bold">R.S Equipments</span>
                 <span className="text-xs text-accent block -mt-1">Precision Instruments</span>
               </div>
             </div>
@@ -83,6 +83,7 @@ const Footer = () => {
               <li><Link to="/products?brand=neuation" className="text-gray-300 hover:text-accent transition-colors text-sm">Neuation</Link></li>
               <li><Link to="/products?brand=dlab" className="text-gray-300 hover:text-accent transition-colors text-sm">DLAB</Link></li>
               <li><Link to="/products?brand=sr-lab-instruments" className="text-gray-300 hover:text-accent transition-colors text-sm">SR LAB Instruments</Link></li>
+              <li><Link to="/products?brand=delvac" className="text-gray-300 hover:text-accent transition-colors text-sm">Delvac</Link></li>
             </ul>
           </div>
 
@@ -93,17 +94,17 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <FaMapMarkerAlt className="text-accent text-lg mt-1 flex-shrink-0" />
                 <span className="text-gray-300 text-sm">
-                  123, Lab Equipment City,<br />
-                  Chennai - 600001, India
+                  No. 5/13, Karunanidhi Street,<br />
+                  West Mambalam Chennai-600033<br/>
                 </span>
               </div>
               <div className="flex items-center space-x-3">
                 <FaPhone className="text-accent text-lg flex-shrink-0" />
-                <span className="text-gray-300 text-sm">+91 12345 67890</span>
+                <span className="text-gray-300 text-sm">+91 9840168240 / +91 7358078463</span>
               </div>
               <div className="flex items-center space-x-3">
                 <FaEnvelope className="text-accent text-lg flex-shrink-0" />
-                <span className="text-gray-300 text-sm">info@labequip.com</span>
+                <span className="text-gray-300 text-sm"> rs4equipments@gmail.com, rsequipments.marketing@gmail.com, sales.rsequipments@gmail.com</span>
               </div>
               <div className="text-gray-300 text-sm">
                 <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
@@ -116,7 +117,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-white/10 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; {currentYear} LabEquip. All rights reserved.
+            &copy; {currentYear} R.S Equipments. All rights reserved.
           </p>
           <div className="flex space-x-4 text-sm text-gray-400">
             <Link to="#" className="hover:text-accent transition-colors">Privacy Policy</Link>

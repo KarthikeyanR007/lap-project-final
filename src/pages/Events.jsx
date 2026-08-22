@@ -14,7 +14,7 @@ const Events = () => {
   return (
     <>
       <Helmet>
-        <title>Events - LabEquip</title>
+        <title>Events - R.S Equipments</title>
         <meta name="description" content="Stay updated with our upcoming events, exhibitions, workshops, and conferences in the laboratory industry." />
       </Helmet>
 

@@ -24,7 +24,7 @@ const Applications = () => {
   return (
     <>
       <Helmet>
-        <title>Applications - LabEquip</title>
+        <title>Applications - R.S Equipments</title>
         <meta name="description" content="Explore our laboratory equipment applications across pharmaceutical, food, environmental, and research industries." />
       </Helmet>
 
@@ -150,7 +150,7 @@ const Applications = () => {
                 <div className="text-sm text-gray-300 mt-1">Application Areas</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-accent">1000+</div>
+                <div className="text-3xl font-bold text-accent">500+</div>
                 <div className="text-sm text-gray-300 mt-1">Happy Clients</div>
               </div>
             </div>

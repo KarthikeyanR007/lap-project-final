@@ -65,7 +65,7 @@ const Careers = () => {
   return (
     <>
       <Helmet>
-        <title>Careers - LabEquip</title>
+        <title>Careers - R.S Equipments</title>
         <meta name="description" content="Join our team and build a career in the laboratory equipment industry. Explore our open positions and grow with us." />
       </Helmet>
 
@@ -73,7 +73,7 @@ const Careers = () => {
       <PageBanner
         tagline="CAREERS"
         title="Join Our Team"
-        subtitle="Build a rewarding career with LabEquip and be part of our journey in laboratory excellence"
+        subtitle="Build a rewarding career with R.S Equipments and be part of our journey in laboratory excellence"
         breadcrumb={
           <>
             <Link to="/" className="hover:text-white transition-colors">Home</Link>
@@ -97,7 +97,7 @@ const Careers = () => {
             <span className="text-accent font-semibold text-sm uppercase tracking-wider">Join Us</span>
             <h2 className="text-3xl font-bold text-primary mt-2">Why Work With Us</h2>
             <p className="text-gray-500 mt-3 max-w-2xl mx-auto">
-              At LabEquip, we believe in nurturing talent and providing an environment where you can grow, innovate, and make a difference.
+              At R.S Equipments, we believe in nurturing talent and providing an environment where you can grow, innovate, and make a difference.
             </p>
           </motion.div>
 
@@ -360,7 +360,7 @@ const Careers = () => {
                 <FaPaperPlane />
               </Link>
               <a
-                href="mailto:careers@labequip.com"
+                href="mailto:careers@R.S Equipments.com"
                 className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-sm text-white px-8 py-3 rounded-full font-semibold hover:bg-white/30 transition-all border border-white/20"
               >
                 <span>Email Us</span>

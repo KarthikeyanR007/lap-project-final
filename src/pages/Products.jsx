@@ -136,7 +136,7 @@ const Products = () => {
   return (
     <>
       <Helmet>
-        <title>Products - LabEquip</title>
+        <title>Products - R.S Equipments</title>
         <meta name="description" content="Browse our comprehensive range of laboratory equipment, consumables, and environmental chambers from leading brands." />
       </Helmet>
 

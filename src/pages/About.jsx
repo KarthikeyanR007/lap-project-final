@@ -25,8 +25,8 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Us - LabEquip</title>
-        <meta name="description" content="Learn about LabEquip - your trusted partner in laboratory equipment since 2005. Quality, innovation, and customer satisfaction." />
+        <title>About Us - R.S Equipments</title>
+        <meta name="description" content="Learn about R.S Equipments - your trusted partner in laboratory equipment since 2005. Quality, innovation, and customer satisfaction." />
       </Helmet>
 
       {/* Page Banner with Local Image */}
@@ -56,7 +56,7 @@ const About = () => {
               <span className="text-accent font-semibold text-sm uppercase tracking-wider">Who We Are</span>
               <h2 className="text-3xl font-bold text-primary mt-2 mb-4">Your Trusted Partner in Laboratory Excellence</h2>
               <p className="text-gray-600 leading-relaxed">
-                LabEquip is a premier provider of precision laboratory equipment and consumables, 
+                R.S Equipments is a premier provider of precision laboratory equipment and consumables, 
                 serving research institutions, pharmaceutical companies, and industrial laboratories 
                 across India since 2005.
               </p>
@@ -82,7 +82,7 @@ const About = () => {
             >
               <img 
                 src="/images/about/aboutImg1.jpg" 
-                alt="About LabEquip" 
+                alt="About R.S Equipments" 
                 className="rounded-xl shadow-lg w-full h-[400px] object-cover"
               />
             </motion.div>

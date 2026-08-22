@@ -47,8 +47,8 @@ const Home = () => {
 
     setStats([
       { icon: <FaBoxes />, value: `${totalProducts}+`, label: 'Products' },
-      { icon: <FaAward />, value: '20+', label: 'Years Experience' },
-      { icon: <FaUserMd />, value: '1000+', label: 'Happy Clients' },
+      { icon: <FaAward />, value: '5+', label: 'Years Experience' },
+      { icon: <FaUserMd />, value: '500+', label: 'Happy Clients' },
       { icon: <FaChartLine />, value: '50+', label: 'Categories' },
     ]);
   }, []);
@@ -70,7 +70,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>LabEquip - Precision Instruments for Scientific Excellence</title>
+        <title>R.S Equipments - Precision Instruments for Scientific Excellence</title>
         <meta name="description" content="Leading provider of precision laboratory equipment, consumables, and environmental chambers for research, clinical, and industrial applications." />
       </Helmet>
 
@@ -175,7 +175,9 @@ const Home = () => {
                 transition={{ delay: index * 0.1 }}
                 className="text-center"
               >
-                <div className="text-accent text-4xl mb-2">{stat.icon}</div>
+                <div className="text-accent text-4xl mb-2 flex items-center justify-center h-12">
+                  {stat.icon}
+                </div>
                 <div className="text-3xl font-bold text-primary">{stat.value}</div>
                 <div className="text-gray-500 text-sm">{stat.label}</div>
               </motion.div>
@@ -183,55 +185,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      {/* About Snippet */}
-      {/* <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-            >
-              <span className="text-accent font-semibold text-sm uppercase tracking-wider">About Us</span>
-              <h2 className="text-3xl font-bold text-primary mt-2">Your Trusted Partner in Laboratory Excellence</h2>
-              <p className="text-gray-600 mt-4 leading-relaxed">
-                For over two decades, LabEquip has been at the forefront of providing cutting-edge laboratory 
-                equipment and consumables to research institutions, pharmaceutical companies, and industrial 
-                laboratories across India and beyond.
-              </p>
-              <p className="text-gray-600 mt-3 leading-relaxed">
-                Our commitment to quality, precision, and customer satisfaction has made us the preferred choice 
-                for scientists, researchers, and laboratory professionals who demand nothing but the best.
-              </p>
-              <Link
-                to="/about"
-                className="inline-flex items-center space-x-2 mt-6 text-accent font-medium hover:text-accent/80 transition-colors"
-              >
-                <span>Know More</span>
-                <FaArrowRight />
-              </Link>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              className="grid grid-cols-2 gap-4"
-            >
-              <img
-                src="https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=80"
-                alt="Laboratory"
-                className="rounded-xl shadow-lg h-64 object-cover"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1586017387104-a6b1da67e4be?w=400&h=300&fit=crop&random=81"
-                alt="Lab Equipment"
-                className="rounded-xl shadow-lg h-64 object-cover mt-8"
-              />
-            </motion.div>
-          </div>
-        </div>
-      </section> */}
 
       {/* About Snippet Section */}
       <section className="py-16 bg-white">
@@ -245,7 +198,7 @@ const Home = () => {
               <span className="text-accent font-semibold text-sm uppercase tracking-wider">About Us</span>
               <h2 className="text-3xl font-bold text-primary mt-2">Your Trusted Partner in Laboratory Excellence</h2>
               <p className="text-gray-600 mt-4 leading-relaxed">
-                For over two decades, LabEquip has been at the forefront of providing cutting-edge laboratory 
+                For over two decades, R.S Equipments has been at the forefront of providing cutting-edge laboratory 
                 equipment and consumables to research institutions, pharmaceutical companies, and industrial 
                 laboratories across India and beyond.
               </p>
