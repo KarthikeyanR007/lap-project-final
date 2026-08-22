@@ -17,6 +17,15 @@ const Products = () => {
   const [expandedBrand, setExpandedBrand] = useState(searchParams.get('brand') || null);
 
   useEffect(() => {
+    const brandId = searchParams.get('brand') || '';
+    const categoryId = searchParams.get('category') || '';
+
+    setSelectedBrand(brandId);
+    setSelectedCategory(categoryId);
+    setExpandedBrand(brandId || null);
+  }, [searchParams]);
+
+  useEffect(() => {
     // Filter products based on selections
     let products = [];
     
@@ -36,7 +45,8 @@ const Products = () => {
           products.push({
             ...product,
             brand: { id: brand.id, name: brand.name },
-            category: { id: category.id, name: category.name }
+            category: { id: category.id, name: category.name },
+            isCategoryOverview: Boolean(selectedBrand && !selectedCategory)
           });
         });
       });

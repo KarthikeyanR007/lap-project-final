@@ -14,8 +14,10 @@ const ProductCard = ({ product, brand }) => {
   const brandId = brand?.id || product.brand?.id || '';
   const productId = product?.id || '';
 
-  // Construct the URL
-  const productUrl = `/products/${brandId}/${productId}`;
+    // Category overview cards link back to their category listing.
+    const productUrl = product.isCategoryOverview
+      ? `/products?brand=${brandId}&category=${product.category.id}`
+      : `/products/${brandId}/${productId}`;
 
   // Get the correct image path
   const imageSrc = getProductImage(product.image, brandId, productId);
@@ -66,7 +68,7 @@ const ProductCard = ({ product, brand }) => {
           to={productUrl}
           className="inline-flex items-center space-x-2 text-accent font-medium text-sm hover:text-accent/80 transition-colors group"
         >
-          <span>View Details</span>
+          <span>{product.isCategoryOverview ? `View ${categoryName}` : 'View Details'}</span>
           <FaEye className="text-sm group-hover:translate-x-1 transition-transform" />
         </Link>
       </div>
