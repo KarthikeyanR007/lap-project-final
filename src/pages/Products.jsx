@@ -28,7 +28,11 @@ const Products = () => {
         // Check if category matches filter
         if (selectedCategory && category.id !== selectedCategory) return;
         
-        category.products.forEach(product => {
+        const productsToDisplay = selectedBrand && !selectedCategory
+          ? category.products.slice(0, 1)
+          : category.products;
+
+        productsToDisplay.forEach(product => {
           products.push({
             ...product,
             brand: { id: brand.id, name: brand.name },
@@ -78,34 +82,6 @@ const Products = () => {
     setExpandedBrand(brandId);
     setIsMobileFilterOpen(false);
   };
-
-
-  // Function to get ALL products across ALL categories for a brand
-const getAllBrandProducts = (brandData, brandId) => {
-  const brand = brandData?.brands?.find(b => b.id === brandId);
-  if (!brand) return [];
-  
-  const allProducts = [];
-  
-  // Iterate through each category
-  brand.categories.forEach(category => {
-    // Iterate through ALL products in each category (not just first)
-    if (category.products && Array.isArray(category.products)) {
-      category.products.forEach(product => {
-        allProducts.push({
-          ...product,
-          brandId: brand.id,
-          brandName: brand.name,
-          categoryId: category.id,
-          categoryName: category.name
-        });
-      });
-    }
-  });
-  
-  return allProducts;
-};
-
 
   const clearFilters = () => {
     setSelectedBrand('');
