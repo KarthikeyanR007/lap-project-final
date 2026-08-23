@@ -131,14 +131,12 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                <FaFlask className="text-white text-xl" />
-              </div>
-              <div>
-                <span className="text-xl font-bold text-primary">R.S Equipments</span>
-                <span className="text-xs text-accent block -mt-1">Precision Instruments</span>
-              </div>
+            <Link to="/" className="flex items-center">
+              <img 
+                src="/images/logo/logo.jpeg" 
+                alt="YS! Equipments" 
+                className="h-12 w-auto object-contain max-w-[180px]" 
+              />
             </Link>
 
             {/* Desktop Navigation */}

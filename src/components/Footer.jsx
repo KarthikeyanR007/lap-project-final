@@ -29,15 +29,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-white text-xl font-bold">L</span>
-              </div>
-              <div>
-                <span className="text-xl font-bold">R.S Equipments</span>
-                <span className="text-xs text-accent block -mt-1">Precision Instruments</span>
-              </div>
-            </div>
+<div className="flex items-center space-x-2">
+  <Link to="/" className="block">
+    <img 
+      src="/images/logo/logo.jpeg" 
+      alt="R.S Equipments" 
+      className="h-16 w-auto object-contain pt-2 pb-2 pl-4 pr-4" 
+    />
+  </Link>
+</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Leading provider of precision laboratory equipment and consumables for research, 
               clinical, and industrial applications since 2005.
