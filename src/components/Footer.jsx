@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube, FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
-import { motion } from 'framer-motion';
+import {  FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -14,13 +13,6 @@ const Footer = () => {
     { path: '/events', label: 'Events' },
     { path: '/careers', label: 'Careers' },
     { path: '/contact', label: 'Contact' },
-  ];
-
-  const socialLinks = [
-    { icon: <FaFacebook />, url: '#', label: 'Facebook' },
-    { icon: <FaTwitter />, url: '#', label: 'Twitter' },
-    { icon: <FaLinkedin />, url: '#', label: 'LinkedIn' },
-    { icon: <FaYoutube />, url: '#', label: 'YouTube' },
   ];
 
   return (
@@ -40,21 +32,8 @@ const Footer = () => {
 </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Leading provider of precision laboratory equipment and consumables for research, 
-              clinical, and industrial applications since 2005.
+              clinical, and industrial applications since 2022.
             </p>
-            <div className="flex space-x-4">
-              {socialLinks.map((social, index) => (
-                <motion.a
-                  key={index}
-                  href={social.url}
-                  aria-label={social.label}
-                  whileHover={{ scale: 1.1 }}
-                  className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors"
-                >
-                  {social.icon}
-                </motion.a>
-              ))}
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -105,10 +84,6 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <FaEnvelope className="text-accent text-lg flex-shrink-0" />
                 <span className="text-gray-300 text-sm"> rs4equipments@gmail.com, rsequipments.marketing@gmail.com, sales.rsequipments@gmail.com</span>
-              </div>
-              <div className="text-gray-300 text-sm">
-                <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
-                <p>Sat: 9:00 AM - 2:00 PM</p>
               </div>
             </div>
           </div>

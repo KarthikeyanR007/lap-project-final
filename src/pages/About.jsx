@@ -6,14 +6,14 @@ import { FaCheckCircle, FaClock, FaShieldAlt, FaAward, FaHandshake, FaRocket } f
 import PageBanner from '../components/PageBanner';
 
 const About = () => {
-  const milestones = [
-    { year: '2005', desc: 'Company founded with a vision to provide quality lab equipment' },
-    { year: '2008', desc: 'Expanded operations to 5 states across India' },
-    { year: '2012', desc: 'Partnered with leading international brands' },
-    { year: '2016', desc: 'Opened state-of-the-art demonstration facility' },
-    { year: '2020', desc: 'Launched online product catalog and e-commerce' },
-    { year: '2024', desc: 'Expanded product portfolio to 500+ products' },
-  ];
+  // const milestones = [
+  //   { year: '2005', desc: 'Company founded with a vision to provide quality lab equipment' },
+  //   { year: '2008', desc: 'Expanded operations to 5 states across India' },
+  //   { year: '2012', desc: 'Partnered with leading international brands' },
+  //   { year: '2016', desc: 'Opened state-of-the-art demonstration facility' },
+  //   { year: '2020', desc: 'Launched online product catalog and e-commerce' },
+  //   { year: '2024', desc: 'Expanded product portfolio to 500+ products' },
+  // ];
 
   const whyChoose = [
     { icon: <FaShieldAlt />, title: 'Quality Assurance', desc: 'ISO-certified products with rigorous quality control' },
@@ -118,35 +118,6 @@ const About = () => {
             </motion.div>
           </div>
 
-          {/* Timeline */}
-          <div className="mt-12">
-            <h2 className="text-3xl font-bold text-primary text-center mb-8">Our Journey</h2>
-            <div className="relative">
-              <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-accent/20"></div>
-              <div className="space-y-8">
-                {milestones.map((milestone, index) => (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    className={`flex ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}
-                  >
-                    <div className={`w-5/12 ${index % 2 === 0 ? 'text-right pr-8' : 'text-left pl-8'}`}>
-                      <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
-                        <span className="text-accent font-bold text-2xl">{milestone.year}</span>
-                        <p className="text-gray-600 mt-2">{milestone.desc}</p>
-                      </div>
-                    </div>
-                    <div className="w-2/12 relative flex items-center justify-center">
-                      <div className="w-4 h-4 bg-accent rounded-full border-4 border-white shadow"></div>
-                    </div>
-                    <div className="w-5/12"></div>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </>

@@ -10,12 +10,10 @@ import {
   FaHeadset,
   FaBoxes,
   FaAward,
-  FaArrowRight,
-  FaQuoteLeft
+  FaArrowRight
 } from 'react-icons/fa';
 
 import productsData from '../data/products.json';
-import testimonialsData from '../data/testimonials.json';
 import applicationsData from '../data/applications.json';
 import ProductCard from '../components/ProductCard';
 
@@ -221,11 +219,11 @@ const Home = () => {
               viewport={{ once: true }}
               className="grid grid-cols-2 gap-4"
             >
-              <img
+              {/* <img
                 src="/images/home/home-content-1.jpg"
                 alt="Laboratory Equipment"
                 className="rounded-xl shadow-lg h-64 object-cover"
-              />
+              /> */}
               <img
                 src="/images/home/home-content-2.jpg"
                 alt="Lab Instruments"
@@ -393,42 +391,6 @@ const Home = () => {
               <span>View All Products</span>
               <FaArrowRight />
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <span className="text-accent font-semibold text-sm uppercase tracking-wider">Testimonials</span>
-            <h2 className="text-3xl font-bold text-primary mt-2">What Our Clients Say</h2>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {testimonialsData.map((testimonial, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                whileHover={{ y: -4 }}
-                className="bg-background rounded-xl p-6 shadow-md hover:shadow-lg transition-all"
-              >
-                <FaQuoteLeft className="text-accent text-2xl mb-4 opacity-30" />
-                <p className="text-gray-600 text-sm leading-relaxed italic">"{testimonial.testimonial}"</p>
-                <div className="mt-4 pt-4 border-t border-gray-200">
-                  <p className="font-semibold text-primary">{testimonial.name}</p>
-                  <p className="text-gray-400 text-xs">{testimonial.designation}, {testimonial.company}</p>
-                </div>
-              </motion.div>
-            ))}
           </div>
         </div>
       </section>

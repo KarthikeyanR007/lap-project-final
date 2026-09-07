@@ -13,7 +13,7 @@
             {
               "id": "low-freezer-20c",
               "name": "Low Freezer -20°C",
-              "image": "https://lh3.googleusercontent.com/pw/AP1GczOCtyQqIkjjB5wXdBMjO_AbgCK02Izjb2t_fv7884LyU4B8aRKRP2rwaXnhYz_AWssuNvApyzbc5xhwCTOc_2woF79mTj_fYKiw7VucWgxgU3g_6FZYGbx-Tg7MwJSyypH6IukoJ_kx-LlWZukwpTe29dfDsslqRzx_9u3BgSkjVHPg14b42Nd8q_qI78jXJVT4kq6FECA-_3EgIYY55M9VpmO8HazTHzkQHRlUP6zs0A2Pnkxft5ABuur57q7a4OlrwOeP3Mi-DodnYp7DZpGbwLvQsm3aWC642C07cH-I79y2ws_2dYC7n-H-izjHV3qHuuTihNiEt2l5HBI4QJaff3vNhFO085b7xjSTHE5czKJVaQAWv6LCyDFxznUp6k5L0dTMCsJwoFFQM-53RSxye_yAuxJ9hSe4pTTzNe5gVjAx2-xiuHNzRDCgRcl5Wb-Xqrxqwer_zkUoSMZfDDFgQM-XooZFGjFfhDfYbWIVapA36i3W_HprOE0mZNMhwRBgvuS9LQlXF-LoRip08_XBDtAmy3PytrSUmq_85QPOtR_C8Sw7B8GimBlik0CI-0OQC_U6edTLJVDU7gPC32qyL31VwWgWG0Pqjx7ovJMfqr4hftJTZ6VWH-_KEaMNuSHZryj1KEkXytpoZhsL-t8u_66hEXWP6DVga90MrRD8O8yqUoZ2VhERFdjOfq61I-nkOkE5yLqUKvNeNTBurKMA-JUgxpoS0C7UqKIXwyRaZ_WmeizzDA6Uj2UbLK3GAFwUSztaAzCPomEAd_GEl5-ymDQZiQduZFJ7btbvNAR6j6hEDOLT3NDuZJXg6zbj_bWOckHACCCp-eQ---LnZ5uZpmQ2rndUq5w1MIzi6eno1fD3JhwutZmXZs0zVJOe583vP3K9VXREIbjz5Uyr1QHqXsVzUbBxNvYmsXjeGpGtEediHckLc99SU694R7YKQ19-zIF1YNdvbxYZozCyS7QDFntiOSvlySj90ySsyOcRJ7-OwAZcV6mLQzmc=s250-k-rw-no",
+              "image": "rslab/LowFreezer20.jpeg",
               "shortDescription": "Reliable -20°C freezer for safe laboratory storage of biological samples and reagents.",
               "fullDescription": "The Low Freezer -20°C is designed for safe storage of biological samples, reagents, and other temperature-sensitive materials. Features include precise temperature control, energy-efficient operation, and user-friendly digital display. The unit is constructed with high-quality materials ensuring durability and consistent performance for years.",
               "specifications": {
@@ -110,23 +110,6 @@
                 "Insulation": "High-density polyurethane foam panels"
               },
               "featured": false
-            },
-            {
-              "id": "re-circulating-chiller",
-              "name": "Re-circulating Chiller",
-              "image": "rslab/ReCirculatingChiller.jpeg",
-              "voucher": "vouchers/RS-RecirculatingChiller.pdf",
-              "shortDescription": "Efficient re-circulating chiller for precise laboratory cooling applications.",
-              "fullDescription": "The Re-circulating Chiller provides precise temperature control for laboratory equipment and processes. Designed for cooling rotary evaporators, condensers, and other laboratory instruments, this unit features efficient cooling performance, user-friendly controls, and reliable operation. The compact design and quiet operation make it suitable for various laboratory settings.",
-              "specifications": {
-                "Temperature Range": "-10°C to +40°C",
-                "Capacity": "1-20 kW",
-                "Power Supply": "230V, 50Hz",
-                "Display": "Digital Controller",
-                "Compressor": "Hermetic, CFC-free",
-                "Features": "Auto-refill, Over-temperature protection"
-              },
-              "featured": false
             }
           ]
         },
@@ -211,6 +194,29 @@
                 "Display": "Digital Controller",
                 "Material": "Stainless Steel",
                 "Features": "Air circulation, Timer"
+              },
+              "featured": false
+            }
+          ]
+        },
+        {
+          "id": "chiller",
+          "name": "Chiller",
+          "products": [
+            {
+              "id": "re-circulating-chiller",
+              "name": "Re-circulating Chiller",
+              "image": "rslab/ReCirculatingChiller.jpeg",
+              "voucher": "vouchers/RS-RecirculatingChiller.pdf",
+              "shortDescription": "Efficient re-circulating chiller for precise laboratory cooling applications.",
+              "fullDescription": "The Re-circulating Chiller provides precise temperature control for laboratory equipment and processes. Designed for cooling rotary evaporators, condensers, and other laboratory instruments, this unit features efficient cooling performance, user-friendly controls, and reliable operation. The compact design and quiet operation make it suitable for various laboratory settings.",
+              "specifications": {
+                "Temperature Range": "-10°C to +40°C",
+                "Capacity": "1-20 kW",
+                "Power Supply": "230V, 50Hz",
+                "Display": "Digital Controller",
+                "Compressor": "Hermetic, CFC-free",
+                "Features": "Auto-refill, Over-temperature protection"
               },
               "featured": false
             }
@@ -2354,6 +2360,22 @@
           "name": "PCR",
           "products": [
             {
+              "id": "TC2000-G1-G2-G3-Thermal-Cycler-Gradient",
+              "name": "TC2000-G1/G2/G3 Thermal Cycler Gradient",
+              "image": "dlab/TC2000-G1_G2_G3 Thermal Cycler Gradient.png",
+              "url": null,
+              "voucher": "/vouchers/TC2000-G1G2G3.pdf",
+              "shortDescription": "Gradient thermal cycler with multiple block options (G1/G2/G3).",
+              "fullDescription": "The TC2000-G series are gradient thermal cyclers available in multiple block configurations (G1, G2, G3), offering flexibility for different throughput needs and PCR optimization.",
+              "specifications": {
+                "Type": "Thermal Cycler",
+                "Model": "TC2000-G1/G2/G3",
+                "Feature": "Gradient",
+                "Options": "G1, G2, G3 block configurations"
+              },
+              "featured": false
+            },
+            {
               "id": "TC1000-S-Thermal-Cycler-Standard",
               "name": "TC1000-S+ Thermal Cycler Standard",
               "image": "dlab/TC1000-S+ Thermal Cycler Standard.png",
@@ -2382,22 +2404,6 @@
                 "Model": "TC1000-G-Pro",
                 "Feature": "Gradient",
                 "Application": "PCR optimization"
-              },
-              "featured": false
-            },
-            {
-              "id": "TC2000-G1-G2-G3-Thermal-Cycler-Gradient",
-              "name": "TC2000-G1/G2/G3 Thermal Cycler Gradient",
-              "image": "dlab/TC2000-G1_G2_G3 Thermal Cycler Gradient.png",
-              "url": null,
-              "voucher": "/vouchers/TC2000-G1G2G3.pdf",
-              "shortDescription": "Gradient thermal cycler with multiple block options (G1/G2/G3).",
-              "fullDescription": "The TC2000-G series are gradient thermal cyclers available in multiple block configurations (G1, G2, G3), offering flexibility for different throughput needs and PCR optimization.",
-              "specifications": {
-                "Type": "Thermal Cycler",
-                "Model": "TC2000-G1/G2/G3",
-                "Feature": "Gradient",
-                "Options": "G1, G2, G3 block configurations"
               },
               "featured": false
             }
@@ -2824,22 +2830,6 @@
                 "Material": "High-quality steel, Glass"
               },
               "featured": false
-            },
-            {
-              "id": "mould-growth-chamber",
-              "name": "Mould Growth Chamber",
-              "image": "sr-lab/Mould Growth Chamber.jpg",
-              "voucher": "/vouchers/mould-growth-chamber.pdf",
-              "shortDescription": "Chamber for controlled mould growth studies.",
-              "fullDescription": "SR LAB Mould Growth Chambers provide controlled conditions for mould growth studies. Features include precise temperature and humidity control, user-friendly digital controller, and programmable settings.",
-              "specifications": {
-                "Temperature Range": "20°C to 40°C",
-                "Humidity Range": "60-95% RH",
-                "Features": "Digital controller, Programmable",
-                "Application": "Mould Growth Testing",
-                "Material": "High-quality steel, Glass"
-              },
-              "featured": false
             }
           ]
         },
@@ -2926,12 +2916,50 @@
               "featured": false
             }
           ]
+        },
+        {
+          "id": "testing-chambers",
+          "name": "Testing Chambers",
+          "products": [
+            {
+              "id": "mould-growth-chamber",
+              "name": "Mould Growth Chamber Model No : SRL / MGC - 01",
+              "image": "sr-lab/mould-growth-chamber-2025.jpg",
+              "voucher": "https://srlabinstruments.com/wp-content/uploads/2025/10/mould-growth-chamber.pdf",
+              "shortDescription": "Specialized chamber for mould growth studies.",
+              "fullDescription": "SR LAB Mould Growth Chambers provide controlled environments for studying mould growth and development. Features include precise temperature and humidity control, user-friendly digital controller, and customizable configurations.",
+              "specifications": {
+                "Dehumidification Capacity": "10-100 L/day",
+                "Air Flow": "200-1000 m³/h",
+                "Features": "Digital controller, Auto-defrost",
+                "Application": "Humidity Control",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            },
+            {
+              "id": "thermal-hot-and-cold-chamber",
+              "name": "Thermal Hot and Cold Chamber Model : SRL / HCCH-02",
+              "image": "sr-lab/thermal-hot-and-cold-chember.jpg",
+              "voucher": "https://srlabinstruments.com/wp-content/uploads/2025/07/thermal-hot-and-cold-chamber.pdf",
+              "shortDescription": "Specialized chamber for thermal cycling tests.",
+              "fullDescription": "SR LAB Thermal Hot and Cold Chambers provide controlled environments for thermal cycling tests. Features include precise temperature control, user-friendly digital controller, and customizable configurations.",
+              "specifications": {
+                "Dehumidification Capacity": "10-100 L/day",
+                "Air Flow": "200-1000 m³/h",
+                "Features": "Digital controller, Auto-defrost",
+                "Application": "Humidity Control",
+                "Material": "High-quality steel, ABS"
+              },
+              "featured": false
+            }
+          ]
         }
       ]
     },
     {
       "id": "delvac",
-      "name": "Delvac",
+      "name": "Delvacpumps",
       "logo": "/images/brands/delvac.jpg",
       "description": "Specialized manufacturer of environmental and test chambers, offering comprehensive solutions for plant growth, stability testing, environmental simulation, and material testing.",
       "categories": [

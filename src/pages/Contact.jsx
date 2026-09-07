@@ -111,12 +111,7 @@ const Contact = () => {
       icon: <FaEnvelope />, 
       title: 'Email', 
       details: [ 'rs4equipments@gmail.com', 'rsequipments.marketing@gmail.com', 'sales.rsequipments@gmail.com' ] 
-    },
-    { 
-      icon: <FaClock />, 
-      title: 'Working Hours', 
-      details: ['Mon - Fri: 9:00 AM - 6:00 PM', 'Sat: 9:00 AM - 2:00 PM', 'Sun: Closed'] 
-    },
+    }
   ];
 
   return (
@@ -362,29 +357,6 @@ const Contact = () => {
                         ))}
                       </div>
                     </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Social Links */}
-              <div className="bg-white rounded-xl shadow-md p-6">
-                <h3 className="text-xl font-bold text-primary mb-4 flex items-center space-x-2">
-                  <span className="w-1 h-6 bg-accent rounded-full"></span>
-                  <span>Connect With Us</span>
-                </h3>
-                <div className="flex flex-wrap gap-3">
-                  {socialLinks.map((social, index) => (
-                    <motion.a
-                      key={index}
-                      href={social.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={social.label}
-                      whileHover={{ scale: 1.1, y: -3 }}
-                      className="w-12 h-12 bg-background rounded-full flex items-center justify-center text-gray-600 hover:bg-accent hover:text-white transition-all duration-300 shadow-sm hover:shadow-lg"
-                    >
-                      {social.icon}
-                    </motion.a>
                   ))}
                 </div>
               </div>

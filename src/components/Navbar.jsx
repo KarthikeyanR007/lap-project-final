@@ -27,7 +27,6 @@ import { useLocation } from 'react-router-dom';
 import productsData from '../data/products.json';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [showMegaMenu, setShowMegaMenu] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -103,7 +102,7 @@ const Navbar = () => {
     { path: '/products', label: 'Products', hasDropdown: true },
     { path: '/applications', label: 'Applications' },
     { path: '/events', label: 'Events' },
-    { path: '/careers', label: 'Careers' },
+    //{ path: '/careers', label: 'Careers' },
     { path: '/contact', label: 'Contact' },
   ];
 
