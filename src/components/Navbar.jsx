@@ -68,6 +68,8 @@ const Navbar = () => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
+
+    handleScroll();
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -108,6 +110,7 @@ const Navbar = () => {
 
   // Get all brands from products data
   const allBrands = productsData.brands || [];
+  const hasSolidBackground = scrolled || mobileMenuOpen;
 
   // Function to get grid columns class based on number of brands
   const getGridColsClass = (count) => {
@@ -122,7 +125,7 @@ const Navbar = () => {
     <>
       <nav 
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled || mobileMenuOpen 
+          hasSolidBackground
             ? 'bg-white shadow-lg' 
             : 'bg-transparent'
         }`}
@@ -132,8 +135,8 @@ const Navbar = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <img 
-                src="/images/logo/logo.jpeg" 
-                alt="YS! Equipments" 
+                src={hasSolidBackground ? '/images/logo/rs_white.png' : '/images/logo/rs_blue.png'}
+                alt="R.S Equipments"
                 className="h-12 w-auto object-contain max-w-[180px]" 
               />
             </Link>

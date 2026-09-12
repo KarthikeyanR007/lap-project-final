@@ -24,7 +24,7 @@ const Footer = () => {
 <div className="flex items-center space-x-2">
   <Link to="/" className="block">
     <img 
-      src="/images/logo/logo.jpeg" 
+      src="/images/logo/logo.png" 
       alt="R.S Equipments" 
       className="h-16 w-auto object-contain pt-2 pb-2 pl-4 pr-4" 
     />
